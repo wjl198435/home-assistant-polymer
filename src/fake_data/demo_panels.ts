@@ -72,13 +72,13 @@ export const demoPanels: Panels = {
     url_path: "dev-service",
   },
   // Uncomment when we are ready to stub the history API
-  // history: {
-  //   component_name: "history",
-  //   icon: "hass:poll-box",
-  //   title: "history",
-  //   config: null,
-  //   url_path: "history",
-  // },
+  history: {
+    component_name: "history",
+    icon: "hass:poll-box",
+    title: "history",
+    config: null,
+    url_path: "history",
+  },
   map: {
     component_name: "map",
     icon: "hass:tooltip-account",

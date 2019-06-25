@@ -74,7 +74,9 @@ export const mockHistory = (mockHass: MockHomeAssistant) => {
     parameters
   ) => {
     const params = parseQuery<HistoryQueryParams>(path.split("?")[1]);
-    const entities = params.filter_entity_id.split(",");
+    const entities = params.filter_entity_id
+      ? params.filter_entity_id.split(",")
+      : [];
 
     const results: HassEntity[][] = [];
 
