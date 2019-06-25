@@ -81,6 +81,7 @@ const optimization = (latestBuild) => ({
       cache: true,
       parallel: true,
       extractComments: true,
+      sourceMap: true,
       terserOptions: {
         safari10: true,
         ecma: latestBuild ? undefined : 5,
