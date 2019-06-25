@@ -10,6 +10,8 @@ export const mockLovelace = (
   hass: MockHomeAssistant,
   localizePromise: Promise<LocalizeFunc>
 ) => {
+  hass.mockWS("persistent_notification/get", () => []);
+
   hass.mockWS("lovelace/config", () =>
     Promise.all([selectedDemoConfig, localizePromise]).then(
       ([config, localize]) => config.lovelace(localize)
