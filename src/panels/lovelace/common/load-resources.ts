@@ -2,7 +2,7 @@ import { loadModule, loadCSS, loadJS } from "../../../common/dom/load_resource";
 
 import { LovelaceConfig } from "../../../data/lovelace";
 
-// CSS and JS should only be imported once. Modules and HTML are safe.
+// Resources should only be imported once.
 const CSS_CACHE = {};
 const JS_CACHE = {};
 const MODULE_CACHE = {};
