@@ -5,6 +5,7 @@ import { LovelaceConfig } from "../../../data/lovelace";
 // CSS and JS should only be imported once. Modules and HTML are safe.
 const CSS_CACHE = {};
 const JS_CACHE = {};
+const MODULE_CACHE = {};
 
 export const loadLovelaceResources = (
   resources: NonNullable<LovelaceConfig["resources"]>,
@@ -28,7 +29,10 @@ export const loadLovelaceResources = (
         break;
 
       case "module":
-        loadModule(normalizedUrl);
+        if (normalizedUrl in MODULE_CACHE) {
+          break;
+        }
+        MODULE_CACHE[normalizedUrl] = loadModule(normalizedUrl);
         break;
 
       case "html":
