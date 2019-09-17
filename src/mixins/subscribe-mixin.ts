@@ -17,7 +17,7 @@ export const SubscribeMixin = <T extends LitElement>(
 ): Constructor<T & HassSubscribeElement> =>
   // @ts-ignore
   class extends superClass {
-    private hass?: HomeAssistant;
+    public hass?: HomeAssistant;
     /* tslint:disable-next-line */
     private __unsubs?: UnsubscribeFunc[];
 
