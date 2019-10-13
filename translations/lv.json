@@ -349,18 +349,18 @@
                 "delete_button": "Dzēst"
             },
             "config": {
-                "header": "Home Assistant konfigurēšana",
-                "introduction": "Šeit iespējams konfigurēt Jūsu komponentus un pašu Home Assistant. Pagaidām ne visu ir iespējams konfigurēt no lietotāja saskarnes, bet mēs strādājam pie tā.",
+                "header": "牧养犬 konfigurēšana",
+                "introduction": "Šeit iespējams konfigurēt Jūsu komponentus un pašu 牧养犬. Pagaidām ne visu ir iespējams konfigurēt no lietotāja saskarnes, bet mēs strādājam pie tā.",
                 "core": {
                     "caption": "Vispārīgi",
-                    "description": "Mainiet vispārējo Home Assistant konfigurāciju",
+                    "description": "Mainiet vispārējo 牧养犬 konfigurāciju",
                     "section": {
                         "core": {
                             "header": "Vispārējā konfigurācija",
                             "introduction": "Izmaiņas konfigurācijā var būt nogurdinošs process. Mēs zinām. Šai sadaļai vajadzētu padarīt dzīvi mazliet vieglāku.",
                             "core_config": {
                                 "edit_requires_storage": "Redaktors ir atspējots, jo konfigurācija ir definēta configuration.yaml.",
-                                "location_name": "Jūsu Home Assistant instalācijas nosaukums",
+                                "location_name": "Jūsu 牧养犬 instalācijas nosaukums",
                                 "latitude": "Platums",
                                 "longitude": "Garums",
                                 "elevation": "Augstums",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfigurācijas pārlādēšana",
-                                "introduction": "Atsevišķas Home Assistant daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
+                                "introduction": "Atsevišķas 牧养犬 daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
                                 "core": "Pārlādēt kodolu",
                                 "group": "Pārlādēt grupas",
                                 "automation": "Pārlādēt automatizācijas",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Servera pārvaldība",
-                                "introduction": "Pārvaldiet Home Assistant serveri no Home Assistant saskarnes.",
+                                "introduction": "Pārvaldiet 牧养犬 serveri no 牧养犬 saskarnes.",
                                 "restart": "Restartēt",
                                 "stop": "Apturēt"
                             }
@@ -412,7 +412,7 @@
                     "description": "Veidojiet un rediģējiet automatizācijas",
                     "picker": {
                         "header": "Automatizāciju redaktors",
-                        "introduction": "Automatizācijas redaktors ļauj jums izveidot un rediģēt automatizācijas. Lūdzu, sekojiet saitei zemāk, lai pārliecinātos, ka esat pareizi konfigurējis Home Assistant.",
+                        "introduction": "Automatizācijas redaktors ļauj jums izveidot un rediģēt automatizācijas. Lūdzu, sekojiet saitei zemāk, lai pārliecinātos, ka esat pareizi konfigurējis 牧养犬.",
                         "pick_automation": "Izvēlieties automatizāciju rediģēšanai",
                         "no_automations": "Mēs nevarējām atrast rediģējamas automatizācijas",
                         "add_automation": "Pievienot automatizāciju",
@@ -426,7 +426,7 @@
                         "alias": "Nosaukums",
                         "triggers": {
                             "header": "Trigeri",
-                            "introduction": "Trigeri ir tas, kas sāk automatizācijas noteikuma apstrādi. Vienam noteikumam ir iespējams norādīt vairākus trigerus. Kad trigeris sāk, Home Assistant apstiprina nosacījumus, ja tādi ir, un izsauc darbību.",
+                            "introduction": "Trigeri ir tas, kas sāk automatizācijas noteikuma apstrādi. Vienam noteikumam ir iespējams norādīt vairākus trigerus. Kad trigeris sāk, 牧养犬 apstiprina nosacījumus, ja tādi ir, un izsauc darbību.",
                             "add": "Pievienot trigeri",
                             "duplicate": "Dublicēt",
                             "delete": "Dzēst",
@@ -446,7 +446,7 @@
                                     "for": "Uz"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Notikums:",
                                     "start": "Sākt",
                                     "shutdown": "Izslēgt"
@@ -560,7 +560,7 @@
                         },
                         "actions": {
                             "header": "Darbības",
-                            "introduction": "Darbības nosaka, ko Home Assistant darīs, kad tiks aktivizēta automatizācija.",
+                            "introduction": "Darbības nosaka, ko 牧养犬 darīs, kad tiks aktivizēta automatizācija.",
                             "add": "Pievienot darbību",
                             "duplicate": "Dublicēt",
                             "delete": "Dzēst",
@@ -674,7 +674,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Pieteikts kā {email}",
                     "description_not_login": "Neesat pieteicies",
                     "description_features": "Kontrolējiet prom no mājām, integrējieties ar Alexa un Google Assistant."
@@ -691,7 +691,7 @@
                         "no_devices": "Šai integrācijai nav ierīču.",
                         "no_device": "Vienības, bez ierīcēm",
                         "delete_confirm": "Vai tiešām vēlaties dzēst šo integrāciju?",
-                        "restart_confirm": "Restartēt Home Assistant, lai pabeigtu šīs integrācijas noņemšanu",
+                        "restart_confirm": "Restartēt 牧养犬, lai pabeigtu šīs integrācijas noņemšanu",
                         "manuf": "{manufacturer}",
                         "via": "Savienots ar",
                         "firmware": "Programmaparatūra: {version}",
@@ -731,7 +731,7 @@
                     "description": "Pārskats par visām vietām jūsu mājās.",
                     "picker": {
                         "header": "Apgabala Reģistrs",
-                        "introduction": "Apgabali tiek izmantoti, lai organizētu ierīces atrašanās vietu. Šī informācija tiks izmantota visā Home Assistant, lai palīdzētu organizēt Jūsu saskarni, atļaujas un integrāciju ar citām sistēmām.",
+                        "introduction": "Apgabali tiek izmantoti, lai organizētu ierīces atrašanās vietu. Šī informācija tiks izmantota visā 牧养犬, lai palīdzētu organizēt Jūsu saskarni, atļaujas un integrāciju ar citām sistēmām.",
                         "introduction2": "Lai novietotu ierīces apgabalā, izmantojiet zemāk esošo saiti, lai pārietu uz integrācijas lapu un pēc tam noklikšķiniet uz konfigurētas integrācijas, lai iegūtu ierīces kartiņu.",
                         "integrations_page": "Integrāciju lapa",
                         "no_areas": "Izskatās, ka jums vēl nav apgabalu!",
@@ -752,8 +752,8 @@
                     "picker": {
                         "header": "Vienību Reģistrs",
                         "unavailable": "(nav pieejams)",
-                        "introduction": "Home Assistant uztur katras vienības reģistru, kuru var unikāli identificēt. Katrai no šīm vienībām tiks piešķirts vienības ID, kas tiks rezervēts tikai šai vienībai.",
-                        "introduction2": "Izmantojiet vienību reģistru, lai ignorētu vārdu, mainītu vienību ID vai noņemtu ierakstu no Home Assistant. Ņemiet vērā: noņemot vienības reģistra ierakstu, vienība netiks noņemta. Lai to izdarītu, sekojiet zemāk esošajai saitei un noņemiet to no integrācijas lapas.",
+                        "introduction": "牧养犬 uztur katras vienības reģistru, kuru var unikāli identificēt. Katrai no šīm vienībām tiks piešķirts vienības ID, kas tiks rezervēts tikai šai vienībai.",
+                        "introduction2": "Izmantojiet vienību reģistru, lai ignorētu vārdu, mainītu vienību ID vai noņemtu ierakstu no 牧养犬. Ņemiet vērā: noņemot vienības reģistra ierakstu, vienība netiks noņemta. Lai to izdarītu, sekojiet zemāk esošajai saitei un noņemiet to no integrācijas lapas.",
                         "integrations_page": "Integrāciju lapa"
                     },
                     "editor": {
@@ -763,12 +763,12 @@
                         "update": "ATJAUNINĀT",
                         "enabled_label": "Iespējot vienību",
                         "enabled_cause": "Atspējots dēļ {cause}.",
-                        "enabled_description": "Atspējotās vienības netiks pievienotas Home Assistant."
+                        "enabled_description": "Atspējotās vienības netiks pievienotas 牧养犬."
                     }
                 },
                 "person": {
                     "caption": "Personas",
-                    "description": "Pārvaldīt personas, kuras izseko Home Assistant.",
+                    "description": "Pārvaldīt personas, kuras izseko 牧养犬.",
                     "detail": {
                         "name": "Nosaukums",
                         "device_tracker_intro": "Atlasiet ierīces, kas pieder šai personai.",
@@ -778,7 +778,7 @@
                 },
                 "server_control": {
                     "caption": "Servera vadība",
-                    "description": "Restartēt un apturēt Home Assistant serveri",
+                    "description": "Restartēt un apturēt 牧养犬 serveri",
                     "section": {
                         "validation": {
                             "heading": "Konfigurācijas pārbaude",
@@ -789,7 +789,7 @@
                         },
                         "reloading": {
                             "heading": "Konfigurācijas pārlādēšana",
-                            "introduction": "Atsevišķas Home Assistant daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
+                            "introduction": "Atsevišķas 牧养犬 daļas var pārlādēt bez nepieciešamības restartēt. Veicot pārlādēšanu iepriekšējā konfigurācija tiks atiestatīta un tiks ielādēta jaunā.",
                             "core": "Pārlādēt kodolu",
                             "group": "Pārlādēt grupas",
                             "automation": "Pārlādēt automatizācijas",
@@ -798,11 +798,11 @@
                         },
                         "server_management": {
                             "heading": "Servera pārvaldība",
-                            "introduction": "Kontrolējiet savu Home Assistant serveri… no Home Assistant.",
+                            "introduction": "Kontrolējiet savu 牧养犬 serveri… no 牧养犬.",
                             "restart": "Restartēt",
                             "stop": "Apturēt",
-                            "confirm_restart": "Vai tiešām vēlaties restartēt Home Assistant?",
-                            "confirm_stop": "Vai tiešām vēlaties apturēt Home Assistant?"
+                            "confirm_restart": "Vai tiešām vēlaties restartēt 牧养犬?",
+                            "confirm_stop": "Vai tiešām vēlaties apturēt 牧养犬?"
                         }
                     }
                 },
@@ -844,7 +844,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Ilgtermiņas piekļuves pilnvaras",
-                    "description": "Izveidojiet ilgtermiņa piekļuves pilnvaras, lai ļautu jūsu skriptiem mijiedarboties ar jūsu Home Assistant instanci. Katra pilnvara būs derīga 10 gadus pēc tās radīšanas. Pašlaik ir aktīvas sekojošas ilgstošas piekļuves pilvaras.",
+                    "description": "Izveidojiet ilgtermiņa piekļuves pilnvaras, lai ļautu jūsu skriptiem mijiedarboties ar jūsu 牧养犬 instanci. Katra pilnvara būs derīga 10 gadus pēc tās radīšanas. Pašlaik ir aktīvas sekojošas ilgstošas piekļuves pilvaras.",
                     "learn_auth_requests": "Uzziniet, kā veikt autentificētus pieprasījumus.",
                     "created_at": "Izveidots {date}",
                     "confirm_delete": "Vai tiešām vēlaties dzēst piekļuves pilnvaru {name}?",
@@ -888,7 +888,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializēšana",
-                "authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu Home Assistant.",
+                "authorizing_client": "Jūs gatavojaties piešķirt {clientId} piekļuvi jūsu 牧养犬.",
                 "logging_in_with": "Pieteikšanās ar ** {authProviderName} **.",
                 "pick_auth_provider": "Vai pieteikties, izmantojot",
                 "abort_intro": "Pieteikšanās priekšlaikus pārtraukta",
@@ -1000,12 +1000,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Home Assistant ierīces un pakalpojumi tiek parādītas kā integrācijas. Tos var iestatīt tūlīt vai izdarīt vēlāk konfigurācijas ekrānā.",
+                    "intro": "牧养犬 ierīces un pakalpojumi tiek parādītas kā integrācijas. Tos var iestatīt tūlīt vai izdarīt vēlāk konfigurācijas ekrānā.",
                     "more_integrations": "Vairāk",
                     "finish": "Pabeigt"
                 },
                 "core-config": {
-                    "intro": "Sveiki {name}! Laipni lūdzam Home Assistant. Kā jūs vēlētos nosaukt savas mājas?",
+                    "intro": "Sveiki {name}! Laipni lūdzam 牧养犬. Kā jūs vēlētos nosaukt savas mājas?",
                     "intro_location": "Mēs gribētu zināt, kur tu dzīvo. Šī informācija palīdzēs parādīt informāciju un iestatīt uz saules bāzes balstītas automātikas. Šie dati nekad netiek koplietoti ārpus jūsu tīkla.",
                     "intro_location_detect": "Mēs varam palīdzēt jums aizpildīt šo informāciju, iesniedzot vienreizēju pieprasījumu ārējam pakalpojumam.",
                     "location_name_default": "Mājas",
@@ -1048,7 +1048,7 @@
                     "migrate": {
                         "header": "Nesaderīga konfigurācija",
                         "para_no_id": "Šim elementam nav ID. Lūdzu, pievienojiet ID šim elementam 'ui-lovelace.yaml' failā.",
-                        "para_migrate": "Home Assistant var automātiski pievienot ID visām kartītēm un skatiem, nospiežot pogu \"Pārvietot konfigurāciju\".",
+                        "para_migrate": "牧养犬 var automātiski pievienot ID visām kartītēm un skatiem, nospiežot pogu \"Pārvietot konfigurāciju\".",
                         "migrate": "Pārvietot konfigurāciju"
                     },
                     "header": "Rediģēt lietotāja saskarni",
@@ -1060,7 +1060,7 @@
                     },
                     "save_config": {
                         "header": "Pārņemt kontroli pār savu Lovelace lietotāja saskarni",
-                        "para": "Pēc noklusējuma Home Assistant uzturēs jūsu lietotāja saskarni, atjauninot to, kad būs pieejami jauni objekti vai Lovelace komponenti. Ja jūs uzņematies kontroli, mēs jums vairs neveiksim izmaiņas automātiski jūsu vietā.",
+                        "para": "Pēc noklusējuma 牧养犬 uzturēs jūsu lietotāja saskarni, atjauninot to, kad būs pieejami jauni objekti vai Lovelace komponenti. Ja jūs uzņematies kontroli, mēs jums vairs neveiksim izmaiņas automātiski jūsu vietā.",
                         "para_sure": "Vai tiešām vēlaties pārņemt kontroli pār lietotāja saskarni?",
                         "cancel": "Atcelt",
                         "save": "Pārņemt kontroli"
@@ -1100,8 +1100,8 @@
                     "demo": {
                         "demo_by": "{name} ",
                         "next_demo": "Nākamā demonstrācija",
-                        "introduction": "Laipni lūgts mājās! Jūs esat sasniedzis Home Assistant demonstrāciju, kurā mēs parādām labākos lietotāja kopienas izveidotos lietotāja interfeisus.",
-                        "learn_more": "Uzziniet vairāk par Home Assistant"
+                        "introduction": "Laipni lūgts mājās! Jūs esat sasniedzis 牧养犬 demonstrāciju, kurā mēs parādām labākos lietotāja kopienas izveidotos lietotāja interfeisus.",
+                        "learn_more": "Uzziniet vairāk par 牧养犬"
                     }
                 },
                 "config": {
@@ -1343,7 +1343,7 @@
             "config_entry_system_options": {
                 "title": "Sistēmas Opcijas",
                 "enable_new_entities_label": "Iespējot tikko pievienotās vienības.",
-                "enable_new_entities_description": "Ja atspējots, jaunatklātās vienības netiks automātiski pievienotas Home Assistant."
+                "enable_new_entities_description": "Ja atspējots, jaunatklātās vienības netiks automātiski pievienotas 牧养犬."
             },
             "zha_device_info": {
                 "manuf": "autors {manufacturer}",
@@ -1410,7 +1410,7 @@
         "vacuum": "Putekļsūcējs",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Sistēmas Veselība",
         "person": "Persona"

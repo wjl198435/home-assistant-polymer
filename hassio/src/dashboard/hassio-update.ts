@@ -51,7 +51,7 @@ export class HassioUpdate extends LitElement {
           : ""}
         <div class="card-group">
           ${this._renderUpdateCard(
-            "Home Assistant",
+            "牧养犬",
             this.hassInfo.version,
             this.hassInfo.last_version,
             "hassio/homeassistant/update",

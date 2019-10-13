@@ -31,8 +31,8 @@ class AdvancedModeCard extends LitElement {
           ></ha-switch>
         </div>
         <div class="card-content">
-          Home Assistant hides advanced features and options by default. You can
-          make these features accessible by checking this toggle. This is a
+          牧养犬 hides advanced features and options by default. You can make
+          these features accessible by checking this toggle. This is a
           user-specific setting and does not impact other users using Home
           Assistant.
         </div>

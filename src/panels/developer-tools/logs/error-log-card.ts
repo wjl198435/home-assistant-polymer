@@ -35,7 +35,7 @@ class ErrorLogCard extends LitElement {
             `
           : html`
               <mwc-button raised @click=${this._refreshErrorLog}>
-                Load Full Home Assistant Log
+                Load Full 牧养犬 Log
               </mwc-button>
             `}
       </p>

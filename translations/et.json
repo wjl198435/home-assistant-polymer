@@ -349,18 +349,18 @@
                 "delete_button": "Kustuta"
             },
             "config": {
-                "header": "Home Assistant'i seadistamine",
-                "introduction": "Siin saab seadistada oma komponente ja Home Assistant'i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
+                "header": "牧养犬'i seadistamine",
+                "introduction": "Siin saab seadistada oma komponente ja 牧养犬'i. Mitte kõike ei saa veel kasutajaliidese kaudu seadistada, kuid me töötame selle nimel.",
                 "core": {
                     "caption": "Üldine",
-                    "description": "Home Assistant'i üldiste seadete muutmine",
+                    "description": "牧养犬'i üldiste seadete muutmine",
                     "section": {
                         "core": {
                             "header": "Seadete ja serveri kontroll",
                             "introduction": "Seadete muutmine võib olla väsitav tegevus. Me teame. See osa püüab su elu natuke hõlpsamaks teha.",
                             "core_config": {
                                 "edit_requires_storage": "Redaktor on keelatud, kuna seaded asuvad configuration.yaml failis.",
-                                "location_name": "Sinu Home Assistant paigalduse nimi",
+                                "location_name": "Sinu 牧养犬 paigalduse nimi",
                                 "latitude": "Laius",
                                 "longitude": "Pikkus",
                                 "elevation": "Kõrgus",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Seadete taaslaadimine",
-                                "introduction": "Mõned Home Assistant'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
+                                "introduction": "Mõned 牧养犬'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
                                 "core": "Taaslae tuum",
                                 "group": "Taaslae grupid",
                                 "automation": "Taaslae automatiseeringud",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Serveri haldamine",
-                                "introduction": "Kontrolli oma Home Assistant serverit... Home Assistant'ist.",
+                                "introduction": "Kontrolli oma 牧养犬 serverit... 牧养犬'ist.",
                                 "restart": "Taaskäivita",
                                 "stop": "Peata"
                             }
@@ -412,7 +412,7 @@
                     "description": "Loo ja redigeeri automatiseeringuid",
                     "picker": {
                         "header": "Automaatika redaktor",
-                        "introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun järgige allolevat linki, veendumaks, et oled Home Assistant'i õigesti seadistanud.",
+                        "introduction": "Automaatika redaktor võimaldab teil luua ja muuta automatiseeringuid. Palun järgige allolevat linki, veendumaks, et oled 牧养犬'i õigesti seadistanud.",
                         "pick_automation": "Vali muudetav automatiseering",
                         "no_automations": "Me ei leidnud ühtegi muudetavat automatiseeringut",
                         "add_automation": "Lisa automatiseering",
@@ -426,7 +426,7 @@
                         "alias": "Nimi",
                         "triggers": {
                             "header": "Päästikud",
-                            "introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib Home Assistant võimalike tingimuste täidetust ja käivitab tegevuse.",
+                            "introduction": "Päästikud on need, millest algab automatiseeringu töö. Ühe automatiseeringu jaoks on võimalik määrata mitu päästikut. Kui päästik vallandub, kontrollib 牧养犬 võimalike tingimuste täidetust ja käivitab tegevuse.",
                             "add": "Lisa päästik",
                             "duplicate": "Paljunda",
                             "delete": "Kustuta",
@@ -446,7 +446,7 @@
                                     "for": "Jaoks"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Sündmus:",
                                     "start": "Käivitamine",
                                     "shutdown": "Seiskamine"
@@ -560,7 +560,7 @@
                         },
                         "actions": {
                             "header": "Tegevused",
-                            "introduction": "Tegevused on need, mida Home Assistant teeb kui päästik käivitab automatiseeringu.",
+                            "introduction": "Tegevused on need, mida 牧养犬 teeb kui päästik käivitab automatiseeringu.",
                             "add": "Lisa toiming",
                             "duplicate": "Paljunda",
                             "delete": "Kustuta",
@@ -674,7 +674,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant pilv",
+                    "caption": "牧养犬 pilv",
                     "description_login": "Sisse logitud kui {email}",
                     "description_not_login": "Pole sisse logitud",
                     "description_features": "Juhi kodust eemal viibides, seo Alexa ja Google Assistant'iga."
@@ -691,7 +691,7 @@
                         "no_devices": "See sidumine ei hõlma ühtegi seadet",
                         "no_device": "Olemid ilma seadmeteta",
                         "delete_confirm": "Oled kindel, et soovid selle sidumise kustutada?",
-                        "restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita Home Assistant",
+                        "restart_confirm": "Selle sidumise lõplikuks eemaldamiseks taaskäivita 牧养犬",
                         "manuf": "{manufacturer}",
                         "via": "Ühendatud",
                         "firmware": "Püsivara: {version}",
@@ -752,8 +752,8 @@
                     "picker": {
                         "header": "Olemite register",
                         "unavailable": "(pole saadaval)",
-                        "introduction": "Home Assistant peab registrit iga olemi kohta, mida ta kunagi näinud on ja mida saab üheselt tuvastada. Kõigile nendele olemitele antakse olemi ID, mis reserveeritakse ainult sellele olemile.",
-                        "introduction2": "Kasuta olemite registrit olemi nime või ID muutmiseks või olemi eemaldamiseks Home Assistant'ist. Pane tähele, et olemi registrikirje eemaldamine ei eemalda olemit. Selleks järgi allolevat linki ja eemalda olem sidumiste lehelt.",
+                        "introduction": "牧养犬 peab registrit iga olemi kohta, mida ta kunagi näinud on ja mida saab üheselt tuvastada. Kõigile nendele olemitele antakse olemi ID, mis reserveeritakse ainult sellele olemile.",
+                        "introduction2": "Kasuta olemite registrit olemi nime või ID muutmiseks või olemi eemaldamiseks 牧养犬'ist. Pane tähele, et olemi registrikirje eemaldamine ei eemalda olemit. Selleks järgi allolevat linki ja eemalda olem sidumiste lehelt.",
                         "integrations_page": "Sidumiste leht"
                     },
                     "editor": {
@@ -763,12 +763,12 @@
                         "update": "UUENDA",
                         "enabled_label": "Luba olem",
                         "enabled_cause": "Keelatud {cause}.",
-                        "enabled_description": "Keelatud olemeid ei lisata Home Assistant'i."
+                        "enabled_description": "Keelatud olemeid ei lisata 牧养犬'i."
                     }
                 },
                 "person": {
                     "caption": "Isikud",
-                    "description": "Halda isikuid, keda Home Assistant jälgib.",
+                    "description": "Halda isikuid, keda 牧养犬 jälgib.",
                     "detail": {
                         "name": "Nimi",
                         "device_tracker_intro": "Vali seadmed, mis kuuluvad sellele isikule.",
@@ -778,7 +778,7 @@
                 },
                 "server_control": {
                     "caption": "Serveri juhtimine",
-                    "description": "Taaskäivita ja peata Home Assistant server",
+                    "description": "Taaskäivita ja peata 牧养犬 server",
                     "section": {
                         "validation": {
                             "heading": "Seadete kontrollimine",
@@ -789,7 +789,7 @@
                         },
                         "reloading": {
                             "heading": "Konfiguratsiooni taaslaadimine",
-                            "introduction": "Mõned Home Assistant'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
+                            "introduction": "Mõned 牧养犬'i komponendid on taaslaetavad ilma taaskäivituseta. Taaslaadimise klõpsamisel tühistatakse nende praegused seaded ja laetakse uued.",
                             "core": "Taaslae tuum",
                             "group": "Taaslae grupid",
                             "automation": "Taaslae automatiseeringud",
@@ -798,11 +798,11 @@
                         },
                         "server_management": {
                             "heading": "Serveri haldamine",
-                            "introduction": "Kontrolli oma Home Assistant serverit... Home Assistant'ist.",
+                            "introduction": "Kontrolli oma 牧养犬 serverit... 牧养犬'ist.",
                             "restart": "Taaskäivita",
                             "stop": "Peata",
-                            "confirm_restart": "Oled kindel, et soovid taaskäivitada Home Assistant'i?",
-                            "confirm_stop": "Oled kindel, et soovid seisata Home Assistant'i?"
+                            "confirm_restart": "Oled kindel, et soovid taaskäivitada 牧养犬'i?",
+                            "confirm_stop": "Oled kindel, et soovid seisata 牧养犬'i?"
                         }
                     }
                 },
@@ -844,7 +844,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Pikaajalised juurdepääsutõendid",
-                    "description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu Home Assistant serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
+                    "description": "Loo pikaajalised juurdepääsutõendid, mis võimaldavad sinu skriptidel suhelda sinu 牧养犬 serveriga. Iga juurdepääsutõend kehtib kümme aastat loomisest alates. Praegu on aktiivsed järgmised pikaajalised juurdepääsutõendid.",
                     "learn_auth_requests": "Loe, kuidas teha tõendatud päringuid.",
                     "created_at": "Loodud {date}",
                     "confirm_delete": "Oled kindel, et soovid kustutada juurdepääsutõendi {name} jaoks?",
@@ -888,7 +888,7 @@
             },
             "page-authorize": {
                 "initializing": "Lähtestan",
-                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma Home Assistant serverile.",
+                "authorizing_client": "Kavatsed anda {clientId} jaoks juurdepääsu oma 牧养犬 serverile.",
                 "logging_in_with": "Login sisse **{authProviderName}** abil.",
                 "pick_auth_provider": "Või logi sisse, kasutades",
                 "abort_intro": "Sisselogimine katkestatud",
@@ -1000,12 +1000,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Seadmed ja teenused on Home Assistant'is esitatud sidumistena. Võid neid seadistada kohe või teha seda hiljem konfiguratsioonilehelt.",
+                    "intro": "Seadmed ja teenused on 牧养犬'is esitatud sidumistena. Võid neid seadistada kohe või teha seda hiljem konfiguratsioonilehelt.",
                     "more_integrations": "Rohkem",
                     "finish": "Lõpeta"
                 },
                 "core-config": {
-                    "intro": "Tere tulemast Home Assistant'i kasutama, {name}. Kuidas sa soovid oma kodu nimetada?",
+                    "intro": "Tere tulemast 牧养犬'i kasutama, {name}. Kuidas sa soovid oma kodu nimetada?",
                     "intro_location": "Soovime teada, kus sa elad. See teave aitab informatsiooni kuvamisel ja päikesepõhiste automatiseeringute loomisel. Neid andmeid ei jagata kunagi väljaspool teie võrku.",
                     "intro_location_detect": "Me saame aidata sul seda teavet leida, tehes ühekordse päringu välisele teenusele.",
                     "location_name_default": "Kodu",
@@ -1048,7 +1048,7 @@
                     "migrate": {
                         "header": "Konfiguratsioon ei ühildu",
                         "para_no_id": "Sellel elemendil puudub ID. Lisa sellele elemendile ID 'ui-lovelace.yaml' failis.",
-                        "para_migrate": "Home Assistant võib kõikidele kaartidele ja vaadetele automaatselt ID-d lisada, kui vajutad nupule \"Siirda seaded\".",
+                        "para_migrate": "牧养犬 võib kõikidele kaartidele ja vaadetele automaatselt ID-d lisada, kui vajutad nupule \"Siirda seaded\".",
                         "migrate": "Siirda seaded"
                     },
                     "header": "Muuda kasutajaliidest",
@@ -1060,7 +1060,7 @@
                     },
                     "save_config": {
                         "header": "Võta Lovelace kasutajaliides oma kontrolli alla",
-                        "para": "Vaikimisi hoolitseb kasutajaliidese eest Home Assistant, värskendades seda, kui saadaval on uued olemid või Lovelace komponendid. Kui võtad kontrolli üle, ei tee me sinu jaoks enam automaatselt muudatusi.",
+                        "para": "Vaikimisi hoolitseb kasutajaliidese eest 牧养犬, värskendades seda, kui saadaval on uued olemid või Lovelace komponendid. Kui võtad kontrolli üle, ei tee me sinu jaoks enam automaatselt muudatusi.",
                         "para_sure": "Oled kindel, et soovid kasutajaliidese oma kontrolli alla võtta?",
                         "cancel": "Ära pane tähele",
                         "save": "Võta kontroll"
@@ -1100,8 +1100,8 @@
                     "demo": {
                         "demo_by": "{name}",
                         "next_demo": "Järgmine demo",
-                        "introduction": "Tere tulemast koju! Siin asub Home Assistant'i demo, mis tutvustab parimaid meie kogukonna loodud kasutajaliideseid.",
-                        "learn_more": "Lisateave Home Assistant'i kohta"
+                        "introduction": "Tere tulemast koju! Siin asub 牧养犬'i demo, mis tutvustab parimaid meie kogukonna loodud kasutajaliideseid.",
+                        "learn_more": "Lisateave 牧养犬'i kohta"
                     }
                 },
                 "config": {
@@ -1343,7 +1343,7 @@
             "config_entry_system_options": {
                 "title": "Süsteemi valikud",
                 "enable_new_entities_label": "Luba äsja lisatud olemid.",
-                "enable_new_entities_description": "Kui see on keelatud, ei lisata äsja avastatud olemeid automaatselt Home Assistant'i."
+                "enable_new_entities_description": "Kui see on keelatud, ei lisata äsja avastatud olemeid automaatselt 牧养犬'i."
             },
             "zha_device_info": {
                 "manuf": "{manufacturer}",
@@ -1410,7 +1410,7 @@
         "vacuum": "Tühjenda",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Süsteemi tervis",
         "person": "Isik"

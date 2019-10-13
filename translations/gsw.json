@@ -307,7 +307,7 @@
                                     "to": "Für"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "start": "Starte",
                                     "shutdown": "Abefahre"
                                 },
@@ -388,7 +388,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud"
+                    "caption": "牧养犬 Cloud"
                 },
                 "integrations": {
                     "caption": "Integratione",

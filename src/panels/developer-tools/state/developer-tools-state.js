@@ -70,7 +70,7 @@ class HaPanelDevState extends EventsMixin(PolymerElement) {
 
       <div class="inputs">
         <p>
-          Set the representation of a device within Home Assistant.<br />
+          Set the representation of a device within 牧养犬.<br />
           This will not communicate with the actual device.
         </p>
 

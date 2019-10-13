@@ -333,8 +333,8 @@
                 "delete_button": "Hapus"
             },
             "config": {
-                "header": "Mengkonfigurasi Home Assistant",
-                "introduction": "Di sini memungkinkan untuk mengkonfigurasi komponen dan Home Assistant. Meskipun semuanya belum dapat dikonfigurasikan melalui UI, akan tetapi kami sedang mengusahakannya.",
+                "header": "Mengkonfigurasi 牧养犬",
+                "introduction": "Di sini memungkinkan untuk mengkonfigurasi komponen dan 牧养犬. Meskipun semuanya belum dapat dikonfigurasikan melalui UI, akan tetapi kami sedang mengusahakannya.",
                 "core": {
                     "caption": "Umum",
                     "description": "Memvalidasi file konfigurasi anda dan mengontrol server",
@@ -356,7 +356,7 @@
                             },
                             "reloading": {
                                 "heading": "Memuat ulang konfigurasi",
-                                "introduction": "Beberapa bagian Home Assistant dapat memuat ulang tanpa memerlukan restart. Menekan tombol reload akan membatalkan konfigurasi sekarang dan memuat konfigurasi yang baru.",
+                                "introduction": "Beberapa bagian 牧养犬 dapat memuat ulang tanpa memerlukan restart. Menekan tombol reload akan membatalkan konfigurasi sekarang dan memuat konfigurasi yang baru.",
                                 "core": "Muat ulang core",
                                 "group": "Muat ulang grup",
                                 "automation": "Muat ulang otomasi",
@@ -364,7 +364,7 @@
                             },
                             "server_management": {
                                 "heading": "Pengelolaan server",
-                                "introduction": "Kontrol server Home Assistant anda ... dari Home Assistant.",
+                                "introduction": "Kontrol server 牧养犬 anda ... dari 牧养犬.",
                                 "restart": "Ulang kembali",
                                 "stop": "Berhenti"
                             }
@@ -380,7 +380,7 @@
                     "description": "Buat dan edit otomasi",
                     "picker": {
                         "header": "Editor otomasi",
-                        "introduction": "Editor otomasi memungkinkan Anda untuk membuat dan mengedit otomasi. Silakan baca [petunjuk](https:\/\/home-assistant.io\/docs\/automation\/editor\/) untuk memastikan bahwa Anda telah mengonfigurasi Home Assistant dengan benar.",
+                        "introduction": "Editor otomasi memungkinkan Anda untuk membuat dan mengedit otomasi. Silakan baca [petunjuk](https:\/\/home-assistant.io\/docs\/automation\/editor\/) untuk memastikan bahwa Anda telah mengonfigurasi 牧养犬 dengan benar.",
                         "pick_automation": "Pilih otomasi untuk diedit",
                         "no_automations": "Kami tidak dapat menemukan otomasi yang dapat diedit",
                         "add_automation": "Tambah otomasi",
@@ -394,7 +394,7 @@
                         "alias": "Nama",
                         "triggers": {
                             "header": "Pemicu",
-                            "introduction": "Pemicu adalah apa yang memulai pemrosesan pengaturan otomasi. Adalah mungkin untuk menentukan beberapa pemicu untuk aturan yang sama. Setelah pemicu dimulai, Home Assistant akan memvalidasi Kondisi, jika ada, dan memanggil tindakan.",
+                            "introduction": "Pemicu adalah apa yang memulai pemrosesan pengaturan otomasi. Adalah mungkin untuk menentukan beberapa pemicu untuk aturan yang sama. Setelah pemicu dimulai, 牧养犬 akan memvalidasi Kondisi, jika ada, dan memanggil tindakan.",
                             "add": "Tambah pemicu",
                             "duplicate": "Gandakan",
                             "delete": "Hapus",
@@ -414,7 +414,7 @@
                                     "for": "Selama"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Event:",
                                     "start": "Mulai",
                                     "shutdown": "Matikan"
@@ -522,7 +522,7 @@
                         },
                         "actions": {
                             "header": "Aksi",
-                            "introduction": "Aksi adalah apa yang Home Assistant akan lakukan ketika otomasi terpicu.\n\n[Pelajari lebih lanjut tentang aksi.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Aksi adalah apa yang 牧养犬 akan lakukan ketika otomasi terpicu.\n\n[Pelajari lebih lanjut tentang aksi.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Tambah aksi",
                             "duplicate": "Gandakan",
                             "delete": "Hapus",
@@ -590,7 +590,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Masuk sebagai {email}",
                     "description_not_login": "Belum masuk"
                 },
@@ -635,7 +635,7 @@
                 },
                 "person": {
                     "caption": "Orang",
-                    "description": "Kelola orang yang Home Assistant lacak",
+                    "description": "Kelola orang yang 牧养犬 lacak",
                     "detail": {
                         "name": "Nama",
                         "device_tracker_intro": "Pilih perangkat milik orang ini.",
@@ -682,7 +682,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Token Akses yang berumur panjang",
-                    "description": "Buat token akses yang berumur panjang untuk memungkinkan skrip Anda berinteraksi dengan Home Assistant. Setiap token akan berlaku selama 10 tahun sejak pembuatan. Berikut Token akses yang berumur panjang yang saat ini aktif.",
+                    "description": "Buat token akses yang berumur panjang untuk memungkinkan skrip Anda berinteraksi dengan 牧养犬. Setiap token akan berlaku selama 10 tahun sejak pembuatan. Berikut Token akses yang berumur panjang yang saat ini aktif.",
                     "learn_auth_requests": "Pelajari cara membuat permintaan yang diautentikasi.",
                     "created_at": "Dibuat pada {date}",
                     "confirm_delete": "Anda yakin ingin menghapus token akses untuk {name}?",
@@ -698,7 +698,7 @@
             },
             "page-authorize": {
                 "initializing": "Inisialisasi",
-                "authorizing_client": "Anda akan memberi akses {clientId} ke Home Assistant Anda.",
+                "authorizing_client": "Anda akan memberi akses {clientId} ke 牧养犬 Anda.",
                 "logging_in_with": "Login dengan **{authProviderName}**.",
                 "pick_auth_provider": "Atau login dengan",
                 "abort_intro": "Login dibatalkan",

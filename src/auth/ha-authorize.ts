@@ -76,7 +76,7 @@ class HaAuthorize extends litLocalizeLiteMixin(LitElement) {
     );
     loggingInWith.innerHTML = loggingInWith.innerHTML.replace(
       "**NAME**",
-      `<b>${this._authProvider!.name}</b>`
+      `<b></b>`
     );
 
     const inactiveProviders = this._authProviders.filter(
@@ -84,14 +84,13 @@ class HaAuthorize extends litLocalizeLiteMixin(LitElement) {
     );
 
     return html`
-      <p>
+      <p style="display:none">
         ${this.localize(
           "ui.panel.page-authorize.authorizing_client",
           "clientId",
           this.clientId
         )}
       </p>
-      ${loggingInWith}
 
       <ha-auth-flow
         .resources="${this.resources}"
@@ -109,6 +108,7 @@ class HaAuthorize extends litLocalizeLiteMixin(LitElement) {
               .clientId="${this.clientId}"
               .authProviders="${inactiveProviders}"
               @pick-auth-provider="${this._handleAuthProviderPick}"
+              style="display:none"
             ></ha-pick-auth-provider>
           `
         : ""}

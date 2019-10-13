@@ -349,8 +349,8 @@
                 "delete_button": "Șterge"
             },
             "config": {
-                "header": "Configurați Home Assistant",
-                "introduction": "Aici este posibil să vă configurați componentele și Home Assistant. Nu este posibilă configurarea de la UI, dar lucrăm la asta.",
+                "header": "Configurați 牧养犬",
+                "introduction": "Aici este posibil să vă configurați componentele și 牧养犬. Nu este posibilă configurarea de la UI, dar lucrăm la asta.",
                 "core": {
                     "caption": "General",
                     "description": "Validați fișierul de configurare și controlați serverul",
@@ -360,7 +360,7 @@
                             "introduction": "Modificarea configurației poate fi un proces obositor. Noi stim. Această secțiune va încerca să vă facă viața un pic mai ușoară.",
                             "core_config": {
                                 "edit_requires_storage": "Editorul a fost dezactivat deoarece configurația a fost stocata în configuration.yaml.",
-                                "location_name": "Numele instalarii Home Assistant",
+                                "location_name": "Numele instalarii 牧养犬",
                                 "latitude": "Latitudine",
                                 "longitude": "Longitudine",
                                 "elevation": "Altitudine",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Refresh configurații",
-                                "introduction": "Unele părți din Home Assistant se pot reîncărca fără a necesita o repornire. Apăsarea reîncărcării va descărca configurația actuală și va încărca noua configurație.",
+                                "introduction": "Unele părți din 牧养犬 se pot reîncărca fără a necesita o repornire. Apăsarea reîncărcării va descărca configurația actuală și va încărca noua configurație.",
                                 "core": "Refresh procesor",
                                 "group": "Refresh grupuri",
                                 "automation": "Refresh automatizări",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Server de gestionare",
-                                "introduction": "Controlează-ți serverul Home Assistant ... chiar din Home Assistant.",
+                                "introduction": "Controlează-ți serverul 牧养犬 ... chiar din 牧养犬.",
                                 "restart": "Repornire",
                                 "stop": "Oprire"
                             }
@@ -412,7 +412,7 @@
                     "description": "Creați și editați scripturi",
                     "picker": {
                         "header": "Editor de automatizare",
-                        "introduction": "Editorul de automatizare vă permite să creați și să editați automatizări. Citiți [instrucțiunile] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) pentru a vă asigura că ați configurat corect Home Assistant.",
+                        "introduction": "Editorul de automatizare vă permite să creați și să editați automatizări. Citiți [instrucțiunile] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) pentru a vă asigura că ați configurat corect 牧养犬.",
                         "pick_automation": "Alegeți automatizarea pentru a o edita",
                         "no_automations": "Nu am putut găsi automatizări editabile",
                         "add_automation": "Adăugați o automatizare",
@@ -426,7 +426,7 @@
                         "alias": "Nume",
                         "triggers": {
                             "header": "Declanșatoare",
-                            "introduction": "Declanșatoarele sunt cele ce încep procesarea unei reguli de automatizare. Este posibil să specificați mai multe declanșatoare pentru aceeași regulă. Odată ce începe declanșarea, Home Assistant va valida condițiile, dacă este cazul, și va apela acțiunea. \n\n [Aflați mai multe despre declanșatoare.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Declanșatoarele sunt cele ce încep procesarea unei reguli de automatizare. Este posibil să specificați mai multe declanșatoare pentru aceeași regulă. Odată ce începe declanșarea, 牧养犬 va valida condițiile, dacă este cazul, și va apela acțiunea. \n\n [Aflați mai multe despre declanșatoare.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Adăugați acțiune",
                             "duplicate": "Dublura",
                             "delete": "Ștergeți",
@@ -446,7 +446,7 @@
                                     "for": "Pentru"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Eveniment:",
                                     "start": "Începe",
                                     "shutdown": "Închide"
@@ -560,7 +560,7 @@
                         },
                         "actions": {
                             "header": "Acţiuni",
-                            "introduction": "Acțiunile sunt cele pe care Home Assistant le va face când se declanșează automatizarea. \n\n [Aflați mai multe despre acțiuni.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Acțiunile sunt cele pe care 牧养犬 le va face când se declanșează automatizarea. \n\n [Aflați mai multe despre acțiuni.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Adăugați o acțiune",
                             "duplicate": "Duplicat",
                             "delete": "Șterge",
@@ -674,7 +674,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Logat ca {email}",
                     "description_not_login": "Nu sunteți conectat (ă)",
                     "description_features": "Controlați-vă casa de la distanta, integrați-vă cu Alexa și Asistentul Google."
@@ -691,7 +691,7 @@
                         "no_devices": "Această integrare nu are dispozitive.",
                         "no_device": "Entități fără dispozitive",
                         "delete_confirm": "Sigur doriți să ștergeți această integrare?",
-                        "restart_confirm": "Reporniți Home Assistant pentru a termina eliminarea acestei integrări",
+                        "restart_confirm": "Reporniți 牧养犬 pentru a termina eliminarea acestei integrări",
                         "manuf": "de {manufacturer}",
                         "via": "Conectat prin",
                         "firmware": "Firmware: {version}",
@@ -731,7 +731,7 @@
                     "description": "Privire de ansamblu asupra tuturor zonelor din casa ta.",
                     "picker": {
                         "header": "Registrul zonelor",
-                        "introduction": "Zonele sunt folosite pentru a organiza unde sunt dispozitivele. Aceste informații vor fi utilizate de către Home Assistant pentru a vă ajuta să vă organizați interfața, permisiunile și integrarea cu alte sisteme.",
+                        "introduction": "Zonele sunt folosite pentru a organiza unde sunt dispozitivele. Aceste informații vor fi utilizate de către 牧养犬 pentru a vă ajuta să vă organizați interfața, permisiunile și integrarea cu alte sisteme.",
                         "introduction2": "Pentru a plasa dispozitive într-o zonă, utilizați link-ul de mai jos pentru a naviga la pagina de integrare și apoi faceți clic pe o integrare configurată pentru a ajunge la cardurile dispozitivului.",
                         "integrations_page": "Pagina de integrari",
                         "no_areas": "Se pare că nu ai nici o zonă încă!",
@@ -752,8 +752,8 @@
                     "picker": {
                         "header": "Registrul de entități",
                         "unavailable": "(indisponibil)",
-                        "introduction": "Home Assistant păstrează un registru al fiecărei entități pe care a văzut-o vreodată, care poate fi identificată în mod unic. Fiecare dintre aceste entități va avea un ID de entitate atribuit care va fi rezervat doar pentru această entitate.",
-                        "introduction2": "Utilizați registrul de entități pentru a înlocui numele, schimba identitatea entității sau a elimina înregistrarea din Home Assistant. Rețineți că eliminarea intrării din registrul entității nu va elimina entitatea. Pentru aceasta, urmați linkul de mai jos și eliminați-l din pagina de integrare.",
+                        "introduction": "牧养犬 păstrează un registru al fiecărei entități pe care a văzut-o vreodată, care poate fi identificată în mod unic. Fiecare dintre aceste entități va avea un ID de entitate atribuit care va fi rezervat doar pentru această entitate.",
+                        "introduction2": "Utilizați registrul de entități pentru a înlocui numele, schimba identitatea entității sau a elimina înregistrarea din 牧养犬. Rețineți că eliminarea intrării din registrul entității nu va elimina entitatea. Pentru aceasta, urmați linkul de mai jos și eliminați-l din pagina de integrare.",
                         "integrations_page": "Pagina de integrari"
                     },
                     "editor": {
@@ -763,12 +763,12 @@
                         "update": "ACTUALIZAȚI",
                         "enabled_label": "Activează entitatea",
                         "enabled_cause": "Dezactivat de {cause}.",
-                        "enabled_description": "Entitățile dezactivate nu vof fi adăugate in Home Assistant"
+                        "enabled_description": "Entitățile dezactivate nu vof fi adăugate in 牧养犬"
                     }
                 },
                 "person": {
                     "caption": "Persoane",
-                    "description": "Gestionează persoanele pe care Home Assistant le urmărește.",
+                    "description": "Gestionează persoanele pe care 牧养犬 le urmărește.",
                     "detail": {
                         "name": "Nume",
                         "device_tracker_intro": "Selectați dispozitivele care aparțin acestei persoane.",
@@ -778,7 +778,7 @@
                 },
                 "server_control": {
                     "caption": "Control server",
-                    "description": "Repornește si oprește serverul Home Assistant",
+                    "description": "Repornește si oprește serverul 牧养犬",
                     "section": {
                         "validation": {
                             "heading": "Validare configurație",
@@ -789,7 +789,7 @@
                         },
                         "reloading": {
                             "heading": "Reîncărcarea configurației",
-                            "introduction": "Unele părți din Home Assistant se pot reîncărca fără a necesita o repornire. Apăsarea reîncărcării va dezactiva configurația actuală și va încărca noua configurație.",
+                            "introduction": "Unele părți din 牧养犬 se pot reîncărca fără a necesita o repornire. Apăsarea reîncărcării va dezactiva configurația actuală și va încărca noua configurație.",
                             "core": "Reîncărcați nucleul",
                             "group": "Reîncărcați grupurile",
                             "automation": "Reîncarcă automatizările",
@@ -798,11 +798,11 @@
                         },
                         "server_management": {
                             "heading": "Managementul serverului",
-                            "introduction": "Controlează-ți serverul Home Assistant ... din Home Assistant.",
+                            "introduction": "Controlează-ți serverul 牧养犬 ... din 牧养犬.",
                             "restart": "Repornire",
                             "stop": "Oprire",
-                            "confirm_restart": "Sigur doriți să reporniți Home Assistant?",
-                            "confirm_stop": "Sigur doriți să opriți Home Assistant?"
+                            "confirm_restart": "Sigur doriți să reporniți 牧养犬?",
+                            "confirm_stop": "Sigur doriți să opriți 牧养犬?"
                         }
                     }
                 },
@@ -844,7 +844,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokenuri de acces de lunga durata",
-                    "description": "Creați tokenuri de acces cu durată lungă de viață pentru a permite script-urilor dvs. să interacționeze cu instanța dvs. Home Assistant. Fiecare token va fi valabil timp de 10 ani de la creatie. Următoarele tokenuri de acces de lungă durată sunt active la ora actuala.",
+                    "description": "Creați tokenuri de acces cu durată lungă de viață pentru a permite script-urilor dvs. să interacționeze cu instanța dvs. 牧养犬. Fiecare token va fi valabil timp de 10 ani de la creatie. Următoarele tokenuri de acces de lungă durată sunt active la ora actuala.",
                     "learn_auth_requests": "Aflați cum să faceți cereri autentificate.",
                     "created_at": "Creat in {date}",
                     "confirm_delete": "Sigur doriti sa stergeti tokenul de acces pentru {name}?",
@@ -888,7 +888,7 @@
             },
             "page-authorize": {
                 "initializing": "Inițializează",
-                "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de Home Assistant",
+                "authorizing_client": "Sunteți pe punctul de a da {clientId} accesul la instanța dumneavoastra de 牧养犬",
                 "logging_in_with": "Conectare cu **{authProviderName}**.",
                 "pick_auth_provider": "Sau conectați-vă cu",
                 "abort_intro": "Conectare intrerupta",
@@ -1000,12 +1000,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Dispozitivele și serviciile sunt reprezentate în Home Assistant ca integrări. Aveți posibilitatea să le configurați acum sau să le faceți mai târziu din ecranul de configurare.",
+                    "intro": "Dispozitivele și serviciile sunt reprezentate în 牧养犬 ca integrări. Aveți posibilitatea să le configurați acum sau să le faceți mai târziu din ecranul de configurare.",
                     "more_integrations": "Mai Mult",
                     "finish": "Termina"
                 },
                 "core-config": {
-                    "intro": "Salut {name}, bine ați venit la Home Assistant. Cum ți-ar plăcea să-ți numești casa?",
+                    "intro": "Salut {name}, bine ați venit la 牧养犬. Cum ți-ar plăcea să-ți numești casa?",
                     "intro_location": "Am vrea să știm unde locuiți. Aceste informații vă vor ajuta să afișați informații și să configurați automatizări bazate pe soare. Aceste date nu sunt niciodată distribuite în afara rețelei dvs.",
                     "intro_location_detect": "Vă putem ajuta să completați aceste informații făcând o cerere unică unui serviciu extern.",
                     "location_name_default": "Acasă",
@@ -1048,7 +1048,7 @@
                     "migrate": {
                         "header": "Configurație Incompatibilă",
                         "para_no_id": "Acest element nu are un ID. Adăugați un ID la acest element în \"ui-lovelace.yaml\".",
-                        "para_migrate": "Home Assistant poate adăuga ID-ul la toate cărțile și vizualizările în mod automat pentru tine apăsând butonul \"Migrează configurația\".",
+                        "para_migrate": "牧养犬 poate adăuga ID-ul la toate cărțile și vizualizările în mod automat pentru tine apăsând butonul \"Migrează configurația\".",
                         "migrate": "Migrează configurația"
                     },
                     "header": "Editați interfața utilizator",
@@ -1060,7 +1060,7 @@
                     },
                     "save_config": {
                         "header": "Preia controlul asupra interfața dvs. Lovelace",
-                        "para": "În mod implicit, Home Assistant va menține interfața dvs. de utilizator, actualizându-l atunci când entitățile noi sau componente Lovelace devin disponibile. Dacă preluați controlul, nu vom mai face automat modificări pentru dvs.",
+                        "para": "În mod implicit, 牧养犬 va menține interfața dvs. de utilizator, actualizându-l atunci când entitățile noi sau componente Lovelace devin disponibile. Dacă preluați controlul, nu vom mai face automat modificări pentru dvs.",
                         "para_sure": "Sigur doriți să preluați controlul asupra interfeței dvs. de utilizator?",
                         "cancel": "Nu contează",
                         "save": "Preia controlul"
@@ -1100,8 +1100,8 @@
                     "demo": {
                         "demo_by": "dupa {name}",
                         "next_demo": "Următorul demo",
-                        "introduction": "Bine ai venit acasa! Ați ajuns la demo-ul Home Assistant, unde prezentăm cele mai bune interfețe utilizator, create de comunitatea noastră.",
-                        "learn_more": "Aflați mai multe despre Home Assistant"
+                        "introduction": "Bine ai venit acasa! Ați ajuns la demo-ul 牧养犬, unde prezentăm cele mai bune interfețe utilizator, create de comunitatea noastră.",
+                        "learn_more": "Aflați mai multe despre 牧养犬"
                     }
                 },
                 "config": {
@@ -1343,7 +1343,7 @@
             "config_entry_system_options": {
                 "title": "Setări de sistem",
                 "enable_new_entities_label": "Activează entitățile nou adăugate",
-                "enable_new_entities_description": "Dacă sunt dezactivate, entitățile recent descoperite nu vor fi adăugate automat la Home Assistant."
+                "enable_new_entities_description": "Dacă sunt dezactivate, entitățile recent descoperite nu vor fi adăugate automat la 牧养犬."
             },
             "zha_device_info": {
                 "manuf": "de {manufacturer}",
@@ -1410,7 +1410,7 @@
         "vacuum": "Aspirator",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Stare Sistem",
         "person": "Persoană"

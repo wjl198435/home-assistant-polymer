@@ -349,18 +349,18 @@
                 "delete_button": "삭제"
             },
             "config": {
-                "header": "Home Assistant 설정",
-                "introduction": "여기에서 구성요소와  Home Assistant 를 설정 할 수 있습니다. 아직 여기서 모두 설정 할 수는 없지만, 모든 내용을 설정 할 수 있도록 작업 중입니다.",
+                "header": "牧养犬 설정",
+                "introduction": "여기에서 구성요소와  牧养犬 를 설정 할 수 있습니다. 아직 여기서 모두 설정 할 수는 없지만, 모든 내용을 설정 할 수 있도록 작업 중입니다.",
                 "core": {
                     "caption": "일반",
-                    "description": "Home Assistant 일반 구성 내용을 편집합니다",
+                    "description": "牧养犬 일반 구성 내용을 편집합니다",
                     "section": {
                         "core": {
                             "header": "일반 구성",
                             "introduction": "구성 내용의 설정을 변경하는 것은 때때로 난해하고 귀찮은 작업입니다. 여기서 설정 변경을 좀 더 쉽게 하실 수 있습니다.",
                             "core_config": {
                                 "edit_requires_storage": "구성내용이 configuration.yaml 에 저장되어 있기 때문에 편집기가 비활성화 되었습니다.",
-                                "location_name": "Home Assistant 이름",
+                                "location_name": "牧养犬 이름",
                                 "latitude": "위도",
                                 "longitude": "경도",
                                 "elevation": "고도",
@@ -377,14 +377,14 @@
                         "server_control": {
                             "validation": {
                                 "heading": "구성 내용 유효성 검사",
-                                "introduction": "최근에 구성 내용을 추가 혹은 변경하셨다면, 구성 내용 확인 버튼을 눌러 구성 내용이 올바른지 검사하고 Home Assistant 가 정상 작동 되는지 확인하실 수 있습니다.",
+                                "introduction": "최근에 구성 내용을 추가 혹은 변경하셨다면, 구성 내용 확인 버튼을 눌러 구성 내용이 올바른지 검사하고 牧养犬 가 정상 작동 되는지 확인하실 수 있습니다.",
                                 "check_config": "구성 내용 확인",
                                 "valid": "구성 내용이 모두 올바릅니다!",
                                 "invalid": "구성 내용이 잘못되었습니다"
                             },
                             "reloading": {
                                 "heading": "구성 내용 새로고침",
-                                "introduction": "Home Assistant 의 일부 구성 내용은 재시작 없이 다시 읽어들일 수 있습니다. 새로고침을 누르면 현재 구성 내용을 내리고 새로운 구성 내용을 읽어들입니다.",
+                                "introduction": "牧养犬 의 일부 구성 내용은 재시작 없이 다시 읽어들일 수 있습니다. 새로고침을 누르면 현재 구성 내용을 내리고 새로운 구성 내용을 읽어들입니다.",
                                 "core": "코어 새로고침",
                                 "group": "그룹 새로고침",
                                 "automation": "자동화 새로고침",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "서버 관리",
-                                "introduction": "Home Assistant 서버를 제어합니다.",
+                                "introduction": "牧养犬 서버를 제어합니다.",
                                 "restart": "재시작",
                                 "stop": "중지"
                             }
@@ -412,7 +412,7 @@
                     "description": "자동화를 만들고 편집합니다",
                     "picker": {
                         "header": "자동화 편집",
-                        "introduction": "자동화 편집기를 사용하여 자동화를 작성하고 편집할 수 있습니다. 아래 링크를 따라 안내사항을 읽고 Home Assistant 를 올바르게 구성했는지 확인해보세요.",
+                        "introduction": "자동화 편집기를 사용하여 자동화를 작성하고 편집할 수 있습니다. 아래 링크를 따라 안내사항을 읽고 牧养犬 를 올바르게 구성했는지 확인해보세요.",
                         "pick_automation": "편집할 자동화 선택",
                         "no_automations": "편집 가능한 자동화를 찾을 수 없습니다",
                         "add_automation": "자동화 추가하기",
@@ -426,7 +426,7 @@
                         "alias": "이름",
                         "triggers": {
                             "header": "트리거",
-                            "introduction": "트리거는 자동화 규칙을 처리하는 시작점 입니다. 같은 자동화 규칙에 여러 개의 트리거를 지정할 수 있습니다. 트리거가 발동되면 Home Assistant 는 조건을 확인하고 동작을 호출합니다.",
+                            "introduction": "트리거는 자동화 규칙을 처리하는 시작점 입니다. 같은 자동화 규칙에 여러 개의 트리거를 지정할 수 있습니다. 트리거가 발동되면 牧养犬 는 조건을 확인하고 동작을 호출합니다.",
                             "add": "트리거 추가",
                             "duplicate": "복제",
                             "delete": "삭제",
@@ -446,7 +446,7 @@
                                     "for": "경과 시간"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "이벤트:",
                                     "start": "시작",
                                     "shutdown": "종료"
@@ -560,7 +560,7 @@
                         },
                         "actions": {
                             "header": "동작",
-                            "introduction": "동작은 자동화가 트리거 될 때 Home Assistant 가 수행할 작업입니다.",
+                            "introduction": "동작은 자동화가 트리거 될 때 牧养犬 가 수행할 작업입니다.",
                             "add": "동작 추가",
                             "duplicate": "복제",
                             "delete": "삭제",
@@ -674,7 +674,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "{email} 로 로그인 되어있습니다",
                     "description_not_login": "로그인이 되어있지 않습니다",
                     "description_features": "Alexa 및 Google Assistant 를 통해 집 밖에서도 집을 관리하세요."
@@ -691,7 +691,7 @@
                         "no_devices": "이 통합 구성요소는 설정해야 할 기기가 없습니다.",
                         "no_device": "기기가 없는 구성요소",
                         "delete_confirm": "이 통합 구성요소를 제거 하시겠습니까?",
-                        "restart_confirm": "통합 구성요소 제거 완료를 위해 Home Assistant 웹 페이지를 다시 불러옵니다",
+                        "restart_confirm": "통합 구성요소 제거 완료를 위해 牧养犬 웹 페이지를 다시 불러옵니다",
                         "manuf": "{manufacturer} 제조",
                         "via": "연결 경유 대상",
                         "firmware": "펌웨어: {version}",
@@ -731,7 +731,7 @@
                     "description": "영역을 만들고 편집합니다",
                     "picker": {
                         "header": "영역 등록",
-                        "introduction": "영역은 기기가 있는 위치를 설정하는데 사용합니다. 이 정보는 인터페이스와 권한 그리고 다른 시스템과의 통합을 구성하는 데 도움이 되도록 Home Assistant 에 사용됩니다.",
+                        "introduction": "영역은 기기가 있는 위치를 설정하는데 사용합니다. 이 정보는 인터페이스와 권한 그리고 다른 시스템과의 통합을 구성하는 데 도움이 되도록 牧养犬 에 사용됩니다.",
                         "introduction2": "특정 영역에 기기를 배치하려면 아래 링크를 따라 통합 구성요소 페이지로 이동 한 다음, 설정된 구성요소의 기기를 클릭하여 영역을 설정해주세요.",
                         "integrations_page": "통합 구성요소 페이지",
                         "no_areas": "등록된 영역이 없습니다. 거실, 침실과 같이 영역을 등록해보세요!",
@@ -752,8 +752,8 @@
                     "picker": {
                         "header": "구성요소",
                         "unavailable": "(사용불가)",
-                        "introduction": "Home Assistant 는 구성요소의 식별을 위해 모든 구성요소에 고유한 레지스트리를 부여합니다. 각각의 구성요소들은 자신만의 고유한 구성요소 ID 를 가집니다.",
-                        "introduction2": "구성요소를 편집하여 이름을 대체하거나 구성요소 ID를 변경하고 Home Assistant 에서 항목을 제거할 수 있습니다. 단, 구성요소 편집창에서 구성요소를 삭제해도 구성요소가 완전히 제거되는 것은 아닙니다. 완전히 제거하려면, 아래 링크를 따라 통합 구성요소 페이지에서 제거해주세요.",
+                        "introduction": "牧养犬 는 구성요소의 식별을 위해 모든 구성요소에 고유한 레지스트리를 부여합니다. 각각의 구성요소들은 자신만의 고유한 구성요소 ID 를 가집니다.",
+                        "introduction2": "구성요소를 편집하여 이름을 대체하거나 구성요소 ID를 변경하고 牧养犬 에서 항목을 제거할 수 있습니다. 단, 구성요소 편집창에서 구성요소를 삭제해도 구성요소가 완전히 제거되는 것은 아닙니다. 완전히 제거하려면, 아래 링크를 따라 통합 구성요소 페이지에서 제거해주세요.",
                         "integrations_page": "통합 구성요소 페이지"
                     },
                     "editor": {
@@ -763,12 +763,12 @@
                         "update": "업데이트",
                         "enabled_label": "구성요소 활성화",
                         "enabled_cause": "{cause} 에 의해 비활성화 되었습니다.",
-                        "enabled_description": "비활성화 된 구성요소는 Home Assistant 에 추가되지 않습니다."
+                        "enabled_description": "비활성화 된 구성요소는 牧养犬 에 추가되지 않습니다."
                     }
                 },
                 "person": {
                     "caption": "구성원",
-                    "description": "Home Assistant 가 추적하는 구성원을 관리합니다",
+                    "description": "牧养犬 가 추적하는 구성원을 관리합니다",
                     "detail": {
                         "name": "이름",
                         "device_tracker_intro": "이 구성원에게 속한 장치를 선택해주세요.",
@@ -778,18 +778,18 @@
                 },
                 "server_control": {
                     "caption": "서버 제어",
-                    "description": "Home Assistant 서버를 재시작 또는 중지합니다",
+                    "description": "牧养犬 서버를 재시작 또는 중지합니다",
                     "section": {
                         "validation": {
                             "heading": "구성 내용 유효성 검사",
-                            "introduction": "최근에 구성 내용을 추가 혹은 변경하셨다면, 구성 내용 확인 버튼을 눌러 구성 내용이 올바른지 검사하고 Home Assistant 가 정상 작동 되는지 확인하실 수 있습니다.",
+                            "introduction": "최근에 구성 내용을 추가 혹은 변경하셨다면, 구성 내용 확인 버튼을 눌러 구성 내용이 올바른지 검사하고 牧养犬 가 정상 작동 되는지 확인하실 수 있습니다.",
                             "check_config": "구성 내용 확인",
                             "valid": "구성 내용이 모두 올바릅니다!",
                             "invalid": "구성 내용이 잘못되었습니다"
                         },
                         "reloading": {
                             "heading": "구성 내용 새로고침",
-                            "introduction": "Home Assistant 의 일부 구성 내용은 재시작 없이 다시 읽어들일 수 있습니다. 새로고침을 누르면 현재 구성 내용을 내리고 새로운 구성 내용을 읽어들입니다.",
+                            "introduction": "牧养犬 의 일부 구성 내용은 재시작 없이 다시 읽어들일 수 있습니다. 새로고침을 누르면 현재 구성 내용을 내리고 새로운 구성 내용을 읽어들입니다.",
                             "core": "코어 새로고침",
                             "group": "그룹 새로고침",
                             "automation": "자동화 새로고침",
@@ -798,11 +798,11 @@
                         },
                         "server_management": {
                             "heading": "서버 관리",
-                            "introduction": "Home Assistant 서버를 제어합니다.",
+                            "introduction": "牧养犬 서버를 제어합니다.",
                             "restart": "재시작",
                             "stop": "중지",
-                            "confirm_restart": "Home Assistant 를 재시작 하시겠습니까?",
-                            "confirm_stop": "Home Assistant 를 중지 하시겠습니까?"
+                            "confirm_restart": "牧养犬 를 재시작 하시겠습니까?",
+                            "confirm_stop": "牧养犬 를 중지 하시겠습니까?"
                         }
                     }
                 },
@@ -844,7 +844,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "장기 액세스 토큰",
-                    "description": "스크립트가 Home Assistant 인스턴스와 상호 작용할 수 있도록 장기 액세스 토큰을 생성하세요. 각 토큰은 생성 후 10년 동안 유효합니다. 현재 활성 상태인 장기 액세스 토큰은 다음과 같습니다.",
+                    "description": "스크립트가 牧养犬 인스턴스와 상호 작용할 수 있도록 장기 액세스 토큰을 생성하세요. 각 토큰은 생성 후 10년 동안 유효합니다. 현재 활성 상태인 장기 액세스 토큰은 다음과 같습니다.",
                     "learn_auth_requests": "인증 요청을 생성하는 방법에 대해 알아 보세요.",
                     "created_at": "{date} 에 생성 됨",
                     "confirm_delete": "{name} 액세스 토큰을 삭제 하시겠습니까?",
@@ -888,7 +888,7 @@
             },
             "page-authorize": {
                 "initializing": "초기화 중",
-                "authorizing_client": "{clientId} 에 Home Assistant 인스턴스에 대한 액세스 권한을 부여하려고 합니다.",
+                "authorizing_client": "{clientId} 에 牧养犬 인스턴스에 대한 액세스 권한을 부여하려고 합니다.",
                 "logging_in_with": "**{authProviderName}** 로(으로) 로그인 합니다.",
                 "pick_auth_provider": "또는 다음으로 로그인하세요",
                 "abort_intro": "로그인이 중단되었습니다",
@@ -1000,12 +1000,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "기기 및 서비스는 Home Assistant 에서 통합 구성요소로 표시됩니다. 지금 구성하거나 나중에 설정 화면에서 구성할 수 있습니다.",
+                    "intro": "기기 및 서비스는 牧养犬 에서 통합 구성요소로 표시됩니다. 지금 구성하거나 나중에 설정 화면에서 구성할 수 있습니다.",
                     "more_integrations": "더보기",
                     "finish": "완료"
                 },
                 "core-config": {
-                    "intro": "{name} 님, 안녕하세요! Home Assistant 에 오신 것을 환영합니다. 집에 어떤 이름을 지어주시겠어요?",
+                    "intro": "{name} 님, 안녕하세요! 牧养犬 에 오신 것을 환영합니다. 집에 어떤 이름을 지어주시겠어요?",
                     "intro_location": "현재 살고 계시는 위치를 알려주세요. 이는 태양 위치를 기반으로 하는 자동화를 설정하는데 도움이 됩니다. 위치 정보는 외부 네트워크와 절대 공유되지 않습니다.",
                     "intro_location_detect": "외부 서비스에 일회성 요청을 해서 위치 정보를 넣는데 도움을 드릴 수 있습니다.",
                     "location_name_default": "집",
@@ -1048,7 +1048,7 @@
                     "migrate": {
                         "header": "구성 내용이 호환되지 않습니다",
                         "para_no_id": "이 구성요소에는 ID가 없습니다. 'ui-lovelace.yaml' 에 구성요소의 ID를 추가해주세요.",
-                        "para_migrate": "Home Assistant 는 '설정 마이그레이션' 버튼을 눌러 자동으로 모든 카드와 보기에 ID를 추가 할 수 있습니다.",
+                        "para_migrate": "牧养犬 는 '설정 마이그레이션' 버튼을 눌러 자동으로 모든 카드와 보기에 ID를 추가 할 수 있습니다.",
                         "migrate": "설정 마이그레이션"
                     },
                     "header": "UI 편집",
@@ -1060,7 +1060,7 @@
                     },
                     "save_config": {
                         "header": "Lovelace UI 직접 관리하기",
-                        "para": "기본적으로 Home Assistant 는 사용자 인터페이스를 유지 관리하고, 사용할 수 있는 새로운 구성요소 또는 Lovelace 구성요소가 있을 때 업데이트를 합니다. 사용자가 직접 관리하는 경우 Home Assistant 는 더 이상 자동으로 변경하지 않습니다.",
+                        "para": "기본적으로 牧养犬 는 사용자 인터페이스를 유지 관리하고, 사용할 수 있는 새로운 구성요소 또는 Lovelace 구성요소가 있을 때 업데이트를 합니다. 사용자가 직접 관리하는 경우 牧养犬 는 더 이상 자동으로 변경하지 않습니다.",
                         "para_sure": "사용자 인터페이스를 직접 관리하시겠습니까?",
                         "cancel": "아닙니다",
                         "save": "직접 관리할게요"
@@ -1100,8 +1100,8 @@
                     "demo": {
                         "demo_by": "{name} 님이 만듦",
                         "next_demo": "다음 데모",
-                        "introduction": "집에 오신 것을 환영합니다! 커뮤니티에서 만든 최고의 UI 가 적용된 Home Assistant 를 소개합니다.",
-                        "learn_more": "Home Assistant 에 대해 더 알아보기"
+                        "introduction": "집에 오신 것을 환영합니다! 커뮤니티에서 만든 최고의 UI 가 적용된 牧养犬 를 소개합니다.",
+                        "learn_more": "牧养犬 에 대해 더 알아보기"
                     }
                 },
                 "config": {
@@ -1343,7 +1343,7 @@
             "config_entry_system_options": {
                 "title": "시스템 옵션",
                 "enable_new_entities_label": "새로 추가된 구성요소를 활성화합니다.",
-                "enable_new_entities_description": "비활성화한 경우 새로 검색된 구성요소는 Home Assistant 에 자동으로 추가되지 않습니다."
+                "enable_new_entities_description": "비활성화한 경우 새로 검색된 구성요소는 牧养犬 에 자동으로 추가되지 않습니다."
             },
             "zha_device_info": {
                 "manuf": "{manufacturer} 제조",
@@ -1410,7 +1410,7 @@
         "vacuum": "청소기",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "시스템 상태",
         "person": "구성원"

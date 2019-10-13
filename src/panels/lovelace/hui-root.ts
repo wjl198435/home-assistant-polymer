@@ -155,7 +155,7 @@ class HUIRoot extends LitElement {
                     .hass=${this.hass}
                     .narrow=${this.narrow}
                   ></ha-menu-button>
-                  <div main-title>${this.config.title || "Home Assistant"}</div>
+                  <div main-title>${this.config.title || "牧养犬"}</div>
                   <ha-start-voice-button
                     .hass="${this.hass}"
                   ></ha-start-voice-button>

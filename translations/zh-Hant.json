@@ -349,18 +349,18 @@
                 "delete_button": "刪除"
             },
             "config": {
-                "header": "設定 Home Assistant",
-                "introduction": "此處為 Home Assistant 和元件相關配置區，目前尚未支援透過 UI 進行所有設定，我們正在努力改進中。",
+                "header": "設定 牧养犬",
+                "introduction": "此處為 牧养犬 和元件相關配置區，目前尚未支援透過 UI 進行所有設定，我們正在努力改進中。",
                 "core": {
                     "caption": "一般設定",
-                    "description": "變更 Home Assistant 一般設定",
+                    "description": "變更 牧养犬 一般設定",
                     "section": {
                         "core": {
                             "header": "一般設定",
                             "introduction": "更改設定常是個惱人過程。此區域將盡可能協助您，讓事情變得更輕鬆一些。",
                             "core_config": {
                                 "edit_requires_storage": "由於 configuration.yaml 內已儲存設定，編輯功能已關閉。",
-                                "location_name": "Home Assistant 安裝名稱",
+                                "location_name": "牧养犬 安裝名稱",
                                 "latitude": "緯度",
                                 "longitude": "經度",
                                 "elevation": "海拔",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "重新載入設定檔（configuration）",
-                                "introduction": "Home Assistant 中部分設定無須重啟即可重新載入生效。\n點選重新載入按鈕，即可重新載入最新設定。",
+                                "introduction": "牧养犬 中部分設定無須重啟即可重新載入生效。\n點選重新載入按鈕，即可重新載入最新設定。",
                                 "core": "重新載入核心設定（core）",
                                 "group": "重新載入群組（group）",
                                 "automation": "重新載入自動化（automation）",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "服務器管理",
-                                "introduction": "控制 Home Assistant 伺服器。",
+                                "introduction": "控制 牧养犬 伺服器。",
                                 "restart": "重啟",
                                 "stop": "停止"
                             }
@@ -412,7 +412,7 @@
                     "description": "新增和編輯自動化內容",
                     "picker": {
                         "header": "自動化編輯器",
-                        "introduction": "自動化編輯器允許新增或編輯自動化。請參考下方教學連結，以確保正確的設定 Home Assistant。",
+                        "introduction": "自動化編輯器允許新增或編輯自動化。請參考下方教學連結，以確保正確的設定 牧养犬。",
                         "pick_automation": "選擇欲編輯的自動化",
                         "no_automations": "沒有任何可編輯的自動化",
                         "add_automation": "新增一個自動化",
@@ -426,7 +426,7 @@
                         "alias": "名稱",
                         "triggers": {
                             "header": "觸發",
-                            "introduction": "「觸發條件」為可使設定好的自動化開始運作。可以針對一個自動化設定多個觸發條件。一旦觸發後，Home Assistant 會檢查觸發判斷式，並開始執行動作。",
+                            "introduction": "「觸發條件」為可使設定好的自動化開始運作。可以針對一個自動化設定多個觸發條件。一旦觸發後，牧养犬 會檢查觸發判斷式，並開始執行動作。",
                             "add": "新增一個觸發",
                             "duplicate": "複製",
                             "delete": "刪除",
@@ -446,7 +446,7 @@
                                     "for": "持續"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "事件：",
                                     "start": "開始",
                                     "shutdown": "關機"
@@ -566,7 +566,7 @@
                         },
                         "actions": {
                             "header": "觸發後動作",
-                            "introduction": "「動作」為自動化觸發後，Home Assistant 所執行的自動化。",
+                            "introduction": "「動作」為自動化觸發後，牧养犬 所執行的自動化。",
                             "add": "新增一個動作",
                             "duplicate": "複製",
                             "delete": "刪除",
@@ -684,7 +684,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "登入帳號：{email}",
                     "description_not_login": "未登入",
                     "description_features": "整合 Alexa 及 Google 助理，遠端控制智能家居"
@@ -701,7 +701,7 @@
                         "no_devices": "此整合沒有任何設備。",
                         "no_device": "物件沒有設備",
                         "delete_confirm": "確定要刪除此整合？",
-                        "restart_confirm": "重啟 Home Assistant 以完成此整合移動",
+                        "restart_confirm": "重啟 牧养犬 以完成此整合移動",
                         "manuf": "廠牌：{manufacturer}",
                         "via": "連線：",
                         "firmware": "韌體：{version}",
@@ -741,7 +741,7 @@
                     "description": "家中所有分區概觀",
                     "picker": {
                         "header": "分區 ID",
-                        "introduction": "分區主要用以管理設備所在位置。此資訊將會於 Home Assistant 中使用以協助您管理介面、權限，並與其他系統進行整合。",
+                        "introduction": "分區主要用以管理設備所在位置。此資訊將會於 牧养犬 中使用以協助您管理介面、權限，並與其他系統進行整合。",
                         "introduction2": "欲於分區中放置設備，請使用下方連結至整合頁面，並點選設定整合以設定設備卡片。",
                         "integrations_page": "整合頁面",
                         "no_areas": "看起來你還沒有建立分區！",
@@ -762,8 +762,8 @@
                     "picker": {
                         "header": "物件 ID",
                         "unavailable": "（不可用）",
-                        "introduction": "Home Assistant 保持每個物件 ID 的獨特辨識性，此些物件將會指定一組專用的 物件 ID。",
-                        "introduction2": "使用物件 ID 以覆寫名稱、變更物件 ID 或由 Home Assistant 移除物件。請注意：移除物件 ID 項目並不會移除物件。欲移除，請跟隨下方連結，並於整合頁面中進行移除。",
+                        "introduction": "牧养犬 保持每個物件 ID 的獨特辨識性，此些物件將會指定一組專用的 物件 ID。",
+                        "introduction2": "使用物件 ID 以覆寫名稱、變更物件 ID 或由 牧养犬 移除物件。請注意：移除物件 ID 項目並不會移除物件。欲移除，請跟隨下方連結，並於整合頁面中進行移除。",
                         "integrations_page": "整合頁面",
                         "show_disabled": "顯示關閉物件"
                     },
@@ -774,14 +774,14 @@
                         "update": "更新",
                         "enabled_label": "啟用物件",
                         "enabled_cause": "由 {cause} 關閉。",
-                        "enabled_description": "關閉的物件將不會新增至 Home Assistant。",
+                        "enabled_description": "關閉的物件將不會新增至 牧养犬。",
                         "confirm_delete": "確定要刪除此物件？",
-                        "confirm_delete2": "刪除物件將不會由 Home Assistant 移除物件。欲移除、你必須由 Home Assistant 移除整合  '{platform}'。"
+                        "confirm_delete2": "刪除物件將不會由 牧养犬 移除物件。欲移除、你必須由 牧养犬 移除整合  '{platform}'。"
                     }
                 },
                 "person": {
                     "caption": "人員",
-                    "description": "管理 Home Assistant 追蹤人員。",
+                    "description": "管理 牧养犬 追蹤人員。",
                     "detail": {
                         "name": "名稱",
                         "device_tracker_intro": "選擇此人員所擁有的設備。",
@@ -791,7 +791,7 @@
                 },
                 "server_control": {
                     "caption": "伺服器控制",
-                    "description": "重啟與停止 Home Assistant 伺服器",
+                    "description": "重啟與停止 牧养犬 伺服器",
                     "section": {
                         "validation": {
                             "heading": "設定驗證",
@@ -802,7 +802,7 @@
                         },
                         "reloading": {
                             "heading": "正在重新載入設定",
-                            "introduction": "Home Assistant 中部分設定無須重啟即可重新載入生效。點選重新載入按鈕，即可重新載入最新設定。",
+                            "introduction": "牧养犬 中部分設定無須重啟即可重新載入生效。點選重新載入按鈕，即可重新載入最新設定。",
                             "core": "重新載入核心設定",
                             "group": "重新載入群組",
                             "automation": "重新載入自動化",
@@ -811,11 +811,11 @@
                         },
                         "server_management": {
                             "heading": "服務器管理",
-                            "introduction": "由 Home Assistant，控制 Home Assistant 伺服器。",
+                            "introduction": "由 牧养犬，控制 牧养犬 伺服器。",
                             "restart": "重啟",
                             "stop": "停止",
-                            "confirm_restart": "確定要重啟 Home Assistant 嗎？",
-                            "confirm_stop": "確定要停止 Home Assistant 嗎？"
+                            "confirm_restart": "確定要重啟 牧养犬 嗎？",
+                            "confirm_stop": "確定要停止 牧养犬 嗎？"
                         }
                     }
                 },
@@ -868,7 +868,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "永久有效存取密鑰",
-                    "description": "創建長效存取密鑰，可供運用腳本與 Home Assistant 物件進行互動。每個密鑰於創建後，有效期為十年。目前已啟用之永久有效密鑰如下。",
+                    "description": "創建長效存取密鑰，可供運用腳本與 牧养犬 物件進行互動。每個密鑰於創建後，有效期為十年。目前已啟用之永久有效密鑰如下。",
                     "learn_auth_requests": "學習如何進行驗證請求。",
                     "created_at": "於{date}創建",
                     "confirm_delete": "確定要刪除{name}存取密鑰嗎？",
@@ -916,7 +916,7 @@
             },
             "page-authorize": {
                 "initializing": "初始化中",
-                "authorizing_client": "即將授與 {clientId} 訪問 Home Assistant 系統權限。",
+                "authorizing_client": "即將授與 {clientId} 訪問 牧养犬 系統權限。",
                 "logging_in_with": "使用 **{authProviderName}** 登入。",
                 "pick_auth_provider": "或以其他方式登入",
                 "abort_intro": "登入中止",
@@ -1028,12 +1028,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "將會於 Home Assistant 整合中呈現的設備與服務。可以現在進行設定，或者稍後於設定選單中進行。",
+                    "intro": "將會於 牧养犬 整合中呈現的設備與服務。可以現在進行設定，或者稍後於設定選單中進行。",
                     "more_integrations": "更多",
                     "finish": "完成"
                 },
                 "core-config": {
-                    "intro": "{name}你好，歡迎使用 Home Assistant。為您的家庭取個名字吧？",
+                    "intro": "{name}你好，歡迎使用 牧养犬。為您的家庭取個名字吧？",
                     "intro_location": "希望能夠提供您所居住的區域，資料將協助所顯示的資訊內容、設定以日出日落為基礎的自動化。此資料將絕不會與外部網路進行分享。",
                     "intro_location_detect": "設定可以藉由一次性請求外部服務、以協助您填寫此項資料。",
                     "location_name_default": "首頁",
@@ -1077,7 +1077,7 @@
                     "migrate": {
                         "header": "設定不相容",
                         "para_no_id": "該元件未含 ID，請於「ui-lovelace.yaml」中為該元件新增 ID。",
-                        "para_migrate": "Home Assistant 能於您點選「遷移設定」按鈕後，自動新增 ID 與視圖至所有卡片。",
+                        "para_migrate": "牧养犬 能於您點選「遷移設定」按鈕後，自動新增 ID 與視圖至所有卡片。",
                         "migrate": "遷移設定"
                     },
                     "header": "編輯 UI",
@@ -1089,7 +1089,7 @@
                     },
                     "save_config": {
                         "header": "自行編輯 Lovelace UI",
-                        "para": "Home Assistant 於預設下，將維護您的使用者介面、於新物件或 Lovelace 元件可使用時進行更新。假如選擇自行編輯，系統將不再為您自動進行變更。",
+                        "para": "牧养犬 於預設下，將維護您的使用者介面、於新物件或 Lovelace 元件可使用時進行更新。假如選擇自行編輯，系統將不再為您自動進行變更。",
                         "para_sure": "確定要自行編輯使用者介面？",
                         "cancel": "我再想想",
                         "save": "自行編輯"
@@ -1189,8 +1189,8 @@
                     "demo": {
                         "demo_by": "由 {name}",
                         "next_demo": "下一個展示",
-                        "introduction": "歡迎回家！您正在使用 Home Assistatnt 展示功能，由社群所創作的最佳介面展示。",
-                        "learn_more": "詳細了解 Home Assistant"
+                        "introduction": "歡迎回家！您正在使用 牧养犬 展示功能，由社群所創作的最佳介面展示。",
+                        "learn_more": "詳細了解 牧养犬"
                     }
                 },
                 "config": {
@@ -1432,7 +1432,7 @@
             "config_entry_system_options": {
                 "title": "系統選項",
                 "enable_new_entities_label": "啟用新增物件",
-                "enable_new_entities_description": "關閉後，新發現的物件將不會自動新增至 Home Assistant。"
+                "enable_new_entities_description": "關閉後，新發現的物件將不會自動新增至 牧养犬。"
             },
             "zha_device_info": {
                 "manuf": "由 {manufacturer}",
@@ -1499,7 +1499,7 @@
         "vacuum": "吸塵器",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "系統健康",
         "person": "個人"

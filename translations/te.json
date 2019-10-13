@@ -311,7 +311,7 @@
                 "delete_button": "తొలగించు"
             },
             "config": {
-                "header": "కాన్ఫిగర్ Home Assistant",
+                "header": "కాన్ఫిగర్ 牧养犬",
                 "core": {
                     "section": {
                         "server_control": {
@@ -369,7 +369,7 @@
                                     "to": "టు"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "ఈవెంట్",
                                     "start": "ప్రారంభం"
                                 },

@@ -45,10 +45,10 @@ class HaPanelDevInfo extends LitElement {
             ><img
               src="/static/icons/favicon-192x192.png"
               height="192"
-              alt="Home Assistant logo"
+              alt="牧养犬 logo"
           /></a>
           <br />
-          Home Assistant<br />
+          牧养犬<br />
           ${hass.config.version}
         </p>
         <p>

@@ -179,7 +179,7 @@ class HaVoiceCommandDialog extends DialogMixin(PolymerElement) {
       var text = this.results.final || this.results.interim;
       this.results = null;
       if (text === "") {
-        text = "<Home Assistant did not hear anything>";
+        text = "<牧养犬 did not hear anything>";
       }
       this.push("_conversation", { who: "user", text: text, error: true });
     }.bind(this);

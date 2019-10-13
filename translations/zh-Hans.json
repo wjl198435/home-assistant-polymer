@@ -881,8 +881,8 @@
             },
             "page-authorize": {
                 "initializing": "正在初始化",
-                "authorizing_client": "您即将授权 {clientId} 访问 牧养犬 实例。",
-                "logging_in_with": "正在用 **{authProviderName}** 登录。",
+                "authorizing_client": "您即将授权 {clientId} 访问牧养犬实例。",
+                "logging_in_with": "请 **{authProviderName}** 登录",
                 "pick_auth_provider": "或者用以下方式登录",
                 "abort_intro": "登录中断",
                 "form": {

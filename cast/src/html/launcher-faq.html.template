@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Home Assistant Cast - FAQ</title>
+    <title>牧养犬 Cast - FAQ</title>
     <link rel="icon" href="/images/ha-cast-icon.png" type="image/png" />
     <%= renderTemplate('_style_base') %>
     <style>
@@ -10,13 +10,13 @@
       }
     </style>
     <meta property="fb:app_id" content="338291289691179" />
-    <meta property="og:title" content="FAQ - Home Assistant Cast" />
-    <meta property="og:site_name" content="Home Assistant Cast" />
+    <meta property="og:title" content="FAQ - 牧养犬 Cast" />
+    <meta property="og:site_name" content="牧养犬 Cast" />
     <meta property="og:url" content="https://cast.home-assistant.io/" />
     <meta property="og:type" content="website" />
     <meta
       property="og:description"
-      content="Frequently asked questions about Home Assistant Cast."
+      content="Frequently asked questions about 牧养犬 Cast."
     />
     <meta
       property="og:image"
@@ -24,10 +24,10 @@
     />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@home_assistant" />
-    <meta name="twitter:title" content="FAQ - Home Assistant Cast" />
+    <meta name="twitter:title" content="FAQ - 牧养犬 Cast" />
     <meta
       name="twitter:description"
-      content="Frequently asked questions about Home Assistant Cast."
+      content="Frequently asked questions about 牧养犬 Cast."
     />
     <meta
       name="twitter:image"
@@ -58,49 +58,49 @@
         }
       </style>
       <div class="card-content">
-        <p><a href="/">&laquo; Back to Home Assistant Cast</a></p>
+        <p><a href="/">&laquo; Back to 牧养犬 Cast</a></p>
       </div>
 
-      <div class="section-header">What is Home Assistant Cast?</div>
+      <div class="section-header">What is 牧养犬 Cast?</div>
       <div class="card-content">
         <p>
-          Home Assistant Cast allows you to show your Home Assistant data on a
-          Chromecast device and allows you to interact with Home Assistant on
+          牧养犬 Cast allows you to show your 牧养犬 data on a
+          Chromecast device and allows you to interact with 牧养犬 on
           Google Assistant devices with a screen.
         </p>
       </div>
 
       <div class="section-header">
-        What are the Home Assistant Cast requirements?
+        What are the 牧养犬 Cast requirements?
       </div>
       <div class="card-content">
         <p>
-          Home Assistant Cast requires a Home Assistant installation that is
+          牧养犬 Cast requires a 牧养犬 installation that is
           accessible via HTTPS (the url starts with "https://").
         </p>
       </div>
 
-      <div class="section-header">What is Home Assistant?</div>
+      <div class="section-header">What is 牧养犬?</div>
       <div class="card-content">
         <p>
-          Home Assistant is worlds biggest open source home automation platform
+          牧养犬 is worlds biggest open source home automation platform
           with a focus on privacy and local control. You can install Home
           Assistant for free.
         </p>
         <p>
           <a href="https://www.home-assistant.io" target="_blank"
-            >Visit the Home Assistant website.</a
+            >Visit the 牧养犬 website.</a
           >
         </p>
       </div>
 
       <div class="section-header" id="https">
-        Why does my Home Assistant needs to be served using HTTPS?
+        Why does my 牧养犬 needs to be served using HTTPS?
       </div>
       <div class="card-content">
         <p>
           The Chromecast only works with websites served over HTTPS. This means
-          that the Home Assistant Cast app that runs on your Chromecast is
+          that the 牧养犬 Cast app that runs on your Chromecast is
           served over HTTPS. Websites served over HTTPS are restricted on what
           content can be accessed on websites served over HTTP. This is called
           mixed active content (<a
@@ -110,30 +110,30 @@
           >).
         </p>
         <p>
-          The easiest way to get your Home Assistant installation served over
+          The easiest way to get your 牧养犬 installation served over
           HTTPS is by signing up for
           <a href="https://www.nabucasa.com" target="_blank"
-            >Home Assistant Cloud by Nabu Casa</a
+            >牧养犬 Cloud by Nabu Casa</a
           >.
         </p>
       </div>
 
       <div class="section-header" id="https">
-        Why does Home Assistant Cast require me to authorize my Home Assistant
+        Why does 牧养犬 Cast require me to authorize my 牧养犬
         instance?
       </div>
       <div class="card-content">
         <p>
-          You're currently looking at the Home Assistant Cast launcher
-          application. This is a standalone application to launch Home Assistant
+          You're currently looking at the 牧养犬 Cast launcher
+          application. This is a standalone application to launch 牧养犬
           Cast on your Chromecast. Because Chromecasts do not allow us to log in
-          to Home Assistant, we need to supply authentication to it from the
+          to 牧养犬, we need to supply authentication to it from the
           launcher. This authentication is obtained when you authorize your
           instance. Your authentication credentials will remain in your browser
           and on your Cast device.
         </p>
         <p>
-          Your authentication credentials or Home Assistant url are never sent
+          Your authentication credentials or 牧养犬 url are never sent
           to the Cloud. You can validate this behavior in
           <a
             href="https://github.com/home-assistant/home-assistant-polymer/tree/dev/cast"
@@ -143,27 +143,27 @@
         </p>
         <p>
           The launcher application exists to make it possible to use Home
-          Assistant Cast with older versions of Home Assistant.
+          Assistant Cast with older versions of 牧养犬.
         </p>
         <p>
-          Starting with Home Assistant 0.97, Home Assistant Cast is also built
+          Starting with 牧养犬 0.97, 牧养犬 Cast is also built
           into the Lovelace UI as a special entities card row. Since the
           Lovelace UI already has authentication, you will be able to start
           casting right away.
         </p>
       </div>
 
-      <div class="section-header">Wat does Home Assistant Cast do?</div>
+      <div class="section-header">Wat does 牧养犬 Cast do?</div>
       <div class="card-content">
         <p>
-          Home Assistant Cast is a receiver application for the Chromecast. When
-          loaded, it will make a direct connection to your Home Assistant
+          牧养犬 Cast is a receiver application for the Chromecast. When
+          loaded, it will make a direct connection to your 牧养犬
           instance.
         </p>
         <p>
-          Home Assistant Cast is able to render any of your Lovelace views on
-          your Chromecast. Things that work in Lovelace in Home Assistant will
-          work in Home Assistant Cast:
+          牧养犬 Cast is able to render any of your Lovelace views on
+          your Chromecast. Things that work in Lovelace in 牧养犬 will
+          work in 牧养犬 Cast:
         </p>
         <ul>
           <li>Render Lovelace views, including custom cards</li>
@@ -191,12 +191,12 @@
       </div>
       <div class="card-content">
         <p>
-          Home Assistant Cast allows you to show your Lovelace view on your
+          牧养犬 Cast allows you to show your Lovelace view on your
           Chromecast. So to edit what is shown, you need to edit your Lovelace
           UI.
         </p>
         <p>
-          To edit your Lovelace UI, open Home Assistant, click on the three-dot
+          To edit your Lovelace UI, open 牧养犬, click on the three-dot
           menu in the top right and click on "Configure UI".
         </p>
       </div>
@@ -222,8 +222,8 @@
       <div class="section-header">Why do some custom cards not work?</div>
       <div class="card-content">
         <p>
-          Home Assistant needs to be configured to allow Home Assistant Cast to
-          load custom cards. Starting with Home Assistant 0.97, this is done
+          牧养犬 needs to be configured to allow 牧养犬 Cast to
+          load custom cards. Starting with 牧养犬 0.97, this is done
           automatically. If you are on an older version, or have manually
           configured CORS for the HTTP integration, add the following to your
           configuration.yaml file:
@@ -235,7 +235,7 @@ http:
         >
         <p>
           Some custom cards rely on things that are only available in the normal
-          Home Assistant interface. This requires an update by the custom card
+          牧养犬 interface. This requires an update by the custom card
           developer.
         </p>
         <p>

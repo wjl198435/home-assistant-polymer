@@ -1,4 +1,4 @@
-"""Frontend for Home Assistant."""
+"""Frontend for 牧养犬."""
 from pathlib import Path
 
 

@@ -272,7 +272,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud"
+                    "caption": "牧养犬 Cloud"
                 },
                 "zha": {
                     "description": "„Zigbee Home Automation“ tinklo valdymas",
@@ -495,7 +495,7 @@
     "domain": {
         "zwave": "Z-Wave",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Sistemos sveikata",
         "person": "Asmuo"

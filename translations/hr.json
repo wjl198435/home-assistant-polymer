@@ -349,18 +349,18 @@
                 "delete_button": "Izbrisati"
             },
             "config": {
-                "header": "Konfigurirajte Home Assistant",
-                "introduction": "Ovdje možete konfigurirati vaše komponente i Home Assistant. Nije moguće baš sve konfigurirati koristeći UI zasada, ali radimo na tome.",
+                "header": "Konfigurirajte 牧养犬",
+                "introduction": "Ovdje možete konfigurirati vaše komponente i 牧养犬. Nije moguće baš sve konfigurirati koristeći UI zasada, ali radimo na tome.",
                 "core": {
                     "caption": "Općenito",
-                    "description": "Promijenite Home Assistant općenite postavke",
+                    "description": "Promijenite 牧养犬 općenite postavke",
                     "section": {
                         "core": {
                             "header": "Konfiguracija i kontrola poslužitelja",
                             "introduction": "Promjena konfiguracije može biti naporan proces. Znamo. Ovaj će vam odjeljak pokušati olakšati život.",
                             "core_config": {
                                 "edit_requires_storage": "Uređivač je onemogućen jer je konfiguracija spremljena u configuration.yaml.",
-                                "location_name": "Naziv Home Assistant instalacije",
+                                "location_name": "Naziv 牧养犬 instalacije",
                                 "latitude": "Zemljopisna širina",
                                 "longitude": "Zemljopisna dužina",
                                 "elevation": "Elevacija",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Ponovno učitavanje konfiguracije",
-                                "introduction": "Neki dijelovi programa Home Assistant mogu se ponovno učitati bez potrebe za ponovnim pokretanjem. Pritiskom na ponovno učitavanje učitava se nova konfiguracija.",
+                                "introduction": "Neki dijelovi programa 牧养犬 mogu se ponovno učitati bez potrebe za ponovnim pokretanjem. Pritiskom na ponovno učitavanje učitava se nova konfiguracija.",
                                 "core": "Ponovno učitati jezgru",
                                 "group": "Ponovno učitajte grupe",
                                 "automation": "Ponovo učitajte automatizacije",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Upravljanje poslužiteljem",
-                                "introduction": "Kontrolirajte vaš Home Assistant server ... iz Home Assistant.",
+                                "introduction": "Kontrolirajte vaš 牧养犬 server ... iz 牧养犬.",
                                 "restart": "Ponovno pokretanje",
                                 "stop": "Stop"
                             }
@@ -412,7 +412,7 @@
                     "description": "Stvaranje i uređivanje automatizacija",
                     "picker": {
                         "header": "Urednik Automatizacije",
-                        "introduction": "Automatizacijski urednik omogućuje stvaranje i uređivanje automatizacije. Molimo pročitajte [upute] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) kako biste bili sigurni da ste ispravno konfigurirali Home Assistant.",
+                        "introduction": "Automatizacijski urednik omogućuje stvaranje i uređivanje automatizacije. Molimo pročitajte [upute] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) kako biste bili sigurni da ste ispravno konfigurirali 牧养犬.",
                         "pick_automation": "Odaberite automatizaciju za uređivanje",
                         "no_automations": "Nismo mogli pronaći nikakve automatizirane uređaje",
                         "add_automation": "Dodaj automatizaciju",
@@ -426,7 +426,7 @@
                         "alias": "Ime",
                         "triggers": {
                             "header": "Okidači",
-                            "introduction": "Okidači su ono što pokreće obradu pravila o automatizaciji. Moguće je odrediti više okidača za isto pravilo. Kada pokrenete okidač, Home Assistant provjerit će uvjete, ako ih ima i pozvati akciju. \n\n [Saznajte više o pokretačima.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Okidači su ono što pokreće obradu pravila o automatizaciji. Moguće je odrediti više okidača za isto pravilo. Kada pokrenete okidač, 牧养犬 provjerit će uvjete, ako ih ima i pozvati akciju. \n\n [Saznajte više o pokretačima.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Dodaj okidač",
                             "duplicate": "Udvostruči",
                             "delete": "Obriši",
@@ -446,7 +446,7 @@
                                     "for": "Za"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Događaj:",
                                     "start": "Početak",
                                     "shutdown": "Ugasiti"
@@ -560,7 +560,7 @@
                         },
                         "actions": {
                             "header": "Akcije",
-                            "introduction": "Radnje su ono što će Home Assistant učiniti kada se aktivira automatizacija. \n\n [Saznajte više o radnjama.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Radnje su ono što će 牧养犬 učiniti kada se aktivira automatizacija. \n\n [Saznajte više o radnjama.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Dodajte radnju",
                             "duplicate": "Dupliciraj",
                             "delete": "Obriši",
@@ -674,7 +674,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Prijavljeni ste kao {email}",
                     "description_not_login": "Niste prijavljeni",
                     "description_features": "Upravljajte kad ste izvan kuće, integrirajte se s Alexa i Google Assistantom."
@@ -691,7 +691,7 @@
                         "no_devices": "Ova integracija nema uređaje.",
                         "no_device": "Entiteti bez uređaja",
                         "delete_confirm": "Jeste li sigurni da želite izbrisati tu integraciju?",
-                        "restart_confirm": "Ponovo pokrenite Home Assistant da biste dovršili uklanjanje ove integracije",
+                        "restart_confirm": "Ponovo pokrenite 牧养犬 da biste dovršili uklanjanje ove integracije",
                         "manuf": "od {manufacturer}",
                         "via": "Povezan putem",
                         "firmware": "Firmware: {version}",
@@ -731,7 +731,7 @@
                     "description": "Pregled svih područja u vašem domu.",
                     "picker": {
                         "header": "Registar područja",
-                        "introduction": "Područja se koriste za organiziranje gdje su uređaji. Ove informacije će se koristiti u cijelom Home Assistant da vam pomogne u organizaciji sučelja, dopuštenja i integracija s drugim sustavima.",
+                        "introduction": "Područja se koriste za organiziranje gdje su uređaji. Ove informacije će se koristiti u cijelom 牧养犬 da vam pomogne u organizaciji sučelja, dopuštenja i integracija s drugim sustavima.",
                         "introduction2": "Da biste postavili uređaje u neko područje, pomoću donje veze idite na stranicu s integracijama, a zatim kliknite na konfiguriranu integraciju da biste došli do kartica uređaja.",
                         "integrations_page": "Stranica integracija",
                         "no_areas": "Izgleda da još nemaš područja!",
@@ -752,8 +752,8 @@
                     "picker": {
                         "header": "Registar entiteta",
                         "unavailable": "(Nije dostupan)",
-                        "introduction": "Home Assistant drži registar svakog entiteta koji je ikada vidio da se može jedinstveno identificirati. Svaki od tih entiteta imat će dodijeljeni ID entiteta koji će biti rezerviran za samo ovaj entitet.",
-                        "introduction2": "Koristite registar entiteta da biste nadjačali naziv, promijenili ID entiteta ili uklonili stavku iz Home Assistant. Napomena, uklanjanjem unosa registra entiteta neće se ukloniti entitet. Da biste to učinili, slijedite donju vezu i uklonite je s stranice integracije.",
+                        "introduction": "牧养犬 drži registar svakog entiteta koji je ikada vidio da se može jedinstveno identificirati. Svaki od tih entiteta imat će dodijeljeni ID entiteta koji će biti rezerviran za samo ovaj entitet.",
+                        "introduction2": "Koristite registar entiteta da biste nadjačali naziv, promijenili ID entiteta ili uklonili stavku iz 牧养犬. Napomena, uklanjanjem unosa registra entiteta neće se ukloniti entitet. Da biste to učinili, slijedite donju vezu i uklonite je s stranice integracije.",
                         "integrations_page": "Stranica integracija"
                     },
                     "editor": {
@@ -763,12 +763,12 @@
                         "update": "AŽURIRANJE",
                         "enabled_label": "Aktiviraj entitet",
                         "enabled_cause": "Deaktivirano zbog {cause}.",
-                        "enabled_description": "Onemogućeni entiteti neće biti dodani u Home Assistant."
+                        "enabled_description": "Onemogućeni entiteti neće biti dodani u 牧养犬."
                     }
                 },
                 "person": {
                     "caption": "Osobe",
-                    "description": "Upravljajte osobama koje Home Assistant prati.",
+                    "description": "Upravljajte osobama koje 牧养犬 prati.",
                     "detail": {
                         "name": "Ime",
                         "device_tracker_intro": "Odaberite uređaje koji pripadaju ovoj osobi.",
@@ -778,7 +778,7 @@
                 },
                 "server_control": {
                     "caption": "Upravljanje poslužiteljem",
-                    "description": "Ponovo pokrenite i zaustavite Home Assistant poslužitelj",
+                    "description": "Ponovo pokrenite i zaustavite 牧养犬 poslužitelj",
                     "section": {
                         "validation": {
                             "heading": "Provjera konfiguracije",
@@ -789,7 +789,7 @@
                         },
                         "reloading": {
                             "heading": "Ponovno učitavanje konfiguracije",
-                            "introduction": "Neki dijelovi programa Home Assistant mogu se ponovno učitati bez potrebe za ponovnim pokretanjem. Pritiskom na ponovno učitavanje učitava se nova konfiguracija.",
+                            "introduction": "Neki dijelovi programa 牧养犬 mogu se ponovno učitati bez potrebe za ponovnim pokretanjem. Pritiskom na ponovno učitavanje učitava se nova konfiguracija.",
                             "core": "Ponovno učitavanje jezgre",
                             "group": "Ponovno učitavanje grupa",
                             "automation": "Ponovo učitavanje automatizacija",
@@ -798,10 +798,10 @@
                         },
                         "server_management": {
                             "heading": "Upravljanje poslužiteljem",
-                            "introduction": "Kontrolirajte vaš Home Assistant server ... iz Home Assistant.",
+                            "introduction": "Kontrolirajte vaš 牧养犬 server ... iz 牧养犬.",
                             "restart": "Ponovno pokretanje",
                             "stop": "Stop",
-                            "confirm_restart": "Jeste li sigurni da želite ponovo pokrenuti Home Assistant?",
+                            "confirm_restart": "Jeste li sigurni da želite ponovo pokrenuti 牧养犬?",
                             "confirm_stop": "Jeste li sigurni da želite zaustaviti Home Assostant?"
                         }
                     }
@@ -844,7 +844,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokeni dugog življenja",
-                    "description": "Izradite dugotrajne tokene za pristup kako biste omogućili da vaše skripte stupaju u interakciju sa vašim primjerom Home Assistant-a. Svaki token će vrijediti 10 godina od stvaranja.  Sljedeći tokeni dugogodišnjeg pristupa su trenutno aktivni",
+                    "description": "Izradite dugotrajne tokene za pristup kako biste omogućili da vaše skripte stupaju u interakciju sa vašim primjerom 牧养犬-a. Svaki token će vrijediti 10 godina od stvaranja.  Sljedeći tokeni dugogodišnjeg pristupa su trenutno aktivni",
                     "learn_auth_requests": "Saznajte kako obaviti provjeru autentičnosti zahtjeva.",
                     "created_at": "Izrađeno na {date}",
                     "confirm_delete": "Jeste li sigurni da želite izbrisati pristupni token za {name} ?",
@@ -888,7 +888,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicijalizacija",
-                "authorizing_client": "Dati ćete {clientId} pristup svojoj instanci pomoćnika Home Assistant.",
+                "authorizing_client": "Dati ćete {clientId} pristup svojoj instanci pomoćnika 牧养犬.",
                 "logging_in_with": "Prijavite se sa **{authProviderName}**.",
                 "pick_auth_provider": "Ili se prijavite sa",
                 "abort_intro": "Prijava je prekinuta",
@@ -1000,12 +1000,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Uređaji i usluge predstavljeni su u programu Home Assistant kao integracije. Možete ih postaviti sada ili to učiniti kasnije s zaslona konfiguracije.",
+                    "intro": "Uređaji i usluge predstavljeni su u programu 牧养犬 kao integracije. Možete ih postaviti sada ili to učiniti kasnije s zaslona konfiguracije.",
                     "more_integrations": "Više",
                     "finish": "Završi"
                 },
                 "core-config": {
-                    "intro": "Pozdrav {name}, dobrodošli u Home Assistant. Kako biste željeli nazvati svoj dom?",
+                    "intro": "Pozdrav {name}, dobrodošli u 牧养犬. Kako biste željeli nazvati svoj dom?",
                     "intro_location": "Željeli bismo znati gdje živite. Te će informacije pomoći pri prikazivanju informacija i postavljanju automatizacije na temelju sunca. Ti se podaci nikada ne dijele izvan vaše mreže.",
                     "intro_location_detect": "Možemo vam pomoći da ispunite ove informacije tako što ćete napraviti jedan zahtjev na vanjsku uslugu.",
                     "location_name_default": "Dom",
@@ -1048,7 +1048,7 @@
                     "migrate": {
                         "header": "Konfiguracija nije kompatibilna",
                         "para_no_id": "Ovaj element nema ID. Dodajte ID ovom elementu u 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant može dodati ID-ove na sve vaše kartice i pogleda automatski za vas pritiskom na gumb 'Migriraj konfiguriranje'.",
+                        "para_migrate": "牧养犬 može dodati ID-ove na sve vaše kartice i pogleda automatski za vas pritiskom na gumb 'Migriraj konfiguriranje'.",
                         "migrate": "Migriraj konfiguraciju"
                     },
                     "header": "Uredi UI",
@@ -1060,7 +1060,7 @@
                     },
                     "save_config": {
                         "header": "Preuzmite kontrolu nad Lovelace UI",
-                        "para": "Home Assistant će prema zadanim postavkama održavati vaše korisničko sučelje, ažurirati ga kada novi entiteti ili Lovelace komponente postanu dostupni. Ako preuzmete kontrolu, više nećemo automatski vršiti izmjene za vas.",
+                        "para": "牧养犬 će prema zadanim postavkama održavati vaše korisničko sučelje, ažurirati ga kada novi entiteti ili Lovelace komponente postanu dostupni. Ako preuzmete kontrolu, više nećemo automatski vršiti izmjene za vas.",
                         "para_sure": "Jeste li sigurni da želite preuzeti kontrolu nad svojim korisničkim sučeljem?",
                         "cancel": "Nema veze",
                         "save": "Preuzmi kontrolu"
@@ -1100,8 +1100,8 @@
                     "demo": {
                         "demo_by": "od {name}",
                         "next_demo": "Sljedeći demo",
-                        "introduction": "Dobrodošli kući! Stigli ste do Home Assistant demo gdje prikazujemo najbolja korisnička sučelja koje je kreirala naša zajednica.",
-                        "learn_more": "Saznajte više o Home Assistant"
+                        "introduction": "Dobrodošli kući! Stigli ste do 牧养犬 demo gdje prikazujemo najbolja korisnička sučelja koje je kreirala naša zajednica.",
+                        "learn_more": "Saznajte više o 牧养犬"
                     }
                 },
                 "config": {
@@ -1343,7 +1343,7 @@
             "config_entry_system_options": {
                 "title": "Mogućnosti sustava",
                 "enable_new_entities_label": "Aktiviraj novododane entitete.",
-                "enable_new_entities_description": "Ako nije aktivno, novootkriveni entiteti neće biti automatski dodani u Home Assistant."
+                "enable_new_entities_description": "Ako nije aktivno, novootkriveni entiteti neće biti automatski dodani u 牧养犬."
             },
             "zha_device_info": {
                 "manuf": "od {manufacturer}",
@@ -1410,7 +1410,7 @@
         "vacuum": "Vakuum",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Zdravlje sustava",
         "person": "Osoba"

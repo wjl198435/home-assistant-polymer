@@ -349,8 +349,8 @@
                 "delete_button": "Izbriši"
             },
             "config": {
-                "header": "Konfiguriraj Home Assistant",
-                "introduction": "Tukaj je mogoče konfigurirati vaše komponente in Home Assistanta. Vsega ni mogoče konfigurirati iz uporabniškega vmesnika (vendar delamo na tem).",
+                "header": "Konfiguriraj 牧养犬",
+                "introduction": "Tukaj je mogoče konfigurirati vaše komponente in 牧养犬a. Vsega ni mogoče konfigurirati iz uporabniškega vmesnika (vendar delamo na tem).",
                 "core": {
                     "caption": "Splošno",
                     "description": "Preverite vašo konfiguracijo in nadzorujte strežnik",
@@ -360,7 +360,7 @@
                             "introduction": "Spreminjanje konfiguracije je lahko zapleten proces. Vemo. Ta del bo poskušal narediti vaše življenje malo lažje.",
                             "core_config": {
                                 "edit_requires_storage": "Urejevalnik je onemogočen, ker je konfiguracija shranjena v configuration.yaml.",
-                                "location_name": "Ime vašega instalacije vašega Home Assistant-a.",
+                                "location_name": "Ime vašega instalacije vašega 牧养犬-a.",
                                 "latitude": "Zemljepisna širina",
                                 "longitude": "Zemljepisna dolžina",
                                 "elevation": "Nadmorska višina",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Ponovno nalaganje konfiguracije",
-                                "introduction": "Nekateri deli Home Assistanta se lahko znova naložijo brez potrebe po ponovnem zagonu. S pritiskom na \"ponovno naloži\" se bo naložila nova konfiguracija",
+                                "introduction": "Nekateri deli 牧养犬a se lahko znova naložijo brez potrebe po ponovnem zagonu. S pritiskom na \"ponovno naloži\" se bo naložila nova konfiguracija",
                                 "core": "Ponovno naloži jedro",
                                 "group": "Ponovno naloži skupine",
                                 "automation": "Ponovno naloži avtomizacije",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Upravljanje strežnika",
-                                "introduction": "Nadzirajte strežnik Home Assistant ... iz Home Assistanta",
+                                "introduction": "Nadzirajte strežnik 牧养犬 ... iz 牧养犬a",
                                 "restart": "Ponovni zagon",
                                 "stop": "Ustavi"
                             }
@@ -412,7 +412,7 @@
                     "description": "Ustvarite in uredite avtomatizacije",
                     "picker": {
                         "header": "Urejevalnik avtomatizacije",
-                        "introduction": "Urejevalnik za avtomatizacijo vam omogoča ustvarjanje in urejanje avtomatizacij. Prosimo, da preberete [navodila] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), da preverite, ali ste pravilno nastavili Home Assistant-a.",
+                        "introduction": "Urejevalnik za avtomatizacijo vam omogoča ustvarjanje in urejanje avtomatizacij. Prosimo, da preberete [navodila] (https:\/\/home-assistant.io\/docs\/automation\/editor\/), da preverite, ali ste pravilno nastavili 牧养犬-a.",
                         "pick_automation": "Izberite avtomatizacijo za urejanje",
                         "no_automations": "Ne moremo najti nobene avtomatizacije za urejanje",
                         "add_automation": "Dodaj avtomatizacijo",
@@ -426,7 +426,7 @@
                         "alias": "Ime",
                         "triggers": {
                             "header": "Sprožilci",
-                            "introduction": "Sprožilci so tisto, kar začne postopek obdelave avtomatizacije pravila. Za isto pravilo je mogoče določiti več sprožilcev. Ko se začne sprožilec, bo Home Assistant potrdil pogoje, če so, in poklical dejanje. \n\n [Več o sprožilcih.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Sprožilci so tisto, kar začne postopek obdelave avtomatizacije pravila. Za isto pravilo je mogoče določiti več sprožilcev. Ko se začne sprožilec, bo 牧养犬 potrdil pogoje, če so, in poklical dejanje. \n\n [Več o sprožilcih.] (Https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Dodaj sprožilec",
                             "duplicate": "Podvoji",
                             "delete": "Izbriši",
@@ -446,7 +446,7 @@
                                     "for": "Za"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Dogodek:",
                                     "start": "Zagon",
                                     "shutdown": "Zaustavitev"
@@ -566,7 +566,7 @@
                         },
                         "actions": {
                             "header": "Akcije",
-                            "introduction": "Akcije so, kaj bo storil Home Assistant, ko se sproži avtomatizacija. \n\n [Več o dejavnostih.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Akcije so, kaj bo storil 牧养犬, ko se sproži avtomatizacija. \n\n [Več o dejavnostih.] (Https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Dodaj akcijo",
                             "duplicate": "Podvoji",
                             "delete": "Izbriši",
@@ -684,7 +684,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Prijavljen kot {email}",
                     "description_not_login": "Niste prijavljeni",
                     "description_features": "Imejte nadzor nad domom tudi, ko vas ni doma, povežite z Alexa in Google Asistentom."
@@ -701,7 +701,7 @@
                         "no_devices": "Ta integracija je brez naprav.",
                         "no_device": "Entitete brez naprav",
                         "delete_confirm": "Ali ste prepričani, da želite izbrisati to integracijo?",
-                        "restart_confirm": "Znova zaženite Home Assistant-a, da dokončate odstranitev te integracije",
+                        "restart_confirm": "Znova zaženite 牧养犬-a, da dokončate odstranitev te integracije",
                         "manuf": "po {manufacturer}",
                         "via": "Povezan prek",
                         "firmware": "Firmware: {version}",
@@ -741,7 +741,7 @@
                     "description": "Pregled vseh območij v vašem domu.",
                     "picker": {
                         "header": "Register območij",
-                        "introduction": "Področja se uporabljajo za organizacijo področja naprav. Te informacije bodo uporabljene v celotnem Home Assistant-u in vam bodo pomagale pri organizaciji vašega vmesnika, dovoljenj in integracij z drugimi sistemi.",
+                        "introduction": "Področja se uporabljajo za organizacijo področja naprav. Te informacije bodo uporabljene v celotnem 牧养犬-u in vam bodo pomagale pri organizaciji vašega vmesnika, dovoljenj in integracij z drugimi sistemi.",
                         "introduction2": "Če želite namestiti napravo na območje, uporabite spodnjo povezavo, da se pomaknete na stran za integracije, nato pa kliknite konfigurirano integracijo, da pridete do kartic naprave.",
                         "integrations_page": "Stran za integracije",
                         "no_areas": "Izgleda, da še nimate območij!",
@@ -762,7 +762,7 @@
                     "picker": {
                         "header": "Seznam entitet",
                         "unavailable": "(ni na voljo)",
-                        "introduction": "Home Assistant vodi register vseh entitet, ki jih je kdajkoli videl in jih je mogoče enolično identificirati. Vsak od teh entitet ima dodeljen ID entitete, ki bo rezerviran samo za to entiteto.",
+                        "introduction": "牧养犬 vodi register vseh entitet, ki jih je kdajkoli videl in jih je mogoče enolično identificirati. Vsak od teh entitet ima dodeljen ID entitete, ki bo rezerviran samo za to entiteto.",
                         "introduction2": "Z registrom entitet preglasite ime, spremenite ID entitete ali odstranite vnos iz Home Assistent-a. Opomba, odstranitev vnosa registra entitet ne bo odstranila entitete. Če želite to narediti, sledite spodnji povezavi in jo odstranite s strani za integracijo.",
                         "integrations_page": "Stran za integracije",
                         "show_disabled": "Pokaži onemogočene subjekte"
@@ -774,14 +774,14 @@
                         "update": "POSODOBITEV",
                         "enabled_label": "Omogoči entiteto",
                         "enabled_cause": "Onemogočeno zaradi {cause}.",
-                        "enabled_description": "Onemogočeni subjekti ne bodo dodani v Home Assistant-a.",
+                        "enabled_description": "Onemogočeni subjekti ne bodo dodani v 牧养犬-a.",
                         "confirm_delete": "Ali ste prepričani, da želite izbrisati ta vnos?",
-                        "confirm_delete2": "Če izbrišete vnos, entiteta ne bo odstranjena iz programa Home Assistant. Če želite to narediti, boste morali odstraniti integracijo '{platform}' iz programa Home Assistant."
+                        "confirm_delete2": "Če izbrišete vnos, entiteta ne bo odstranjena iz programa 牧养犬. Če želite to narediti, boste morali odstraniti integracijo '{platform}' iz programa 牧养犬."
                     }
                 },
                 "person": {
                     "caption": "Osebe",
-                    "description": "Upravljajte osebe, ki jih sledi Home Assistant.",
+                    "description": "Upravljajte osebe, ki jih sledi 牧养犬.",
                     "detail": {
                         "name": "Ime",
                         "device_tracker_intro": "Izberite naprave, ki pripadajo tej osebi.",
@@ -791,7 +791,7 @@
                 },
                 "server_control": {
                     "caption": "Nadzor strežnika",
-                    "description": "Znova zaženite in ustavite strežnik Home Assistant",
+                    "description": "Znova zaženite in ustavite strežnik 牧养犬",
                     "section": {
                         "validation": {
                             "heading": "Preverjanje konfiguracije",
@@ -802,7 +802,7 @@
                         },
                         "reloading": {
                             "heading": "Ponovno nalaganje konfiguracije",
-                            "introduction": "Nekateri deli Home Assistanta se lahko znova naložijo brez potrebe po ponovnem zagonu. S pritiskom na \"ponovno naloži\" se bo naložila nova konfiguracija",
+                            "introduction": "Nekateri deli 牧养犬a se lahko znova naložijo brez potrebe po ponovnem zagonu. S pritiskom na \"ponovno naloži\" se bo naložila nova konfiguracija",
                             "core": "Ponovno naloži jedro",
                             "group": "Ponovno naloži skupine",
                             "automation": "Ponovno naloži avtomatizacije",
@@ -811,11 +811,11 @@
                         },
                         "server_management": {
                             "heading": "Upravljanje strežnika",
-                            "introduction": "Nadzirajte strežnik Home Assistant ... iz Home Assistant-a",
+                            "introduction": "Nadzirajte strežnik 牧养犬 ... iz 牧养犬-a",
                             "restart": "Ponovni zagon",
                             "stop": "Ustavi",
-                            "confirm_restart": "Ali ste prepričani, da želite znova zagnati Home Assistant-a?",
-                            "confirm_stop": "Ali ste prepričani, da želite ustaviti Home Assistant-a?"
+                            "confirm_restart": "Ali ste prepričani, da želite znova zagnati 牧养犬-a?",
+                            "confirm_stop": "Ali ste prepričani, da želite ustaviti 牧养犬-a?"
                         }
                     }
                 },
@@ -868,7 +868,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Dolgotrajni dostopni žetoni",
-                    "description": "Ustvarite dolgožive žetone dostopa, s katerimi lahko skripte komunicirajo z vašim primerkom Home Assistanta. Vsak žeton bo veljaven 10 let od nastanka. Trenutno so aktivni naslednji dolgotrajni dostopni žetoni.",
+                    "description": "Ustvarite dolgožive žetone dostopa, s katerimi lahko skripte komunicirajo z vašim primerkom 牧养犬a. Vsak žeton bo veljaven 10 let od nastanka. Trenutno so aktivni naslednji dolgotrajni dostopni žetoni.",
                     "learn_auth_requests": "Naučite se, kako naredite preverjene zahteve.",
                     "created_at": "Ustvarjen na {date}",
                     "confirm_delete": "Ali ste prepričani, da želite izbrisati žeton za dostop za {name} ?",
@@ -916,7 +916,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializacija",
-                "authorizing_client": "Dali boste {clientId} dostop do vašega Home Assistanta.",
+                "authorizing_client": "Dali boste {clientId} dostop do vašega 牧养犬a.",
                 "logging_in_with": "Prijava z **{authProviderName}**.",
                 "pick_auth_provider": "Ali se prijavite z",
                 "abort_intro": "Prijava prekinjena",
@@ -1028,12 +1028,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Naprave in storitve so v Home Assistantu predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
+                    "intro": "Naprave in storitve so v 牧养犬u predstavljene kot integracije. Zdaj jih lahko nastavite ali pa to storite kasneje iz konfiguracijske strani.",
                     "more_integrations": "Več",
                     "finish": "Dokončaj"
                 },
                 "core-config": {
-                    "intro": "Pozdravljeni {name}, dobrodošli v Home Assistantu. Kako bi radi poimenovali vaš dom?",
+                    "intro": "Pozdravljeni {name}, dobrodošli v 牧养犬u. Kako bi radi poimenovali vaš dom?",
                     "intro_location": "Radi bi vedeli, kje živite. Te informacije vam bodo pomagale pri prikazovanju informacij in postavitvi avtomatizacij, ki temeljijo na soncu. Ti podatki se nikoli ne delijo izven vašega omrežja.",
                     "intro_location_detect": "Lahko vam pomagamo izpolniti te informacije z enkratno zahtevo za zunanjo storitev.",
                     "location_name_default": "Dom",
@@ -1077,7 +1077,7 @@
                     "migrate": {
                         "header": "Konfiguracija Nezdružljiva",
                         "para_no_id": "Ta element nima ID-ja. Prosimo, dodajte ID tega elementa v 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant lahko doda ID-je vsem vašim karticam in pogledom samodejno s pritiskom gumba »Migriraj nastavitve«.",
+                        "para_migrate": "牧养犬 lahko doda ID-je vsem vašim karticam in pogledom samodejno s pritiskom gumba »Migriraj nastavitve«.",
                         "migrate": "Migriraj nastavitve"
                     },
                     "header": "Uredi UI",
@@ -1089,7 +1089,7 @@
                     },
                     "save_config": {
                         "header": "Prevzemite nadzor nad lovelace vmesnikom",
-                        "para": "Home Assistant bo privzeto vzdrževal vaš uporabniški vmesnik, ga posodabljal, ko bodo na voljo nove entitete ali komponente Lovelace. Če prevzamete nadzor, vam ga ne bo več samodejno popravljal.",
+                        "para": "牧养犬 bo privzeto vzdrževal vaš uporabniški vmesnik, ga posodabljal, ko bodo na voljo nove entitete ali komponente Lovelace. Če prevzamete nadzor, vam ga ne bo več samodejno popravljal.",
                         "para_sure": "Ali ste prepričani, da želite prevzeti nadzor nad vašim vmesnikom?",
                         "cancel": "Pozabi",
                         "save": "Prevzemite nadzor"
@@ -1189,8 +1189,8 @@
                     "demo": {
                         "demo_by": "avtor: {name}",
                         "next_demo": "Naslednja predstavitev",
-                        "introduction": "Dobrodošli doma! Dosegli ste predstavitev Home Assistant-a, kjer smo predstavili najboljše uporabniške vmesnike, ki jih je ustvarila naša skupnost.",
-                        "learn_more": "Več o Home Assistant-u"
+                        "introduction": "Dobrodošli doma! Dosegli ste predstavitev 牧养犬-a, kjer smo predstavili najboljše uporabniške vmesnike, ki jih je ustvarila naša skupnost.",
+                        "learn_more": "Več o 牧养犬-u"
                     }
                 },
                 "config": {
@@ -1432,7 +1432,7 @@
             "config_entry_system_options": {
                 "title": "Sistemske možnosti",
                 "enable_new_entities_label": "Omogočite novo dodane subjekte.",
-                "enable_new_entities_description": "Če je onemogočeno, novo odkrite entitete ne bodo samodejno dodane v Home Assistant."
+                "enable_new_entities_description": "Če je onemogočeno, novo odkrite entitete ne bodo samodejno dodane v 牧养犬."
             },
             "zha_device_info": {
                 "manuf": "naredil: {manufacturer}",
@@ -1499,7 +1499,7 @@
         "vacuum": "Sesam",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Zdravje sistema",
         "person": "Oseba"

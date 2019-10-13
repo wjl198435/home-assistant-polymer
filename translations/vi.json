@@ -345,8 +345,8 @@
                 "delete_button": "Xóa"
             },
             "config": {
-                "header": "Cấu hình Home Assistant",
-                "introduction": "Ở đây có thể định cấu hình các thành phần của bạn và Home Assistant. Không phải mọi thứ đều có thể được cấu hình từ giao diện người dùng, nhưng chúng tôi đang cải thiện việc đó.",
+                "header": "Cấu hình 牧养犬",
+                "introduction": "Ở đây có thể định cấu hình các thành phần của bạn và 牧养犬. Không phải mọi thứ đều có thể được cấu hình từ giao diện người dùng, nhưng chúng tôi đang cải thiện việc đó.",
                 "core": {
                     "caption": "Tổng quát",
                     "description": "Xác nhận tập tin cấu hình của bạn và kiểm soát máy chủ",
@@ -356,7 +356,7 @@
                             "introduction": "Thay đổi cấu hình của bạn có thể là một quá trình mệt mỏi. Chúng tôi biết. Phần này sẽ cố gắng làm cho việc đó dễ dàng hơn.",
                             "core_config": {
                                 "edit_requires_storage": "Trình chỉnh sửa bị vô hiệu hóa do cấu hình được lưu trữ trong configuration.yaml.",
-                                "location_name": "Tên cài đặt Home Assistant của bạn",
+                                "location_name": "Tên cài đặt 牧养犬 của bạn",
                                 "latitude": "Vĩ độ",
                                 "longitude": "Kinh độ",
                                 "elevation": "Độ cao",
@@ -380,7 +380,7 @@
                             },
                             "reloading": {
                                 "heading": "Nạp lại Cấu hình",
-                                "introduction": "Một số phần của Home Assistant có thể tải lại mà không yêu cầu khởi động lại. Nhấn nút tải lại sẽ gỡ bỏ cấu hình hiện tại của nó và tải một cấu hình mới.",
+                                "introduction": "Một số phần của 牧养犬 có thể tải lại mà không yêu cầu khởi động lại. Nhấn nút tải lại sẽ gỡ bỏ cấu hình hiện tại của nó và tải một cấu hình mới.",
                                 "core": "Tải lại lõi",
                                 "group": "Tải lại nhóm",
                                 "automation": "Tải lại Tự động hóa",
@@ -388,7 +388,7 @@
                             },
                             "server_management": {
                                 "heading": "Quản lý máy chủ",
-                                "introduction": "Kiểm soát máy chủ Home Assistant của bạn từ Home Assistant.",
+                                "introduction": "Kiểm soát máy chủ 牧养犬 của bạn từ 牧养犬.",
                                 "restart": "Khởi động lại",
                                 "stop": "Dừng"
                             }
@@ -408,7 +408,7 @@
                     "description": "Tạo và chỉnh sửa Tự động hóa",
                     "picker": {
                         "header": "Trình biên tập tự động hóa",
-                        "introduction": "Trình soạn thảo tự động hóa cho phép bạn tạo và chỉnh sửa tự động. Vui lòng đọc [hướng dẫn] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) để đảm bảo rằng bạn đã cấu hình chính xác Home Assistant.",
+                        "introduction": "Trình soạn thảo tự động hóa cho phép bạn tạo và chỉnh sửa tự động. Vui lòng đọc [hướng dẫn] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) để đảm bảo rằng bạn đã cấu hình chính xác 牧养犬.",
                         "pick_automation": "Chọn tự động hóa để chỉnh sửa",
                         "no_automations": "Chúng tôi không thể tìm thấy tự động hóa nào có thể chỉnh sửa",
                         "add_automation": "Thêm Tự động hóa",
@@ -422,7 +422,7 @@
                         "alias": "Tên",
                         "triggers": {
                             "header": "Bộ khởi động",
-                            "introduction": "Bộ khởi động là bắt đầu quá trình xử lý quy tắc tự động hóa. Có thể chỉ định nhiều Bộ khởi động cho cùng một quy tắc. Khi kích hoạt một bộ khởi động, Home Assistant  sẽ xác nhận các điều kiện, nếu có, và gọi hành động. \n\n [Tìm hiểu thêm về Bộ khởi động] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Bộ khởi động là bắt đầu quá trình xử lý quy tắc tự động hóa. Có thể chỉ định nhiều Bộ khởi động cho cùng một quy tắc. Khi kích hoạt một bộ khởi động, 牧养犬  sẽ xác nhận các điều kiện, nếu có, và gọi hành động. \n\n [Tìm hiểu thêm về Bộ khởi động] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Thêm Bộ khởi động",
                             "duplicate": "Bản sao",
                             "delete": "Xoá",
@@ -442,7 +442,7 @@
                                     "for": "Cho"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Sự kiện:",
                                     "start": "Bắt đầu",
                                     "shutdown": "Tắt"
@@ -550,7 +550,7 @@
                         },
                         "actions": {
                             "header": "Hành động",
-                            "introduction": "Hành động là những gì Home Assistant sẽ làm khi tự động hóa được kích hoạt. \n\n [Tìm hiểu thêm về các hành động.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Hành động là những gì 牧养犬 sẽ làm khi tự động hóa được kích hoạt. \n\n [Tìm hiểu thêm về các hành động.] (https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Thêm hành động",
                             "duplicate": "Nhân đôi",
                             "delete": "Xoá",
@@ -633,7 +633,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Đã đăng nhập với tên {email}",
                     "description_not_login": "Chưa đăng nhập"
                 },
@@ -649,7 +649,7 @@
                         "no_devices": "Bộ tích hợp này chưa có thiết bị nào",
                         "no_device": "Các mục không có thiết bị",
                         "delete_confirm": "Bạn chắc chắn muốn xóa bộ tích hợp này?",
-                        "restart_confirm": "Khởi động lại Home Assistant để hoàn tất xóa bộ tích hợp này",
+                        "restart_confirm": "Khởi động lại 牧养犬 để hoàn tất xóa bộ tích hợp này",
                         "manuf": "bởi {manufacturer}",
                         "via": "Đã kết nối qua",
                         "firmware": "Firmware: {version}",
@@ -677,7 +677,7 @@
                     "description": "Tổng quan tất cả các khu vực trong nhà bạn.",
                     "picker": {
                         "header": "Đăng ký Khu vực",
-                        "introduction": "Các khu vực được sử dụng để phân loại các thiết bị. Thông tin này sẽ được sử dụng trong toàn bộ Home Assistant để giúp bạn tổ chức giao diện, quyền và tích hợp với các hệ thống khác.",
+                        "introduction": "Các khu vực được sử dụng để phân loại các thiết bị. Thông tin này sẽ được sử dụng trong toàn bộ 牧养犬 để giúp bạn tổ chức giao diện, quyền và tích hợp với các hệ thống khác.",
                         "introduction2": "Để đặt các thiết bị trong một khu vực, hãy sử dụng liên kết bên dưới để điều hướng đến trang tích hợp và sau đó nhấp vào tích hợp được định cấu hình để truy cập vào thẻ thiết bị.",
                         "integrations_page": "Trang tích hợp",
                         "no_areas": "Hình như bạn chưa có Khu vực nào!",
@@ -698,8 +698,8 @@
                     "picker": {
                         "header": "Đăng ký thực thể",
                         "unavailable": "(không có sẵn)",
-                        "introduction": "Home Assistant giữ một sổ đăng ký của mọi thực thể mà nó từng thấy có thể được xác định duy nhất. Mỗi thực thể này sẽ có một ID thực thể được gán sẽ chỉ dành riêng cho thực thể này.",
-                        "introduction2": "Sử dụng sổ đăng ký thực thể để ghi đè tên, thay đổi ID thực thể hoặc xóa mục nhập khỏi Home Assistant. Lưu ý, xóa mục đăng ký thực thể sẽ không xóa thực thể. Để làm điều đó, hãy theo liên kết dưới đây và xóa nó khỏi trang tích hợp.",
+                        "introduction": "牧养犬 giữ một sổ đăng ký của mọi thực thể mà nó từng thấy có thể được xác định duy nhất. Mỗi thực thể này sẽ có một ID thực thể được gán sẽ chỉ dành riêng cho thực thể này.",
+                        "introduction2": "Sử dụng sổ đăng ký thực thể để ghi đè tên, thay đổi ID thực thể hoặc xóa mục nhập khỏi 牧养犬. Lưu ý, xóa mục đăng ký thực thể sẽ không xóa thực thể. Để làm điều đó, hãy theo liên kết dưới đây và xóa nó khỏi trang tích hợp.",
                         "integrations_page": "Trang tích hợp"
                     },
                     "editor": {
@@ -711,7 +711,7 @@
                 },
                 "person": {
                     "caption": "Người",
-                    "description": "Quản lý những người mà Home Assistant theo dõi.",
+                    "description": "Quản lý những người mà 牧养犬 theo dõi.",
                     "detail": {
                         "name": "Tên",
                         "device_tracker_intro": "Chọn các thiết bị thuộc về người này.",
@@ -721,7 +721,7 @@
                 },
                 "server_control": {
                     "caption": "Điều khiển máy chủ",
-                    "description": "Khởi động lại và dừng máy chủ Home Assistant",
+                    "description": "Khởi động lại và dừng máy chủ 牧养犬",
                     "section": {
                         "validation": {
                             "heading": "Xác nhận cấu hình",
@@ -732,7 +732,7 @@
                         },
                         "reloading": {
                             "heading": "Nạp lại Cấu hình",
-                            "introduction": "Một số phần của Home Assistant có thể tải lại mà không yêu cầu khởi động lại. Nhấn nút tải lại sẽ gỡ bỏ cấu hình hiện tại của nó và tải một cấu hình mới.",
+                            "introduction": "Một số phần của 牧养犬 có thể tải lại mà không yêu cầu khởi động lại. Nhấn nút tải lại sẽ gỡ bỏ cấu hình hiện tại của nó và tải một cấu hình mới.",
                             "core": "Tải lại lõi",
                             "group": "Tải lại nhóm",
                             "automation": "Tải lại Tự động hóa",
@@ -740,7 +740,7 @@
                         },
                         "server_management": {
                             "heading": "Quản lý máy chủ",
-                            "introduction": "Kiểm soát máy chủ Home Assistant của bạn từ Home Assistant.",
+                            "introduction": "Kiểm soát máy chủ 牧养犬 của bạn từ 牧养犬.",
                             "restart": "Khởi động lại",
                             "stop": "Dừng"
                         }
@@ -780,7 +780,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Token truy cập thời hạn dài",
-                    "description": "Tạo mã truy cập tồn tại lâu dài để cho phép script của bạn tương tác với Home assistant. Mỗi mã truy cập sẽ có hiệu lực trong 10 năm kể từ khi tạo. Các mã truy cập hiện đang hoạt động được thể hiện trong danh sách sau.",
+                    "description": "Tạo mã truy cập tồn tại lâu dài để cho phép script của bạn tương tác với 牧养犬. Mỗi mã truy cập sẽ có hiệu lực trong 10 năm kể từ khi tạo. Các mã truy cập hiện đang hoạt động được thể hiện trong danh sách sau.",
                     "learn_auth_requests": "Làm thế nào để thực hiện yêu cầu xác thực.",
                     "created_at": "Được tạo lúc {date}",
                     "confirm_delete": "Bạn có chắn chắn muốn xóa token truy cập {name}?",
@@ -824,7 +824,7 @@
             },
             "page-authorize": {
                 "initializing": "Đang khởi tạo",
-                "authorizing_client": "Bạn sắp cấp quyền cho {clientId} truy cập vào Home Assistant của bạn.",
+                "authorizing_client": "Bạn sắp cấp quyền cho {clientId} truy cập vào 牧养犬 của bạn.",
                 "logging_in_with": "Đăng nhập bằng **{authProviderName}**.",
                 "pick_auth_provider": "Hoặc đăng nhập bằng",
                 "abort_intro": "Đã hủy đăng nhập",
@@ -936,12 +936,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Các thiết bị và dịch vụ được trình bày trong Home Assistant dưới dạng tích hợp. Bạn có thể thiết lập chúng ngay bây giờ hoặc thực hiện sau từ màn hình Cấu hình.",
+                    "intro": "Các thiết bị và dịch vụ được trình bày trong 牧养犬 dưới dạng tích hợp. Bạn có thể thiết lập chúng ngay bây giờ hoặc thực hiện sau từ màn hình Cấu hình.",
                     "more_integrations": "Thêm",
                     "finish": "Hoàn thành"
                 },
                 "core-config": {
-                    "intro": "Xin chào {name} , chào mừng bạn đến với Home Assistant. Bạn muốn đặt tên nhà của bạn thế nào?",
+                    "intro": "Xin chào {name} , chào mừng bạn đến với 牧养犬. Bạn muốn đặt tên nhà của bạn thế nào?",
                     "intro_location": "Chúng tôi muốn biết nơi bạn sống. Thông tin này sẽ giúp hiển thị thông tin và thiết lập tự động dựa trên mặt trời. Dữ liệu này không bao giờ được chia sẻ bên ngoài mạng của bạn.",
                     "intro_location_detect": "Chúng tôi có thể giúp bạn điền thông tin này bằng cách yêu cầu một lần cho dịch vụ bên ngoài.",
                     "location_name_default": "Nhà",
@@ -984,7 +984,7 @@
                     "migrate": {
                         "header": "Cấu hình không tương thích",
                         "para_no_id": "Phần tử này không có ID. Vui lòng thêm ID vào thành phần này trong 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant có thể tự động thêm ID vào tất cả các thẻ và chế độ xem của bạn bằng cách nhấn nút 'Tích hợp cấu hình'.",
+                        "para_migrate": "牧养犬 có thể tự động thêm ID vào tất cả các thẻ và chế độ xem của bạn bằng cách nhấn nút 'Tích hợp cấu hình'.",
                         "migrate": "Di chuyển cấu hình"
                     },
                     "header": "Chỉnh sửa giao diện",
@@ -996,7 +996,7 @@
                     },
                     "save_config": {
                         "header": "Kiểm soát giao diện Lovelace của bạn",
-                        "para": "Theo mặc định, Home Assistant sẽ duy trì giao diện của bạn, cập nhật nó khi các thực thể mới hoặc các thành phần Lovelace có sẵn. Nếu bạn kiểm soát, chúng tôi sẽ không còn thay đổi tự động cho bạn nữa.",
+                        "para": "Theo mặc định, 牧养犬 sẽ duy trì giao diện của bạn, cập nhật nó khi các thực thể mới hoặc các thành phần Lovelace có sẵn. Nếu bạn kiểm soát, chúng tôi sẽ không còn thay đổi tự động cho bạn nữa.",
                         "para_sure": "Bạn có chắc chắn muốn kiểm soát giao diện của mình không?",
                         "cancel": "Đừng bận tâm",
                         "save": "Kiểm soát"
@@ -1030,7 +1030,7 @@
             "page-demo": {
                 "cards": {
                     "demo": {
-                        "learn_more": "Tìm hiểu thêm về Home Assistant"
+                        "learn_more": "Tìm hiểu thêm về 牧养犬"
                     }
                 },
                 "config": {
@@ -1282,7 +1282,7 @@
         "vacuum": "Vacuum",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Sức khỏe hệ thống",
         "person": "Người"

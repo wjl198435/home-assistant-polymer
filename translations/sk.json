@@ -349,8 +349,8 @@
                 "delete_button": "Vymazať"
             },
             "config": {
-                "header": "Konfigurovať Home Assistant",
-                "introduction": "Tu je možné konfigurovať vaše komponenty a Home Assistant. Aktuálne sa z používateľského rozhrania nedá konfigurovať všetko, ale pracujeme na tom.",
+                "header": "Konfigurovať 牧养犬",
+                "introduction": "Tu je možné konfigurovať vaše komponenty a 牧养犬. Aktuálne sa z používateľského rozhrania nedá konfigurovať všetko, ale pracujeme na tom.",
                 "core": {
                     "caption": "Všeobecné",
                     "description": "Skontrolujte Váš konfiguračný súbor a ovládajte server",
@@ -360,7 +360,7 @@
                             "introduction": "Zmena konfigurácie môže byť ťažkým procesom. My vieme. Táto sekcia sa Vám pokúsi zjednodušiť život.",
                             "core_config": {
                                 "edit_requires_storage": "Editor je zablokovaný, pretože konfigurácia je uložená v configuration.yaml",
-                                "location_name": "Názov vašej Home Assistant inštalácie",
+                                "location_name": "Názov vašej 牧养犬 inštalácie",
                                 "latitude": "Zemepisná šírka",
                                 "longitude": "Zemepisná dĺžka",
                                 "elevation": "Nadmorská výška",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Načítavanie novej konfigurácie",
-                                "introduction": "Niektoré časti aplikácie Home Assistant sa môžu načítať bez nutnosti reštartovania. Opätovným načítaním sa zahodí aktuálna konfigurácia a načíta sa nová.",
+                                "introduction": "Niektoré časti aplikácie 牧养犬 sa môžu načítať bez nutnosti reštartovania. Opätovným načítaním sa zahodí aktuálna konfigurácia a načíta sa nová.",
                                 "core": "Znovu načítať jadro",
                                 "group": "Znovu načítať skupiny",
                                 "automation": "Znovu načítať automatizácie",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Správa servera",
-                                "introduction": "Ovládajte Váš Home Assistant server... z aplikácie Home Assistant.",
+                                "introduction": "Ovládajte Váš 牧养犬 server... z aplikácie 牧养犬.",
                                 "restart": "Reštartovať",
                                 "stop": "Zastaviť"
                             }
@@ -412,7 +412,7 @@
                     "description": "Vytvárajte a upravujte automatizácie",
                     "picker": {
                         "header": "Editor automatizácií",
-                        "introduction": "Editor automatizácií vám umožňuje vytvárať a upravovať automatizácie. Prečítajte si prosím [pokyny](https:\/\/home-assistant.io\/docs\/automation\/editor\/), aby ste sa uistili, že ste nakonfigurovali Home Assistant správne.",
+                        "introduction": "Editor automatizácií vám umožňuje vytvárať a upravovať automatizácie. Prečítajte si prosím [pokyny](https:\/\/home-assistant.io\/docs\/automation\/editor\/), aby ste sa uistili, že ste nakonfigurovali 牧养犬 správne.",
                         "pick_automation": "Vyberte automatizáciu, ktorú chcete upraviť",
                         "no_automations": "Nepodarilo sa nájsť žiadne editovateľné automatizácie",
                         "add_automation": "Pridať automatizáciu",
@@ -426,7 +426,7 @@
                         "alias": "Názov",
                         "triggers": {
                             "header": "Spúšťače",
-                            "introduction": "Spúšťače spúšťajú spracovanie pravidla automatizácie. Pre rovnaké pravidlo je možné určiť viac spúšťačov. Po spustení spúšťača aplikácia Home Assistant overí prípadné podmienky a zavolá akciu. \n\n [Viac informácií o spúšťačov.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Spúšťače spúšťajú spracovanie pravidla automatizácie. Pre rovnaké pravidlo je možné určiť viac spúšťačov. Po spustení spúšťača aplikácia 牧养犬 overí prípadné podmienky a zavolá akciu. \n\n [Viac informácií o spúšťačov.](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Pridať spúšťač",
                             "duplicate": "Duplikovať",
                             "delete": "Odstrániť",
@@ -446,7 +446,7 @@
                                     "for": "Trvanie stavu"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Udalosť:",
                                     "start": "Štart",
                                     "shutdown": "Vypnutie"
@@ -566,7 +566,7 @@
                         },
                         "actions": {
                             "header": "Akcie",
-                            "introduction": "Akcie, ktoré vykoná Home Assistant, sa aktivujú po spustení automatizácie. \n\n [Viac informácií o akciách.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Akcie, ktoré vykoná 牧养犬, sa aktivujú po spustení automatizácie. \n\n [Viac informácií o akciách.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Pridať akciu",
                             "duplicate": "Duplikovať",
                             "delete": "Odstrániť",
@@ -674,7 +674,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Prihlásený ako {email}",
                     "description_not_login": "Neprihlásený",
                     "description_features": "Ovládanie mimo domova, integrácia s Alexa a Google Assistant."
@@ -691,7 +691,7 @@
                         "no_devices": "Táto integrácia nemá žiadne zariadenia.",
                         "no_device": "Entity bez zariadení",
                         "delete_confirm": "Naozaj chcete odstrániť túto integráciu?",
-                        "restart_confirm": "Ak chcete dokončiť odstránenie tejto integrácie, reštartujte Home Assistant",
+                        "restart_confirm": "Ak chcete dokončiť odstránenie tejto integrácie, reštartujte 牧养犬",
                         "manuf": "od {manufacturer}",
                         "via": "Pripojené cez",
                         "firmware": "Firmvér: {version}",
@@ -731,7 +731,7 @@
                     "description": "Prehľad všetkých oblastí vo vašej domácnosti.",
                     "picker": {
                         "header": "Register oblastí",
-                        "introduction": "Oblasti sa používajú na usporiadanie zariadení. Tieto informácie sa použijú v službe Home Assistant, aby vám pomohli pri organizovaní rozhrania, povolení a integrácií s inými systémami.",
+                        "introduction": "Oblasti sa používajú na usporiadanie zariadení. Tieto informácie sa použijú v službe 牧养犬, aby vám pomohli pri organizovaní rozhrania, povolení a integrácií s inými systémami.",
                         "introduction2": "Ak chcete umiestniť zariadenia do oblasti, pomocou odkazu nižšie prejdite na stránku integrácií a potom kliknite na nakonfigurovanú integráciu a prejdite na karty zariadení.",
                         "integrations_page": "Stránka Integrácie",
                         "no_areas": "Vyzerá to, že ešte nemáte žiadne oblasti!",
@@ -752,8 +752,8 @@
                     "picker": {
                         "header": "Register entít",
                         "unavailable": "(nedostupné)",
-                        "introduction": "Home Assistant vedie register všetkých subjektov, ktoré kedy videl a ktoré môžu byť jednoznačne identifikované. Každá z týchto entít bude mať pridelené ID, ktoré bude vyhradené len pre tento subjekt.",
-                        "introduction2": "Použite register entít na prepísanie mena, zmenu ID entity alebo odstránenie položky z Home Assistant. Poznámka: Odstránenie položky databázy entít neodstráni entitu. Postupujte podľa nižšie uvedeného odkazu a odstráňte ho z integračnej stránky.",
+                        "introduction": "牧养犬 vedie register všetkých subjektov, ktoré kedy videl a ktoré môžu byť jednoznačne identifikované. Každá z týchto entít bude mať pridelené ID, ktoré bude vyhradené len pre tento subjekt.",
+                        "introduction2": "Použite register entít na prepísanie mena, zmenu ID entity alebo odstránenie položky z 牧养犬. Poznámka: Odstránenie položky databázy entít neodstráni entitu. Postupujte podľa nižšie uvedeného odkazu a odstráňte ho z integračnej stránky.",
                         "integrations_page": "Stránka Integrácie"
                     },
                     "editor": {
@@ -763,12 +763,12 @@
                         "update": "AKTUALIZOVAŤ",
                         "enabled_label": "Povoliť entitu",
                         "enabled_cause": "Zakázané {cause}",
-                        "enabled_description": "Zakázané entity nebudú pridané do Home Assistanta"
+                        "enabled_description": "Zakázané entity nebudú pridané do 牧养犬a"
                     }
                 },
                 "person": {
                     "caption": "Osoby",
-                    "description": "Spravujte osoby, ktoré Home Assistant sleduje.",
+                    "description": "Spravujte osoby, ktoré 牧养犬 sleduje.",
                     "detail": {
                         "name": "Meno",
                         "device_tracker_intro": "Vyberte zariadenia, ktoré patria tejto osobe.",
@@ -778,7 +778,7 @@
                 },
                 "server_control": {
                     "caption": "Správa servera",
-                    "description": "Reštartujte a zastavte server Home Assistant",
+                    "description": "Reštartujte a zastavte server 牧养犬",
                     "section": {
                         "validation": {
                             "heading": "Kontrola konfigurácie",
@@ -789,7 +789,7 @@
                         },
                         "reloading": {
                             "heading": "Načítavanie novej konfigurácie",
-                            "introduction": "Niektoré časti aplikácie Home Assistant sa môžu načítať bez nutnosti reštartovania. Opätovným načítaním sa zahodí aktuálna konfigurácia a načíta sa nová.",
+                            "introduction": "Niektoré časti aplikácie 牧养犬 sa môžu načítať bez nutnosti reštartovania. Opätovným načítaním sa zahodí aktuálna konfigurácia a načíta sa nová.",
                             "core": "Znovu načítať jadro",
                             "group": "Znovu načítať skupiny",
                             "automation": "Znovu načítať automatizácie",
@@ -798,11 +798,11 @@
                         },
                         "server_management": {
                             "heading": "Správa servera",
-                            "introduction": "Ovládajte Váš Home Assistant server... z aplikácie Home Assistant.",
+                            "introduction": "Ovládajte Váš 牧养犬 server... z aplikácie 牧养犬.",
                             "restart": "Reštartovať",
                             "stop": "Zastaviť",
-                            "confirm_restart": "Naozaj chcete reštartovať Home Assistanta?",
-                            "confirm_stop": "Naozaj chcete zastaviť Home Assistanta?"
+                            "confirm_restart": "Naozaj chcete reštartovať 牧养犬a?",
+                            "confirm_stop": "Naozaj chcete zastaviť 牧养犬a?"
                         }
                     }
                 },
@@ -844,7 +844,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Prístupové tokeny s dlhou životnosťou",
-                    "description": "Vytvorte prístupové tokeny s dlhou životnosťou, ktoré umožnia vašim skriptom komunikovať s vašou inštanciou Home Assistant. Každý token bude platný 10 rokov od vytvorenia. Nasledujúce prístupové tokeny s dlhou životnosťou sú v súčasnosti aktívne.",
+                    "description": "Vytvorte prístupové tokeny s dlhou životnosťou, ktoré umožnia vašim skriptom komunikovať s vašou inštanciou 牧养犬. Každý token bude platný 10 rokov od vytvorenia. Nasledujúce prístupové tokeny s dlhou životnosťou sú v súčasnosti aktívne.",
                     "learn_auth_requests": "Zistite, ako vytvárať overené požiadavky.",
                     "created_at": "Vytvorený {date}",
                     "confirm_delete": "Naozaj chcete odstrániť prístupový token pre {name}?",
@@ -888,7 +888,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializácia",
-                "authorizing_client": "Chystáte sa poskytnúť {clientId} prístup k vašej inštancii Home Assistantu.",
+                "authorizing_client": "Chystáte sa poskytnúť {clientId} prístup k vašej inštancii 牧养犬u.",
                 "logging_in_with": "Prihlasovanie pomocou **{authProviderName}**.",
                 "pick_auth_provider": "Alebo sa prihláste prostredníctvom",
                 "abort_intro": "Prihlásenie bolo zrušené",
@@ -1000,12 +1000,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Zariadenia a služby sú v systéme Home Assistant zobrazené ako integrácie. Môžete ich nastaviť teraz alebo to urobiť neskôr z konfiguračnej obrazovky.",
+                    "intro": "Zariadenia a služby sú v systéme 牧养犬 zobrazené ako integrácie. Môžete ich nastaviť teraz alebo to urobiť neskôr z konfiguračnej obrazovky.",
                     "more_integrations": "Viac",
                     "finish": "Dokončiť"
                 },
                 "core-config": {
-                    "intro": "Dobrý deň, {name}, vitajte v Home Assistant. Ako by ste chceli pomenovať svoj domov?",
+                    "intro": "Dobrý deň, {name}, vitajte v 牧养犬. Ako by ste chceli pomenovať svoj domov?",
                     "intro_location": "Radi by sme vedeli, kde žijete. Tieto informácie vám pomôžu pri zobrazovaní informácií a nastavovaní automatizácie na základe slnka. Tieto údaje sa nikdy nezdieľajú mimo vašej siete.",
                     "intro_location_detect": "Môžeme vám pomôcť vyplniť tieto informácie jednorazovou žiadosťou o externú službu.",
                     "location_name_default": "Domov",
@@ -1048,7 +1048,7 @@
                     "migrate": {
                         "header": "Nekompatibilná konfigurácia",
                         "para_no_id": "Tento prvok nemá žiadne ID. Doplňte, prosím, ID pre tento prvok v súbore 'ui-lovelace.yaml'.",
-                        "para_migrate": "Home Assistant môže automaticky pridať identifikátory pre všetky vaše karty a zobrazenia, keď kliknete na tlačidlo 'Migrovať konfiguráciu'.",
+                        "para_migrate": "牧养犬 môže automaticky pridať identifikátory pre všetky vaše karty a zobrazenia, keď kliknete na tlačidlo 'Migrovať konfiguráciu'.",
                         "migrate": "Migrovať konfiguráciu"
                     },
                     "header": "Upraviť používateľské rozhranie",
@@ -1060,7 +1060,7 @@
                     },
                     "save_config": {
                         "header": "Prevziať kontrolu rozhrania Lovelace",
-                        "para": "Štandardne bude Home Assistant udržiavať vaše používateľské rozhranie a aktualizovať ho, keď budú k dispozícii nové entity alebo komponenty rozhrania Lovelace. Ak prevezmete kontrolu, už za vás nebudeme automaticky robiť zmeny.",
+                        "para": "Štandardne bude 牧养犬 udržiavať vaše používateľské rozhranie a aktualizovať ho, keď budú k dispozícii nové entity alebo komponenty rozhrania Lovelace. Ak prevezmete kontrolu, už za vás nebudeme automaticky robiť zmeny.",
                         "para_sure": "Skutočne chcete prevziať kontrolu vášho používateľského rozhrania?",
                         "cancel": "Zrušiť",
                         "save": "Prevziať kontrolu"
@@ -1100,8 +1100,8 @@
                     "demo": {
                         "demo_by": "od {name}",
                         "next_demo": "Ďalšie demo",
-                        "introduction": "Vitaj ! Dostali ste sa na demo Home Assistant, kde prezentujeme najlepšie používateľské rozhrania vytvorené našou komunitou.",
-                        "learn_more": "Získajte viac informácií o Home Assistant"
+                        "introduction": "Vitaj ! Dostali ste sa na demo 牧养犬, kde prezentujeme najlepšie používateľské rozhrania vytvorené našou komunitou.",
+                        "learn_more": "Získajte viac informácií o 牧养犬"
                     }
                 },
                 "config": {
@@ -1343,7 +1343,7 @@
             "config_entry_system_options": {
                 "title": "Možnosti systému",
                 "enable_new_entities_label": "Povoliť novo pridané entity.",
-                "enable_new_entities_description": "Ak je zakázané, novo objavené entity sa automaticky nepridajú do Home Assistanta."
+                "enable_new_entities_description": "Ak je zakázané, novo objavené entity sa automaticky nepridajú do 牧养犬a."
             },
             "zha_device_info": {
                 "manuf": "od {manufacturer}",
@@ -1409,7 +1409,7 @@
         "vacuum": "Vysávač",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Stav systému",
         "person": "Osoba"

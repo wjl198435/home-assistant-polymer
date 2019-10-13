@@ -272,14 +272,14 @@
                             },
                             "server_management": {
                                 "heading": "Zerbitzariaren kudeaketa",
-                                "introduction": "Zure Home Assistant zerbitzaria... Home Assistantetik kontrolatu",
+                                "introduction": "Zure 牧养犬 zerbitzaria... 牧养犬etik kontrolatu",
                                 "restart": "Berrabiarazi",
                                 "stop": "Gelditu"
                             }
                         },
                         "core": {
                             "core_config": {
-                                "location_name": "Zure Home Assistant instalazioaren izena",
+                                "location_name": "Zure 牧养犬 instalazioaren izena",
                                 "latitude": "Latitudea",
                                 "longitude": "Longitudea",
                                 "elevation_meters": "metro",
@@ -328,7 +328,7 @@
                                     "label": "Egoera"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Gertaera:",
                                     "start": "Hasi",
                                     "shutdown": "Itzali"
@@ -457,7 +457,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "{email} bezala hasi duzu saioa",
                     "description_not_login": "Ez da saioa hasi"
                 },
@@ -529,7 +529,7 @@
                 },
                 "person": {
                     "caption": "Pertsonak",
-                    "description": "Kudeatu Home Assistantek jarraituko dituen pertsonak.",
+                    "description": "Kudeatu 牧养犬ek jarraituko dituen pertsonak.",
                     "detail": {
                         "name": "Izena",
                         "device_tracker_intro": "Hautatu pertsona horri dagozkion gailuak.",
@@ -670,7 +670,7 @@
                     "finish": "Amaitu"
                 },
                 "core-config": {
-                    "intro": "Kaixo {name}, ongi etorri Home Assistantera. Nola izendatu nahi duzu zure etxea?",
+                    "intro": "Kaixo {name}, ongi etorri 牧养犬era. Nola izendatu nahi duzu zure etxea?",
                     "intro_location_detect": "Informazio hau betetzen lagundu diezazukegu kanpoko zerbitzu batera esakera bakarra eginez.",
                     "location_name_default": "Etxea",
                     "button_detect": "Detektatu",
@@ -928,7 +928,7 @@
         "vacuum": "Xurgagailua",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Sistemaren Osasuna",
         "person": "Pertsona"

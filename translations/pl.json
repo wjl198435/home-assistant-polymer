@@ -349,18 +349,18 @@
                 "delete_button": "Usunąć"
             },
             "config": {
-                "header": "Konfiguruj Home Assistant'a",
-                "introduction": "Tutaj możesz skonfigurować Home Assistant'a i jego komponenty. Nie wszystkie opcje można konfigurować z interfejsu użytkownika, ale pracujemy nad tym.",
+                "header": "Konfiguruj 牧养犬'a",
+                "introduction": "Tutaj możesz skonfigurować 牧养犬'a i jego komponenty. Nie wszystkie opcje można konfigurować z interfejsu użytkownika, ale pracujemy nad tym.",
                 "core": {
                     "caption": "Ogólne",
-                    "description": "Zmień podstawowe opcje Home Assistant'a",
+                    "description": "Zmień podstawowe opcje 牧养犬'a",
                     "section": {
                         "core": {
                             "header": "Konfiguracja ogólna",
                             "introduction": "Zmiana konfiguracji może być męczącym procesem. Wiemy. Ta sekcja postara się ułatwić Ci życie.",
                             "core_config": {
                                 "edit_requires_storage": "Edytor wyłączony, ponieważ konfiguracja jest przechowywana w pliku configuration.yaml.",
-                                "location_name": "Nazwa instalacji Home Assistant",
+                                "location_name": "Nazwa instalacji 牧养犬",
                                 "latitude": "Szerokość geograficzna",
                                 "longitude": "Długość geograficzna",
                                 "elevation": "Wysokość",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Ponowne wczytanie konfiguracji",
-                                "introduction": "Niektóre części konfiguracji można wczytać od nowa bez konieczności ponownego uruchamiania Home Assistant'a. Naciśnięcie poniższych przycisków wczyta ponownie daną część konfiguracji.",
+                                "introduction": "Niektóre części konfiguracji można wczytać od nowa bez konieczności ponownego uruchamiania 牧养犬'a. Naciśnięcie poniższych przycisków wczyta ponownie daną część konfiguracji.",
                                 "core": "Rdzeń",
                                 "group": "Grupy",
                                 "automation": "Automatyzacje",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Zarządzanie serwerem",
-                                "introduction": "Kontroluj swój serwer Home Assistant",
+                                "introduction": "Kontroluj swój serwer 牧养犬",
                                 "restart": "Uruchom ponownie",
                                 "stop": "Zatrzymaj"
                             }
@@ -412,7 +412,7 @@
                     "description": "Twórz i edytuj automatyzacje",
                     "picker": {
                         "header": "Edytor automatyzacji",
-                        "introduction": "Edytor automatyzacji pozwala tworzyć i edytować automatyzacje Kliknij poniższy link, aby przeczytać instrukcję, jak poprawnie skonfigurować automatyzacje w Home Assistant.",
+                        "introduction": "Edytor automatyzacji pozwala tworzyć i edytować automatyzacje Kliknij poniższy link, aby przeczytać instrukcję, jak poprawnie skonfigurować automatyzacje w 牧养犬.",
                         "pick_automation": "Wybierz automatyzację do edycji",
                         "no_automations": "Nie znaleziono żadnych edytowalnych automatyzacji",
                         "add_automation": "Dodaj automatyzację",
@@ -426,7 +426,7 @@
                         "alias": "Nazwa",
                         "triggers": {
                             "header": "Wyzwalacze",
-                            "introduction": "Wyzwalacze uruchamiają przetwarzanie automatyzacji. Możliwe jest stworzenie wielu wyzwalaczy dla tej samej automatyzacji. Po uruchomieniu wyzwalacza Home Assistant sprawdzi ewentualne warunki i wywoła akcje.",
+                            "introduction": "Wyzwalacze uruchamiają przetwarzanie automatyzacji. Możliwe jest stworzenie wielu wyzwalaczy dla tej samej automatyzacji. Po uruchomieniu wyzwalacza 牧养犬 sprawdzi ewentualne warunki i wywoła akcje.",
                             "add": "Dodaj wyzwalacz",
                             "duplicate": "Duplikuj",
                             "delete": "Usuń",
@@ -446,7 +446,7 @@
                                     "for": "Przez"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Zdarzenie:",
                                     "start": "uruchomienie",
                                     "shutdown": "zakończenie"
@@ -566,7 +566,7 @@
                         },
                         "actions": {
                             "header": "Akcje",
-                            "introduction": "Akcje są wykonywane przez Home Assistant'a po uruchomieniu automatyzacji.",
+                            "introduction": "Akcje są wykonywane przez 牧养犬'a po uruchomieniu automatyzacji.",
                             "add": "Dodaj akcję",
                             "duplicate": "Duplikuj",
                             "delete": "Usuń",
@@ -684,7 +684,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Chmura Home Assistant",
+                    "caption": "Chmura 牧养犬",
                     "description_login": "Zalogowany jako {email}",
                     "description_not_login": "Nie zalogowany",
                     "description_features": "Sterowanie spoza domu, integracja z Alexą i Google Assistant."
@@ -701,7 +701,7 @@
                         "no_devices": "Ta integracja nie ma żadnych urządzeń.",
                         "no_device": "Encje bez urządzeń",
                         "delete_confirm": "Czy na pewno chcesz usunąć tę integrację?",
-                        "restart_confirm": "Zrestartuj Home Assistant'a, aby zakończyć usuwanie tej integracji",
+                        "restart_confirm": "Zrestartuj 牧养犬'a, aby zakończyć usuwanie tej integracji",
                         "manuf": "przez: {manufacturer}",
                         "via": "Połączony przez",
                         "firmware": "Oprogramowanie: {version}",
@@ -741,7 +741,7 @@
                     "description": "Przegląd wszystkich obszarów w twoim domu",
                     "picker": {
                         "header": "Rejestr obszarów",
-                        "introduction": "Obszary służą do organizacji urządzeń. Informacje te będą używane w Home Assistant, aby pomóc w organizacji interfejsu, uprawnień i integracji z innymi systemami.",
+                        "introduction": "Obszary służą do organizacji urządzeń. Informacje te będą używane w 牧养犬, aby pomóc w organizacji interfejsu, uprawnień i integracji z innymi systemami.",
                         "introduction2": "Aby umieścić urządzenia w danym obszarze, użyj poniższego linku, aby przejść do strony integracji, a następnie kliknij skonfigurowaną integrację, aby dostać się do kart urządzeń.",
                         "integrations_page": "Strona integracji",
                         "no_areas": "Wygląda na to, że nie masz jeszcze lokalizacji!",
@@ -762,8 +762,8 @@
                     "picker": {
                         "header": "Rejestr encji",
                         "unavailable": "(niedostępne)",
-                        "introduction": "Home Assistant prowadzi rejestr każdej encji, jaką kiedykolwiek widział i którą można jednoznacznie zidentyfikować. Każda z tych encji będzie miała przypisany unikalny identyfikator, który będzie zarezerwowany tylko dla niej.",
-                        "introduction2": "Użyj rejestru encji, aby nadpisać jej nazwę, zmienić jej identyfikator lub usunąć ją z Home Assistant'a. Uwaga: usunięcie wpisu rejestru encji nie spowoduje usunięcia encji. Aby to zrobić, kliknij poniższy link i usuń integracje encji.",
+                        "introduction": "牧养犬 prowadzi rejestr każdej encji, jaką kiedykolwiek widział i którą można jednoznacznie zidentyfikować. Każda z tych encji będzie miała przypisany unikalny identyfikator, który będzie zarezerwowany tylko dla niej.",
+                        "introduction2": "Użyj rejestru encji, aby nadpisać jej nazwę, zmienić jej identyfikator lub usunąć ją z 牧养犬'a. Uwaga: usunięcie wpisu rejestru encji nie spowoduje usunięcia encji. Aby to zrobić, kliknij poniższy link i usuń integracje encji.",
                         "integrations_page": "Strona integracji",
                         "show_disabled": "Wyświetl nieużywane encje"
                     },
@@ -774,14 +774,14 @@
                         "update": "UAKTUALNIJ",
                         "enabled_label": "Włącz encję",
                         "enabled_cause": "Wyłączone przez {cause}.",
-                        "enabled_description": "Wyłączone encje nie będą dodawane do Home Assistant'a.",
+                        "enabled_description": "Wyłączone encje nie będą dodawane do 牧养犬'a.",
                         "confirm_delete": "Czy na pewno chcesz usunąć ten wpis?",
-                        "confirm_delete2": "Usunięcie wpisu nie spowoduje usunięcia encji z Home Assistant'a. Aby to zrobić, musisz usunąć integrację '{platform}'."
+                        "confirm_delete2": "Usunięcie wpisu nie spowoduje usunięcia encji z 牧养犬'a. Aby to zrobić, musisz usunąć integrację '{platform}'."
                     }
                 },
                 "person": {
                     "caption": "Osoby",
-                    "description": "Zarządzaj osobami, które śledzi Home Assistant",
+                    "description": "Zarządzaj osobami, które śledzi 牧养犬",
                     "detail": {
                         "name": "Imię",
                         "device_tracker_intro": "Wybierz urządzenia należące do tej osoby.",
@@ -791,7 +791,7 @@
                 },
                 "server_control": {
                     "caption": "Kontrola serwera",
-                    "description": "Uruchom ponownie i zatrzymaj serwer Home Assistant'a",
+                    "description": "Uruchom ponownie i zatrzymaj serwer 牧养犬'a",
                     "section": {
                         "validation": {
                             "heading": "Sprawdzanie konfiguracji",
@@ -802,7 +802,7 @@
                         },
                         "reloading": {
                             "heading": "Ponowne wczytanie konfiguracji",
-                            "introduction": "Niektóre części konfiguracji można wczytać od nowa bez konieczności ponownego uruchamiania Home Assistant'a. Naciśnięcie poniższych przycisków wczyta ponownie daną część konfiguracji.",
+                            "introduction": "Niektóre części konfiguracji można wczytać od nowa bez konieczności ponownego uruchamiania 牧养犬'a. Naciśnięcie poniższych przycisków wczyta ponownie daną część konfiguracji.",
                             "core": "Rdzeń",
                             "group": "Grupy",
                             "automation": "Automatyzacje",
@@ -811,11 +811,11 @@
                         },
                         "server_management": {
                             "heading": "Zarządzanie serwerem",
-                            "introduction": "Kontroluj serwer Home Assistant'a.",
+                            "introduction": "Kontroluj serwer 牧养犬'a.",
                             "restart": "Uruchom ponownie",
                             "stop": "Zatrzymaj",
-                            "confirm_restart": "Czy chcesz ponownie uruchomić Home Assistant?",
-                            "confirm_stop": "Czy chcesz zatrzymać Home Assistant?"
+                            "confirm_restart": "Czy chcesz ponownie uruchomić 牧养犬?",
+                            "confirm_stop": "Czy chcesz zatrzymać 牧养犬?"
                         }
                     }
                 },
@@ -868,7 +868,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Tokeny dostępu",
-                    "description": "Długoterminowe tokeny dostępu umożliwiają skryptom interakcję z Home Assistant. Każdy token będzie ważny przez 10 lat od utworzenia. Następujące tokeny są obecnie aktywne.",
+                    "description": "Długoterminowe tokeny dostępu umożliwiają skryptom interakcję z 牧养犬. Każdy token będzie ważny przez 10 lat od utworzenia. Następujące tokeny są obecnie aktywne.",
                     "learn_auth_requests": "Dowiedz się, jak tworzyć uwierzytelnione żądania.",
                     "created_at": "Utworzony {date}",
                     "confirm_delete": "Czy na pewno chcesz usunąć token dla {name}?",
@@ -916,7 +916,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicjowanie",
-                "authorizing_client": "Czy na pewno chcesz dać dostęp {clientId} do Twojej instancji Home Assistant'a.",
+                "authorizing_client": "Czy na pewno chcesz dać dostęp {clientId} do Twojej instancji 牧养犬'a.",
                 "logging_in_with": "Logowanie za pomocą **{authProviderName}**.",
                 "pick_auth_provider": "Lub zaloguj się za pomocą",
                 "abort_intro": "Logowanie przerwane",
@@ -1028,12 +1028,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Urządzenia i usługi są reprezentowane w Home Assistant jako integracje. Możesz je teraz skonfigurować lub zrobić to później w konfiguracji.",
+                    "intro": "Urządzenia i usługi są reprezentowane w 牧养犬 jako integracje. Możesz je teraz skonfigurować lub zrobić to później w konfiguracji.",
                     "more_integrations": "Więcej",
                     "finish": "Koniec"
                 },
                 "core-config": {
-                    "intro": "{name}, witamy w Home Assistant. Jak chcesz nazwać swój dom?",
+                    "intro": "{name}, witamy w 牧养犬. Jak chcesz nazwać swój dom?",
                     "intro_location": "Chcielibyśmy wiedzieć, gdzie mieszkasz. Te dane pomogą w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca. Te dane nigdy nie będą udostępniane poza Twoją sieć lokalną.",
                     "intro_location_detect": "Możemy pomóc Ci wprowadzić te informacje, wysyłając jednorazowe zapytanie do usługi zewnętrznej.",
                     "location_name_default": "Dom",
@@ -1077,7 +1077,7 @@
                     "migrate": {
                         "header": "Konfiguracja niekompatybilna",
                         "para_no_id": "Ten element nie ma ID. Dodaj ID do tego elementu w \"ui-lovelace.yaml\".",
-                        "para_migrate": "Home Assistant może automatycznie dodać ID do wszystkich twoich kart i widoków, po kliknięciu przycisku \"Migracja konfiguracji\".",
+                        "para_migrate": "牧养犬 może automatycznie dodać ID do wszystkich twoich kart i widoków, po kliknięciu przycisku \"Migracja konfiguracji\".",
                         "migrate": "Migracja konfiguracji"
                     },
                     "header": "Edycja interfejsu użytkownika",
@@ -1189,8 +1189,8 @@
                     "demo": {
                         "demo_by": "według {name}",
                         "next_demo": "Następna demonstracja",
-                        "introduction": "Witaj w domu! Dotarłeś do demonstracji Home Assistant, gdzie prezentujemy najlepsze interfejsy użytkownika stworzone przez naszą społeczność.",
-                        "learn_more": "Dowiedz się więcej o Home Assistant"
+                        "introduction": "Witaj w domu! Dotarłeś do demonstracji 牧养犬, gdzie prezentujemy najlepsze interfejsy użytkownika stworzone przez naszą społeczność.",
+                        "learn_more": "Dowiedz się więcej o 牧养犬"
                     }
                 },
                 "config": {
@@ -1432,7 +1432,7 @@
             "config_entry_system_options": {
                 "title": "Opcje systemu",
                 "enable_new_entities_label": "Włącz dodawanie nowych encji.",
-                "enable_new_entities_description": "Jeśli wyłączone, nowo wykryte encje nie będą automatycznie dodawane do Home Assistant'a."
+                "enable_new_entities_description": "Jeśli wyłączone, nowo wykryte encje nie będą automatycznie dodawane do 牧养犬'a."
             },
             "zha_device_info": {
                 "manuf": "przez: {manufacturer}",
@@ -1499,7 +1499,7 @@
         "vacuum": "Odkurzacz",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Kondycja systemu",
         "person": "Osoba"

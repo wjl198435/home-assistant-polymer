@@ -319,8 +319,8 @@
                 "delete_button": "Sil"
             },
             "config": {
-                "header": "Home Assistant'ı yapılandır",
-                "introduction": "Buradan bileşenlerinizi ve Home Assistant'ınızı yapılandırabilirsiniz. Herşeyi kullanıcı arayüzü ile ayarlamak henüz mümkün değil fakat üzerinde çalışıyoruz",
+                "header": "牧养犬'ı yapılandır",
+                "introduction": "Buradan bileşenlerinizi ve 牧养犬'ınızı yapılandırabilirsiniz. Herşeyi kullanıcı arayüzü ile ayarlamak henüz mümkün değil fakat üzerinde çalışıyoruz",
                 "core": {
                     "caption": "Genel",
                     "description": "Yapılandırma dosyanızı doğrulayın ve sunucuyu kontrol edin",
@@ -339,7 +339,7 @@
                             },
                             "reloading": {
                                 "heading": "Yapılandırma yeniden yükleniyor",
-                                "introduction": "Bazı Home Assistant bileşenleri yeniden başlatmadan yenilenebilinir. Yeniden yükle tuşuna basarak güncel yapılandırmayı bırakarak yenisinin yüklenmesini sağlayabilirsiniz.",
+                                "introduction": "Bazı 牧养犬 bileşenleri yeniden başlatmadan yenilenebilinir. Yeniden yükle tuşuna basarak güncel yapılandırmayı bırakarak yenisinin yüklenmesini sağlayabilirsiniz.",
                                 "core": "Çekirdeği yeniden yükle",
                                 "group": "Grupları yeniden yükle",
                                 "automation": "Otomasyonları yeniden yükle",
@@ -347,7 +347,7 @@
                             },
                             "server_management": {
                                 "heading": "Sunucu yönetimi",
-                                "introduction": "Home Assistant sunucunuzu kontrol edin.. Home Assistant üzerinden",
+                                "introduction": "牧养犬 sunucunuzu kontrol edin.. 牧养犬 üzerinden",
                                 "restart": "Yeniden başlat",
                                 "stop": "Durdur"
                             }
@@ -486,7 +486,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "{email} olarak oturum açtınız",
                     "description_not_login": "Oturum açmadınız"
                 },
@@ -502,7 +502,7 @@
                         "no_devices": "Bu entegrasyona ait hiçbir aygıt yok",
                         "no_device": "Aygıtsız varlıklar",
                         "delete_confirm": "Bu entegrasyonu silmek istediğinizden emin misiniz?",
-                        "restart_confirm": "Bu entegrasyonu kaldırmaya devam etmek için Home Assistant'ı yeniden başlatın",
+                        "restart_confirm": "Bu entegrasyonu kaldırmaya devam etmek için 牧养犬'ı yeniden başlatın",
                         "manuf": "üretici: {manufacturer}",
                         "via": "Şununla bağlı:",
                         "firmware": "Aygıt yazılımı: {version}",
@@ -698,7 +698,7 @@
                     "migrate": {
                         "header": "Yapılandırma Geçersiz",
                         "para_no_id": "Bu öğenin bir kimliği yok. Lütfen 'ui-lovelace.yaml' dosyasında bu elemente bir kimlik ekleyin.",
-                        "para_migrate": "'Ayarları aktar' düğmesine bastığınız zaman Home Assistant tüm kartlarınıza ve görünümlerinize otomatik olarak kimlik atayabilir.",
+                        "para_migrate": "'Ayarları aktar' düğmesine bastığınız zaman 牧养犬 tüm kartlarınıza ve görünümlerinize otomatik olarak kimlik atayabilir.",
                         "migrate": "Ayarları aktar"
                     },
                     "header": "Kullanıcı arayüzünü düzenle",
@@ -710,7 +710,7 @@
                     },
                     "save_config": {
                         "header": "Lovelace kullanıcı arayüzünü kontrolünüz altına alın",
-                        "para": "Home Assistant varsayılan olarak kullanıcı arayüzünüzü yönetecek, yeni Lovelace bileşenleri ya da varlıklar kullanıma sunulduğunda onu güncelleyecektir. Eğer bunu kontrolünüz altına almak istiyorsanız daha sonra biz sizin için bu değişiklikleri otomatik olarak gerçekleştiremeyeceğiz.",
+                        "para": "牧养犬 varsayılan olarak kullanıcı arayüzünüzü yönetecek, yeni Lovelace bileşenleri ya da varlıklar kullanıma sunulduğunda onu güncelleyecektir. Eğer bunu kontrolünüz altına almak istiyorsanız daha sonra biz sizin için bu değişiklikleri otomatik olarak gerçekleştiremeyeceğiz.",
                         "para_sure": "Kullanıcı arayüzünüzü kontrol altına almak istediğinize emin misiniz?",
                         "cancel": "Boşver",
                         "save": "Kontrol altına al"

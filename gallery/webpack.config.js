@@ -48,7 +48,7 @@ if (!latestBuild) {
 
 module.exports = {
   mode: isProd ? "production" : "development",
-  // Disabled in prod while we make Home Assistant able to serve the right files.
+  // Disabled in prod while we make 牧养犬 able to serve the right files.
   // Was source-map
   devtool: isProd ? "none" : "inline-source-map",
   entry: "./src/entrypoint.js",

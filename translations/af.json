@@ -345,8 +345,8 @@
                 "delete_button": "Skrap"
             },
             "config": {
-                "header": "Stel Home Assistant op",
-                "introduction": "Hier is dit moontlik om u komponente en Home Assistant op te stel. Tans kan alles in verband met die gebruikerskoppelvlak nog nie hier opgestel word nie, maar ons werk daaraan.",
+                "header": "Stel 牧养犬 op",
+                "introduction": "Hier is dit moontlik om u komponente en 牧养犬 op te stel. Tans kan alles in verband met die gebruikerskoppelvlak nog nie hier opgestel word nie, maar ons werk daaraan.",
                 "core": {
                     "caption": "Algemeen",
                     "description": "Bevestig u opstellingslêer en beheer die bediener",
@@ -356,7 +356,7 @@
                             "introduction": "As u opstellings verander, kan dit 'n vermoeiende proses wees. Ons weet. Hierdie afdeling sal probeer om u lewe 'n bietjie makliker te maak.",
                             "core_config": {
                                 "edit_requires_storage": "Redakteur is gedeaktiveer omdat konfigurasie gestoor is in configuration.yaml.",
-                                "location_name": "Naam van u Home Assistant installasie",
+                                "location_name": "Naam van u 牧养犬 installasie",
                                 "latitude": "Breedtegraad",
                                 "longitude": "Lengtegraad",
                                 "elevation": "Hoogte",
@@ -380,7 +380,7 @@
                             },
                             "reloading": {
                                 "heading": "Opstellings herlaai tans",
-                                "introduction": "Sommige dele van Home Assistant kan herlaai sonder om te herbegin. Deur om herlaai te kliek, sal die huidige opstelling ontlaai en die nuwe een laai.",
+                                "introduction": "Sommige dele van 牧养犬 kan herlaai sonder om te herbegin. Deur om herlaai te kliek, sal die huidige opstelling ontlaai en die nuwe een laai.",
                                 "core": "Herlaai kern",
                                 "group": "Herlaai groepe",
                                 "automation": "Herlaai outomatisasies",
@@ -388,7 +388,7 @@
                             },
                             "server_management": {
                                 "heading": "Bediener bestuur",
-                                "introduction": "Beheer u Home Assistant-bediener ... met Home Assistant.",
+                                "introduction": "Beheer u 牧养犬-bediener ... met 牧养犬.",
                                 "restart": "Herbegin",
                                 "stop": "Staak"
                             }
@@ -408,7 +408,7 @@
                     "description": "Skep en wysig outomatisasies",
                     "picker": {
                         "header": "Outomatiseringsredakteur",
-                        "introduction": "Die outomatiseringsredakteur stel u in staat om outomatisasies te skep en te wysig. Volg die onderstaande skakel om die instruksies te lees om seker te maak dat u Home Assistant korrek opgestel het.",
+                        "introduction": "Die outomatiseringsredakteur stel u in staat om outomatisasies te skep en te wysig. Volg die onderstaande skakel om die instruksies te lees om seker te maak dat u 牧养犬 korrek opgestel het.",
                         "pick_automation": "Kies outomatisasie om te redigeer",
                         "no_automations": "Ons kon nie redigeerbare outomatisasies vind nie",
                         "add_automation": "Voeg outomatisering by",
@@ -422,7 +422,7 @@
                         "alias": "Naam",
                         "triggers": {
                             "header": "Snellers",
-                            "introduction": "Snellers is wat die prosessering van 'n outomatiseringsreël afskop. Dit is moontlik om verskeie snellers vir dieselfde reël te spesifiseer. Sodra 'n sneller begin, sal Home Assistant die voorwaardes, indien enige, bevestig en die aksie roep.",
+                            "introduction": "Snellers is wat die prosessering van 'n outomatiseringsreël afskop. Dit is moontlik om verskeie snellers vir dieselfde reël te spesifiseer. Sodra 'n sneller begin, sal 牧养犬 die voorwaardes, indien enige, bevestig en die aksie roep.",
                             "add": "Voeg sneller by",
                             "duplicate": "Dupliseer",
                             "delete": "Skrap",
@@ -442,7 +442,7 @@
                                     "for": "Vir"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Gebeurtenis:",
                                     "start": "Begin",
                                     "shutdown": "Staak"
@@ -550,7 +550,7 @@
                         },
                         "actions": {
                             "header": "Aksies",
-                            "introduction": "Die aksies is wat Home Assistant sal doen wanneer die outomatisering geaktiveer word.",
+                            "introduction": "Die aksies is wat 牧养犬 sal doen wanneer die outomatisering geaktiveer word.",
                             "add": "Voeg aksie by",
                             "duplicate": "Dupliseer",
                             "delete": "Skrap",
@@ -652,7 +652,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Aangemeld as {email}",
                     "description_not_login": "Nie aangemeld nie",
                     "description_features": "Beheer terwyl weg van die huis af is, integreer met Alexa en Google Assistant."
@@ -669,7 +669,7 @@
                         "no_devices": "Hierdie integrasie het geen toestelle nie.",
                         "no_device": "Entiteite sonder toestelle",
                         "delete_confirm": "Is u seker u wil hierdie integrasie skrap?",
-                        "restart_confirm": "Herbegin Home Assistant om hierdie integrasie te voltooi",
+                        "restart_confirm": "Herbegin 牧养犬 om hierdie integrasie te voltooi",
                         "manuf": "deur {manufacturer}",
                         "via": "Gekonnekteer via",
                         "firmware": "Fermware: {version}",
@@ -709,7 +709,7 @@
                     "description": "Oorsig van alle gebiede in u huis.",
                     "picker": {
                         "header": "Gebiedsregister",
-                        "introduction": "Gebiede word gebruik om toestelle te organiseer gebaseer op waar hulle is. Hierdie inligting sal regdeur Home Assistant gebruik word om u te help om u koppelvlak, toestemmings en integrasies met ander stelsels te organiseer.",
+                        "introduction": "Gebiede word gebruik om toestelle te organiseer gebaseer op waar hulle is. Hierdie inligting sal regdeur 牧养犬 gebruik word om u te help om u koppelvlak, toestemmings en integrasies met ander stelsels te organiseer.",
                         "introduction2": "Om toestelle in 'n gebied te plaas, gebruik die skakel hieronder om na die integrasies bladsy toe te gaan en klik dan op 'n opgestelde integrasie om na die toestelkaarte toe te gaan.",
                         "integrations_page": "Integrasies bladsy",
                         "no_areas": "Dit lyk asof u nog geen gebiede het nie!",
@@ -730,8 +730,8 @@
                     "picker": {
                         "header": "Entiteit Register",
                         "unavailable": "(nie beskikbaar nie)",
-                        "introduction": "Home Assistant hou 'n register van al die vorige entiteite wat uniek geïdentifiseer kan word. Elk van hierdie entiteite sal 'n entiteit-ID hê wat vir hierdie entiteit gereserveer sal word.",
-                        "introduction2": "Gebruik die entiteitsregister om die naam te oorskryf, die entiteit ID te verander, of die inskrywing van Home Assistant te verwyder. Let wel, die verwydering van die entiteit registerinskrywing sal nie die entiteit verwyder nie. Om dit te doen, volg die skakel hieronder en verwyder dit uit die integrasies bladsy.",
+                        "introduction": "牧养犬 hou 'n register van al die vorige entiteite wat uniek geïdentifiseer kan word. Elk van hierdie entiteite sal 'n entiteit-ID hê wat vir hierdie entiteit gereserveer sal word.",
+                        "introduction2": "Gebruik die entiteitsregister om die naam te oorskryf, die entiteit ID te verander, of die inskrywing van 牧养犬 te verwyder. Let wel, die verwydering van die entiteit registerinskrywing sal nie die entiteit verwyder nie. Om dit te doen, volg die skakel hieronder en verwyder dit uit die integrasies bladsy.",
                         "integrations_page": "Integrasies bladsy"
                     },
                     "editor": {
@@ -743,7 +743,7 @@
                 },
                 "person": {
                     "caption": "Persone",
-                    "description": "Bestuur die persone wat Home Assistant op spoor.",
+                    "description": "Bestuur die persone wat 牧养犬 op spoor.",
                     "detail": {
                         "name": "Naam",
                         "device_tracker_intro": "Kies die toestelle wat aan hierdie persoon behoort.",
@@ -785,7 +785,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Langlewende-toegangs-tekseenhede",
-                    "description": "Skep langlewende-toegangs-tekseenhede om u skripte in staat te stel om met u Home Assistant-instansie te kommunikeer. Elke tekseenheid sal geldig wees vir 10 jaar vanaf die skepping. Die volgende langlewende-toegangs-tekseenheid is tans aktief.",
+                    "description": "Skep langlewende-toegangs-tekseenhede om u skripte in staat te stel om met u 牧养犬-instansie te kommunikeer. Elke tekseenheid sal geldig wees vir 10 jaar vanaf die skepping. Die volgende langlewende-toegangs-tekseenheid is tans aktief.",
                     "learn_auth_requests": "Leer hoe om geverifieerde versoeke te maak.",
                     "created_at": "Geskep op {date}",
                     "confirm_delete": "Is u seker u wil die toegangs-tekseenheid vir {name} skrap?",
@@ -829,7 +829,7 @@
             },
             "page-authorize": {
                 "initializing": "Inisialiseer",
-                "authorizing_client": "U is op die punt om {clientId} toegang te gee tot u Home Assistant instansie.",
+                "authorizing_client": "U is op die punt om {clientId} toegang te gee tot u 牧养犬 instansie.",
                 "logging_in_with": "Meld tans aan met **{authProviderName}**.",
                 "pick_auth_provider": "Of meld aan met",
                 "abort_intro": "Aanmelding gestaak",
@@ -941,12 +941,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Toestelle en dienste word as integrasies in Home Assistant voorgestel. U kan dit nou opstel, of dit later doen vanaf die instellingskerm.",
+                    "intro": "Toestelle en dienste word as integrasies in 牧养犬 voorgestel. U kan dit nou opstel, of dit later doen vanaf die instellingskerm.",
                     "more_integrations": "Meer",
                     "finish": "Klaar"
                 },
                 "core-config": {
-                    "intro": "Hallo {name}, welkom by Home Assistant. Hoe wil u u huis vernoem?",
+                    "intro": "Hallo {name}, welkom by 牧养犬. Hoe wil u u huis vernoem?",
                     "intro_location": "Ons wil graag weet waar u woon. Hierdie inligting sal help met die vertoon van inligting en die opstel van son-gebaseerde outomatisasies. Hierdie data word nooit buite u netwerk gedeel nie.",
                     "intro_location_detect": "Ons kan u help om hierdie inligting in te vul deur 'n eenmalige versoek aan 'n eksterne diens te rig.",
                     "location_name_default": "Tuis",
@@ -989,7 +989,7 @@
                     "migrate": {
                         "header": "Opstellings Onversoenbaar",
                         "para_no_id": "Hierdie element het nie 'n ID nie. Voeg asseblief 'n ID by vir hierdie element in 'ui-lovelace.yaml'.",
-                        "para_migrate": "Druk die 'Migreer konfigurasie' knoppie as u wil hê Home Assistant moet vir u ID's by al u kaarte en aansigte outomaties byvoeg.",
+                        "para_migrate": "Druk die 'Migreer konfigurasie' knoppie as u wil hê 牧养犬 moet vir u ID's by al u kaarte en aansigte outomaties byvoeg.",
                         "migrate": "Migreer opstellings"
                     },
                     "header": "Wysig gebruikerskoppelvlak",
@@ -1001,7 +1001,7 @@
                     },
                     "save_config": {
                         "header": "Neem beheer van u Lovelace gebruikerskoppelvlak",
-                        "para": "Home Assistant sal outomaties u gebruikerskoppelvlak handhaaf, dit opdateer wanneer nuwe entiteite of Lovelace-komponente beskikbaar raak. Alhoewel, as u beheer neem, sal Home Assistant nie meer outomaties veranderings vir u doen nie.",
+                        "para": "牧养犬 sal outomaties u gebruikerskoppelvlak handhaaf, dit opdateer wanneer nuwe entiteite of Lovelace-komponente beskikbaar raak. Alhoewel, as u beheer neem, sal 牧养犬 nie meer outomaties veranderings vir u doen nie.",
                         "para_sure": "Is u seker u wil beheer neem oor u gebruikerskoppelvlak?",
                         "cancel": "Toemaar",
                         "save": "Neem beheer"
@@ -1037,8 +1037,8 @@
                     "demo": {
                         "demo_by": "deur {name}",
                         "next_demo": "Volgende demonstrasie",
-                        "introduction": "Welkom tuis! U het die Home Assistant demo bereik waar ons die beste UI's vertoon wat deur ons gemeenskap geskep is.",
-                        "learn_more": "Kom meer te wete oor Home Assistant"
+                        "introduction": "Welkom tuis! U het die 牧养犬 demo bereik waar ons die beste UI's vertoon wat deur ons gemeenskap geskep is.",
+                        "learn_more": "Kom meer te wete oor 牧养犬"
                     }
                 },
                 "config": {
@@ -1309,7 +1309,7 @@
         "vacuum": "Vakuum",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Stelsel Gesondheid",
         "person": "Persoon"

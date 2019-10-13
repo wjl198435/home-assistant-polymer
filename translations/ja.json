@@ -224,7 +224,7 @@
                 "delete_button": "削除"
             },
             "config": {
-                "header": "Home Assistantの設定",
+                "header": "牧养犬の設定",
                 "core": {
                     "caption": "一般",
                     "description": "設定ファイルの検証とサーバーの操作",
@@ -238,7 +238,7 @@
                             },
                             "reloading": {
                                 "heading": "設定の再読込",
-                                "introduction": "Home Assistantの一部は、再起動を必要とせずに再読込できます。再読込を押すと、現在の設定をアンロードし、新しい設定を読み込みます。",
+                                "introduction": "牧养犬の一部は、再起動を必要とせずに再読込できます。再読込を押すと、現在の設定をアンロードし、新しい設定を読み込みます。",
                                 "core": "コアの再読込",
                                 "group": "グループの再読込",
                                 "automation": "オートメーションの再読込",
@@ -246,7 +246,7 @@
                             },
                             "server_management": {
                                 "heading": "サーバー管理",
-                                "introduction": "Home AssistantからHome Assistantサーバーを操作します。",
+                                "introduction": "牧养犬から牧养犬サーバーを操作します。",
                                 "restart": "再起動",
                                 "stop": "停止"
                             }
@@ -270,7 +270,7 @@
                         "alias": "名前",
                         "triggers": {
                             "header": "トリガー",
-                            "introduction": "トリガーはオートメーションルールの処理を開始させます。同じルールに対して複数のトリガーを指定することが可能です。トリガーが開始されると、Home Assistantは条件があれば確認し、アクションを呼び出します。\n\n[トリガーについて](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "トリガーはオートメーションルールの処理を開始させます。同じルールに対して複数のトリガーを指定することが可能です。トリガーが開始されると、牧养犬は条件があれば確認し、アクションを呼び出します。\n\n[トリガーについて](https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "トリガーを追加",
                             "duplicate": "複製",
                             "delete": "削除",
@@ -287,7 +287,7 @@
                                     "to": "変化後"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "start": "起動",
                                     "shutdown": "停止"
                                 },
@@ -323,7 +323,7 @@
                         },
                         "actions": {
                             "header": "アクション",
-                            "introduction": "アクションは、オートメーションがトリガーされたときにHome Assistantが実行するものです。\n\n [アクションの詳細]（https:\/\/home-assistant.io\/docs\/automation\/action\/）",
+                            "introduction": "アクションは、オートメーションがトリガーされたときに牧养犬が実行するものです。\n\n [アクションの詳細]（https:\/\/home-assistant.io\/docs\/automation\/action\/）",
                             "add": "アクションを追加",
                             "delete": "削除",
                             "delete_confirm": "本当に削除しますか？",

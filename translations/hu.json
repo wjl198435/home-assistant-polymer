@@ -349,18 +349,18 @@
                 "delete_button": "Törlés"
             },
             "config": {
-                "header": "Home Assistant beállítása",
-                "introduction": "Itt a komponenseket és a Home Assistant szervert lehet beállítani. Még nem lehet mindent a felületről, de dolgozunk rajta.",
+                "header": "牧养犬 beállítása",
+                "introduction": "Itt a komponenseket és a 牧养犬 szervert lehet beállítani. Még nem lehet mindent a felületről, de dolgozunk rajta.",
                 "core": {
                     "caption": "Általános",
-                    "description": "Az általános Home Assistant konfiguráció módosítása",
+                    "description": "Az általános 牧养犬 konfiguráció módosítása",
                     "section": {
                         "core": {
                             "header": "Általános konfiguráció",
                             "introduction": "Tudjuk, hogy a konfiguráció módosítása fárasztó folyamat lehet. Ez a rész megpróbálja egy kicsit könnyebbé tenni az életed.",
                             "core_config": {
                                 "edit_requires_storage": "A szerkesztő le van tiltva, mert a konfiguráció a configuration.yaml fájlban van tárolva.",
-                                "location_name": "A Home Assistant rendszered neve",
+                                "location_name": "A 牧养犬 rendszered neve",
                                 "latitude": "Szélesség",
                                 "longitude": "Hosszúság",
                                 "elevation": "Magasság",
@@ -384,7 +384,7 @@
                             },
                             "reloading": {
                                 "heading": "Konfiguráció újratöltése",
-                                "introduction": "A Home Assistant bizonyos részei újraindítás nélkül újratölthetőek. Az újratöltés az aktuális konfiguráció helyére betölti az újat.",
+                                "introduction": "A 牧养犬 bizonyos részei újraindítás nélkül újratölthetőek. Az újratöltés az aktuális konfiguráció helyére betölti az újat.",
                                 "core": "Mag újratöltése",
                                 "group": "Csoportok újratöltése",
                                 "automation": "Automatizálások újratöltése",
@@ -392,7 +392,7 @@
                             },
                             "server_management": {
                                 "heading": "Szerverkezelés",
-                                "introduction": "Home Assistant szerver vezérlése... a Home Assistant-ból.",
+                                "introduction": "牧养犬 szerver vezérlése... a 牧养犬-ból.",
                                 "restart": "Újraindítás",
                                 "stop": "Leállítás"
                             }
@@ -412,7 +412,7 @@
                     "description": "Automatizálások létrehozása és szerkesztése",
                     "picker": {
                         "header": "Automatizálás szerkesztő",
-                        "introduction": "Az automatizálás szerkesztővel automatizálási szabályokat tudsz létrehozni és szerkeszteni. Kérlek olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a Home Assistant helyesen van konfigurálva.",
+                        "introduction": "Az automatizálás szerkesztővel automatizálási szabályokat tudsz létrehozni és szerkeszteni. Kérlek olvasd el az útmutatót az alábbi linken, hogy megbizonyosodj róla, hogy a 牧养犬 helyesen van konfigurálva.",
                         "pick_automation": "Válassz ki egy automatizálást szerkesztésre",
                         "no_automations": "Nem találtunk szerkeszthető automatizálást",
                         "add_automation": "Automatizálás hozzáadása",
@@ -426,7 +426,7 @@
                         "alias": "Név",
                         "triggers": {
                             "header": "Triggerek",
-                            "introduction": "Az eseményindítók (triggerek) indítják el az automatizálási szabályok feldolgozását. Több triggert is meg lehet adni egy szabályhoz. Ha egy trigger elindul, akkor a Home Assistant ellenőrzi a feltételeket - ha vannak -, majd meghívja a műveletet. Kattints az alábbi linkre, ha többet szeretnél megtudni a triggerekről.",
+                            "introduction": "Az eseményindítók (triggerek) indítják el az automatizálási szabályok feldolgozását. Több triggert is meg lehet adni egy szabályhoz. Ha egy trigger elindul, akkor a 牧养犬 ellenőrzi a feltételeket - ha vannak -, majd meghívja a műveletet. Kattints az alábbi linkre, ha többet szeretnél megtudni a triggerekről.",
                             "add": "Trigger hozzáadása",
                             "duplicate": "Megkettőzés",
                             "delete": "Törlés",
@@ -446,7 +446,7 @@
                                     "for": "Időtartam"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Esemény:",
                                     "start": "Indulás",
                                     "shutdown": "Leállás"
@@ -566,7 +566,7 @@
                         },
                         "actions": {
                             "header": "Műveletek",
-                            "introduction": "A műveleteket hajtja végre a Home Assistant, ha egy automatizálás triggerelődik. Kattints az alábbi linkre, ha többet szeretnél megtudni a műveletekről.",
+                            "introduction": "A műveleteket hajtja végre a 牧养犬, ha egy automatizálás triggerelődik. Kattints az alábbi linkre, ha többet szeretnél megtudni a műveletekről.",
                             "add": "Művelet hozzáadása",
                             "duplicate": "Megkettőzés",
                             "delete": "Törlés",
@@ -684,7 +684,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Felhő",
+                    "caption": "牧养犬 Felhő",
                     "description_login": "Bejelentkezve mint {email}",
                     "description_not_login": "Nincs bejelentkezve",
                     "description_features": "Távoli vezérlés, Alexa és Google Assistant integráció"
@@ -701,7 +701,7 @@
                         "no_devices": "Ez az integráció nem rendelkezik eszközökkel.",
                         "no_device": "Eszköz nélküli entitások",
                         "delete_confirm": "Biztosan törölni szeretnéd ezt az integrációt?",
-                        "restart_confirm": "Indítsd újra a Home Assistant-ot az integráció törlésének befejezéséhez",
+                        "restart_confirm": "Indítsd újra a 牧养犬-ot az integráció törlésének befejezéséhez",
                         "manuf": "{manufacturer} által",
                         "via": "Kapcsolódva",
                         "firmware": "Firmware: {version}",
@@ -741,7 +741,7 @@
                     "description": "Az összes otthoni terület áttekintése",
                     "picker": {
                         "header": "Terület Nyilvántartás",
-                        "introduction": "A területekkel az eszközök elhelyezkedés szerint rendszerezhetők. Ezen információk felhasználásával a Home Assistant segíteni tud előkészíteni a felületet, a jogosultságokat és az integrációt más rendszerekkel.",
+                        "introduction": "A területekkel az eszközök elhelyezkedés szerint rendszerezhetők. Ezen információk felhasználásával a 牧养犬 segíteni tud előkészíteni a felületet, a jogosultságokat és az integrációt más rendszerekkel.",
                         "introduction2": "Az eszközök területekbe történő elhelyezéséhez használd az alábbi linket az integrációs oldalra való navigáláshoz, majd kattints egy konfigurált integrációra az eszközkártyák eléréséhez.",
                         "integrations_page": "Integrációk oldal",
                         "no_areas": "Úgy tűnik, nem hoztál még létre egy területet sem!",
@@ -762,8 +762,8 @@
                     "picker": {
                         "header": "Entitás Nyilvántartás",
                         "unavailable": "(nem elérhető)",
-                        "introduction": "A Home Assistant nyilvántartást vezet minden olyan entitásról, melyet valaha látott, és egyedileg azonosítható. Ezen entitások mindegyikéhez létrejön egy entitás ID, amely csak az adott entitáshoz van rendelve.",
-                        "introduction2": "Az entitás nyilvántartás használatával felülbírálhatod a nevet, módosíthatod az entitás ID-t vagy eltávolíthatod a bejegyzést a Home Assistant-ból. Megjegyzendő, hogy az entitás nyilvántartásból történő bejegyzés eltávolítás nem fogja eltávolítani magát az entitást. Ehhez kövesd az alábbi linket, és távolítsd el azt az integrációk oldalról.",
+                        "introduction": "A 牧养犬 nyilvántartást vezet minden olyan entitásról, melyet valaha látott, és egyedileg azonosítható. Ezen entitások mindegyikéhez létrejön egy entitás ID, amely csak az adott entitáshoz van rendelve.",
+                        "introduction2": "Az entitás nyilvántartás használatával felülbírálhatod a nevet, módosíthatod az entitás ID-t vagy eltávolíthatod a bejegyzést a 牧养犬-ból. Megjegyzendő, hogy az entitás nyilvántartásból történő bejegyzés eltávolítás nem fogja eltávolítani magát az entitást. Ehhez kövesd az alábbi linket, és távolítsd el azt az integrációk oldalról.",
                         "integrations_page": "Integrációk oldal",
                         "show_disabled": "Letiltott entitások megjelenítése"
                     },
@@ -774,14 +774,14 @@
                         "update": "FRISSÍTÉS",
                         "enabled_label": "Entitás engedélyezése",
                         "enabled_cause": "Letiltva. ({cause})",
-                        "enabled_description": "A letiltott entitások nem lesznek hozzáadva a Home Assistant-hoz.",
+                        "enabled_description": "A letiltott entitások nem lesznek hozzáadva a 牧养犬-hoz.",
                         "confirm_delete": "Biztosan törölni szeretnéd ezt a bejegyzést?",
-                        "confirm_delete2": "A bejegyzés törlésével az entitás nem kerül eltávolításra a Home Assistant-ból. Ehhez el kell távolítani a '{platform}' integrációt a Home Assistant-ból."
+                        "confirm_delete2": "A bejegyzés törlésével az entitás nem kerül eltávolításra a 牧养犬-ból. Ehhez el kell távolítani a '{platform}' integrációt a 牧养犬-ból."
                     }
                 },
                 "person": {
                     "caption": "Személyek",
-                    "description": "A Home Assistant által követett személyek kezelése",
+                    "description": "A 牧养犬 által követett személyek kezelése",
                     "detail": {
                         "name": "Név",
                         "device_tracker_intro": "Válaszd ki azokat az eszközöket, amelyek ehhez a felhasználóhoz tartoznak.",
@@ -791,7 +791,7 @@
                 },
                 "server_control": {
                     "caption": "Szerver vezérlés",
-                    "description": "A Home Assistant szerver újraindítása és leállítása",
+                    "description": "A 牧养犬 szerver újraindítása és leállítása",
                     "section": {
                         "validation": {
                             "heading": "Konfiguráció érvényesítés",
@@ -802,7 +802,7 @@
                         },
                         "reloading": {
                             "heading": "Konfiguráció újratöltés",
-                            "introduction": "A Home Assistant bizonyos részei újraindítás nélkül újratölthetőek. Az újratöltés az aktuális konfiguráció helyére betölti az újat.",
+                            "introduction": "A 牧养犬 bizonyos részei újraindítás nélkül újratölthetőek. Az újratöltés az aktuális konfiguráció helyére betölti az újat.",
                             "core": "Mag újratöltése",
                             "group": "Csoportok újratöltése",
                             "automation": "Automatizálások újratöltése",
@@ -811,11 +811,11 @@
                         },
                         "server_management": {
                             "heading": "Szerver menedzsment",
-                            "introduction": "Home Assistant szerver vezérlése... a Home Assistant-ból.",
+                            "introduction": "牧养犬 szerver vezérlése... a 牧养犬-ból.",
                             "restart": "Újraindítás",
                             "stop": "Leállítás",
-                            "confirm_restart": "Biztosan újra akarod indítani a Home Assistantet?",
-                            "confirm_stop": "Biztosan le akarod állítani a Home Assistantet?"
+                            "confirm_restart": "Biztosan újra akarod indítani a 牧养犬et?",
+                            "confirm_stop": "Biztosan le akarod állítani a 牧养犬et?"
                         }
                     }
                 },
@@ -868,7 +868,7 @@
                 },
                 "long_lived_access_tokens": {
                     "header": "Hosszú Életű Hozzáférési Tokenek",
-                    "description": "Hosszú életű hozzáférési tokenek létrehozásával engedélyezheted a szkriptjeid számára, hogy csatlakozzanak a Home Assistant példányodhoz. Minden token 10 évig érvényes a létrehozástól számítva. Jelenleg a következő hosszú életű hozzáférési tokenek aktívak.",
+                    "description": "Hosszú életű hozzáférési tokenek létrehozásával engedélyezheted a szkriptjeid számára, hogy csatlakozzanak a 牧养犬 példányodhoz. Minden token 10 évig érvényes a létrehozástól számítva. Jelenleg a következő hosszú életű hozzáférési tokenek aktívak.",
                     "learn_auth_requests": "Tudj meg többet a hitelesített kérelmek létrehozásáról.",
                     "created_at": "Létrehozva: {date}",
                     "confirm_delete": "Biztosan törölni szeretnéd {name} hozzáférési tokenjét?",
@@ -916,7 +916,7 @@
             },
             "page-authorize": {
                 "initializing": "Inicializálás",
-                "authorizing_client": "Éppen a {clientId} számára készülsz hozzáférést biztosítani a Home Assistant példányodhoz.",
+                "authorizing_client": "Éppen a {clientId} számára készülsz hozzáférést biztosítani a 牧养犬 példányodhoz.",
                 "logging_in_with": "Bejelentkezés **{authProviderName}** használatával.",
                 "pick_auth_provider": "Vagy válassz a következő bejelentkezési módok közül",
                 "abort_intro": "Bejelentkezés megszakítva",
@@ -1028,12 +1028,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Az eszközöket és szolgáltatásokat a Home Assistant integrációként kezeli. Beállíthatod őket most, vagy később a konfigurációs képernyőn.",
+                    "intro": "Az eszközöket és szolgáltatásokat a 牧养犬 integrációként kezeli. Beállíthatod őket most, vagy később a konfigurációs képernyőn.",
                     "more_integrations": "Több",
                     "finish": "Befejezés"
                 },
                 "core-config": {
-                    "intro": "Hello {name}, üdvözöl a Home Assistant. Hogyan szeretnéd elnevezni az otthonodat?",
+                    "intro": "Hello {name}, üdvözöl a 牧养犬. Hogyan szeretnéd elnevezni az otthonodat?",
                     "intro_location": "Szeretnénk tudni, hogy hol élsz. Ez segít az információk megjelenítésében és a nap alapú automatizálások beállításában. Ez az adat soha nem lesz megosztva a hálózatodon kívül.",
                     "intro_location_detect": "Segíthetünk neked kitölteni ezt az információt egy külső szolgáltatás egyszeri lekérdezésével.",
                     "location_name_default": "Otthon",
@@ -1077,7 +1077,7 @@
                     "migrate": {
                         "header": "Inkompatibilis Konfiguráció",
                         "para_no_id": "Ez az elem nem rendelkezik ID-val. Kérlek, adj hozzá egyet az 'ui-lovelace.yaml' fájlban!",
-                        "para_migrate": "A Home Assistant a 'Konfiguráció áttelepítése' gomb megnyomásával az összes kártyához és nézethez automatikusan létre tud hozni ID-kat.",
+                        "para_migrate": "A 牧养犬 a 'Konfiguráció áttelepítése' gomb megnyomásával az összes kártyához és nézethez automatikusan létre tud hozni ID-kat.",
                         "migrate": "Konfiguráció áttelepítése"
                     },
                     "header": "Felhasználói felület szerkesztése",
@@ -1089,7 +1089,7 @@
                     },
                     "save_config": {
                         "header": "Vedd át az irányítást a Lovelace UI felett",
-                        "para": "Alapértelmezés szerint a Home Assistant kezeli a felhasználói felületet, és frissíti azt, amikor új entitások vagy Lovelace komponensek válnak elérhetővé. Ha átveszed az irányítást, többé nem fogunk automatikusan módosításokat végezni számodra.",
+                        "para": "Alapértelmezés szerint a 牧养犬 kezeli a felhasználói felületet, és frissíti azt, amikor új entitások vagy Lovelace komponensek válnak elérhetővé. Ha átveszed az irányítást, többé nem fogunk automatikusan módosításokat végezni számodra.",
                         "para_sure": "Biztosan át szeretnéd venni az irányítást a felhasználói felületed felett?",
                         "cancel": "Mégsem",
                         "save": "Irányítás átvétele"
@@ -1189,8 +1189,8 @@
                     "demo": {
                         "demo_by": "készítette: {name}",
                         "next_demo": "Következő demó",
-                        "introduction": "Üdv itthon! Megnyitottad a Home Assistant demót, ahol bemutatjuk a közösségünk által létrehozott legjobb felhasználói felületeket.",
-                        "learn_more": "Tudj meg többet a Home Assistant-ról"
+                        "introduction": "Üdv itthon! Megnyitottad a 牧养犬 demót, ahol bemutatjuk a közösségünk által létrehozott legjobb felhasználói felületeket.",
+                        "learn_more": "Tudj meg többet a 牧养犬-ról"
                     }
                 },
                 "config": {
@@ -1432,7 +1432,7 @@
             "config_entry_system_options": {
                 "title": "Rendszerbeállítások",
                 "enable_new_entities_label": "Újonnan hozzáadott entitások engedélyezése.",
-                "enable_new_entities_description": "Ha le van tiltva, akkor az újonnan felfedezett entitások nem lesznek automatikusan hozzáadva a Home Assistant-hoz."
+                "enable_new_entities_description": "Ha le van tiltva, akkor az újonnan felfedezett entitások nem lesznek automatikusan hozzáadva a 牧养犬-hoz."
             },
             "zha_device_info": {
                 "manuf": "{manufacturer} által",
@@ -1499,7 +1499,7 @@
         "vacuum": "Porszívó",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Rendszer Állapot",
         "person": "Személy"

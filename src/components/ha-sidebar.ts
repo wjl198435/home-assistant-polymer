@@ -146,7 +146,7 @@ class HaSidebar extends LitElement {
               ></paper-icon-button>
             `
           : ""}
-        <span class="title">Home Assistant</span>
+        <span class="title">牧养犬</span>
       </div>
       <paper-listbox
         attr-for-selected="data-panel"

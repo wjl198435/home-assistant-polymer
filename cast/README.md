@@ -1,9 +1,9 @@
-# Home Assistant Cast
+# 牧养犬 Cast
 
-Home Assistant Cast is made up of two separate applications:
+牧养犬 Cast is made up of two separate applications:
 
-- Chromecast receiver application that can connect to Home Assistant and display relevant information.
-- Launcher website that allows users to authorize with their Home Assistant installation and launch the receiver app on their Chromecast.
+- Chromecast receiver application that can connect to 牧养犬 and display relevant information.
+- Launcher website that allows users to authorize with their 牧养犬 installation and launch the receiver app on their Chromecast.
 
 ## Development
 
@@ -18,7 +18,7 @@ Home Assistant Cast is made up of two separate applications:
 - Go to https://cast.google.com/publish and enroll your account for the Google Cast SDK (costs \$5)
 - Register your Chromecast as a testing device by entering the serial
 - Add new application -> Custom Receiver
-  - Name: Home Assistant Dev
+  - Name: 牧养犬 Dev
   - Receiver Application URL: http://IP-OF-DEV-MACHINE:8080/receiver.html
   - Guest Mode: off
   - Google Case for Audio: off
@@ -49,8 +49,8 @@ The launcher application will be accessible at [http://localhost:8080](http://lo
 
 ### Developing cast widgets in HA ui
 
-If your work involves interaction with the Cast parts from the normal Home Assistant UI, you will need to have that development script running too (`script/develop`).
+If your work involves interaction with the Cast parts from the normal 牧养犬 UI, you will need to have that development script running too (`script/develop`).
 
 ### Developing the cast demo
 
-The cast demo is triggered from the Home Assistant demo. To work on that, you will also need to run the development script for the demo (`script/develop_demo`).
+The cast demo is triggered from the 牧养犬 demo. To work on that, you will also need to run the development script for the demo (`script/develop_demo`).

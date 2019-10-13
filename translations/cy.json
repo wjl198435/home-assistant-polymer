@@ -329,8 +329,8 @@
                 "delete_button": "Dileu"
             },
             "config": {
-                "header": "Ffurfweddu Home Assistant",
-                "introduction": "Yma mae'n bosib ffurfweddu'ch cydrannau ac Home Assistant. Nid yw popeth yn bosib i'w ffurfweddu o'r UI eto, ond rydym yn gweithio arno.",
+                "header": "Ffurfweddu 牧养犬",
+                "introduction": "Yma mae'n bosib ffurfweddu'ch cydrannau ac 牧养犬. Nid yw popeth yn bosib i'w ffurfweddu o'r UI eto, ond rydym yn gweithio arno.",
                 "core": {
                     "caption": "Cyffredinol",
                     "description": "Dilyswch eich ffeil ffurfweddu a rheoli'r gweinydd",
@@ -340,7 +340,7 @@
                             "introduction": "Gellir newid ffurfweddiad eich proses ddiflas. Rydym yn gwybod. Bydd yr adran hon yn ceisio gwneud eich bywyd ychydig yn haws.",
                             "core_config": {
                                 "edit_requires_storage": "Golygydd wedi'i analluogi oherwydd bod ffurfwedd wedi'i storio mewn 'configuration.yaml'.",
-                                "location_name": "Enw eich gosodiad Home Assistant",
+                                "location_name": "Enw eich gosodiad 牧养犬",
                                 "latitude": "Lledred",
                                 "longitude": "Hydred",
                                 "elevation": "Uchder",
@@ -364,7 +364,7 @@
                             },
                             "reloading": {
                                 "heading": "Ail-lwytho ffurfweddu",
-                                "introduction": "Gall rhai rhannau o Home Assistant ail-lwytho heb orfod ailgychwyn. Bydd taro ail-lwytho yn dadlwytho eu cyfluniad cyfredol a llwytho'r un newydd.",
+                                "introduction": "Gall rhai rhannau o 牧养犬 ail-lwytho heb orfod ailgychwyn. Bydd taro ail-lwytho yn dadlwytho eu cyfluniad cyfredol a llwytho'r un newydd.",
                                 "core": "Ail-lwytho craidd",
                                 "group": "Ail-lwytho grwpiau",
                                 "automation": "Ail-lwytho awtomeiddiau",
@@ -372,7 +372,7 @@
                             },
                             "server_management": {
                                 "heading": "Rheoli gweinydd",
-                                "introduction": "Rheoli gweinydd eich Home Assistant ... o Home Assistant",
+                                "introduction": "Rheoli gweinydd eich 牧养犬 ... o 牧养犬",
                                 "restart": "Ailgychwyn",
                                 "stop": "Stopio"
                             }
@@ -392,7 +392,7 @@
                     "description": "Creu a golygu awtomeiddio",
                     "picker": {
                         "header": "Golygydd awtomeiddio",
-                        "introduction": "Mae'r olygydd awtomeiddio yn caniatáu ichi greu a golygu awtomeiddiau. Darllenwch [y cyfarwyddiadau] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) i sicrhau bod chi wedi ffurfweddu'r Home Assistant yn gywir.",
+                        "introduction": "Mae'r olygydd awtomeiddio yn caniatáu ichi greu a golygu awtomeiddiau. Darllenwch [y cyfarwyddiadau] (https:\/\/home-assistant.io\/docs\/automation\/editor\/) i sicrhau bod chi wedi ffurfweddu'r 牧养犬 yn gywir.",
                         "pick_automation": "Dewiswch awtomeiddiad i olygu",
                         "no_automations": "Doeddem ddim yn gallu darganfod unrhyw awtomeiddiau",
                         "add_automation": "Ychwanegu awtomeiddiad",
@@ -406,7 +406,7 @@
                         "alias": "Enw",
                         "triggers": {
                             "header": "Sbardunau",
-                            "introduction": "Sbarduno yw'r hyn sy'n dechrau proses rheol awtomeiddio.  Mae'n bosib dewis nifer o sbardunau i'run rheol. Unwaith mae sbardun yn cychwyn, bydd Home Assistant yn dilysu'r amodau, os o gwbl, a galw'r gweithred. \n\n[dysgwch mwy am sbardunau.] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
+                            "introduction": "Sbarduno yw'r hyn sy'n dechrau proses rheol awtomeiddio.  Mae'n bosib dewis nifer o sbardunau i'run rheol. Unwaith mae sbardun yn cychwyn, bydd 牧养犬 yn dilysu'r amodau, os o gwbl, a galw'r gweithred. \n\n[dysgwch mwy am sbardunau.] (https:\/\/home-assistant.io\/docs\/automation\/trigger\/)",
                             "add": "Ychwanegu sbardun",
                             "duplicate": "Dyblyg",
                             "delete": "Dileu",
@@ -425,7 +425,7 @@
                                     "to": "I"
                                 },
                                 "homeassistant": {
-                                    "label": "Home Assistant",
+                                    "label": "牧养犬",
                                     "event": "Digwyddiad:",
                                     "start": "Dechrau",
                                     "shutdown": "Darfod"
@@ -533,7 +533,7 @@
                         },
                         "actions": {
                             "header": "Camau gweithredu",
-                            "introduction": "Y camau gweithredu yw'r hyn mae Home Assistant yn gwneud pan mae'r awtomeiddio yn cael ei sbarduno\n\n[Dysgwch mwy am weithred.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
+                            "introduction": "Y camau gweithredu yw'r hyn mae 牧养犬 yn gwneud pan mae'r awtomeiddio yn cael ei sbarduno\n\n[Dysgwch mwy am weithred.](https:\/\/home-assistant.io\/docs\/automation\/action\/)",
                             "add": "Ychwanegu camau",
                             "duplicate": "Dyblygu",
                             "delete": "Dileu",
@@ -581,7 +581,7 @@
                     }
                 },
                 "cloud": {
-                    "caption": "Home Assistant Cloud",
+                    "caption": "牧养犬 Cloud",
                     "description_login": "Wedi mewngofnodi fel {email}",
                     "description_not_login": "Heb fewngofnodi",
                     "description_features": "Rheolaeth oddi cartref, integreiddio gyda Alexa a Google Assistant."
@@ -598,7 +598,7 @@
                         "no_devices": "Tydi'r integreiddad yma ddim efo dyfeisiadau.",
                         "no_device": "Endidau heb ddyfeisiau",
                         "delete_confirm": "A ydych yn siŵr bod chi eisiau dileu'r integreiddiad yma?",
-                        "restart_confirm": "Ailgychwyn Home Assistant i ddarfod dileu'r integreiddiad hwn",
+                        "restart_confirm": "Ailgychwyn 牧养犬 i ddarfod dileu'r integreiddiad hwn",
                         "manuf": "gan {manufacturer}",
                         "via": "Cysylltiad drwy",
                         "firmware": "Cadarnwedd: {version}",
@@ -638,7 +638,7 @@
                     "description": "Trosolwg o bob ardal yn eich cartref.",
                     "picker": {
                         "header": "Gofrestrfa ardal",
-                        "introduction": "Defnyddir ardaloedd i drefnu lle mae dyfeisiau. Defnyddir y wybodaeth hon drwy gydol Home Assistant i helpu chi i drefnu eich rhyngwyneb, caniatadau ac integreiddio â systemau eraill.",
+                        "introduction": "Defnyddir ardaloedd i drefnu lle mae dyfeisiau. Defnyddir y wybodaeth hon drwy gydol 牧养犬 i helpu chi i drefnu eich rhyngwyneb, caniatadau ac integreiddio â systemau eraill.",
                         "introduction2": "I osod dyfeisiau mewn ardal, defnyddiwch y ddolen isod i fynd i'r dudalen integreiddio ac yna cliciwch ar integreiddiau wedi'i ffurfweddu i gyrraedd y cardiau dyfais.",
                         "integrations_page": "Tudalen rhyngwynebu",
                         "no_areas": "Edrych fel nad oes gennych ardaloedd eto!",
@@ -659,8 +659,8 @@
                     "picker": {
                         "header": "Gofrestrfa Endid",
                         "unavailable": "(ddim ar gael)",
-                        "introduction": "Mae Home Assistant yn cadw gofrestrfa pob endid a welodd erioed ble gellir eu nodi yn unigryw. Bydd pob un endid wedi neilltuo efo endid adnabod sy'n cael eu cadw ar gyfer yr endid hwnnw.",
-                        "introduction2": "Defnyddiwch y gofrestrfa endid i ddiystyru yr enw, newid ID endid neu gael gwared y cofnod Home Assistant. Noder, ni fydd dileu'r cofnod cofrestrfa endid yn dileu yr endid. I wneud hynny, dilynwch y ddolen isod a thynnu oddi ar y dudalen integreiddio.",
+                        "introduction": "Mae 牧养犬 yn cadw gofrestrfa pob endid a welodd erioed ble gellir eu nodi yn unigryw. Bydd pob un endid wedi neilltuo efo endid adnabod sy'n cael eu cadw ar gyfer yr endid hwnnw.",
+                        "introduction2": "Defnyddiwch y gofrestrfa endid i ddiystyru yr enw, newid ID endid neu gael gwared y cofnod 牧养犬. Noder, ni fydd dileu'r cofnod cofrestrfa endid yn dileu yr endid. I wneud hynny, dilynwch y ddolen isod a thynnu oddi ar y dudalen integreiddio.",
                         "integrations_page": "Tudalen rhyngwynebu"
                     },
                     "editor": {
@@ -672,7 +672,7 @@
                 },
                 "person": {
                     "caption": "Pobl",
-                    "description": "Rheoli'r pobl mae Home Assistant yn tracio.",
+                    "description": "Rheoli'r pobl mae 牧养犬 yn tracio.",
                     "detail": {
                         "name": "Enw",
                         "device_tracker_intro": "Dewiswch y dyfeisiau sy'n perthyn i'r person hwn.",
@@ -702,7 +702,7 @@
                         },
                         "reloading": {
                             "heading": "Ffurfweddiad yn ail-lwytho",
-                            "introduction": "Gall rhai rhannau o Home Assistant ail-lwytho heb orfod ailgychwyn. Bydd taro ail-lwytho yn dadlwytho eu cyfluniad cyfredol a llwytho'r un newydd.",
+                            "introduction": "Gall rhai rhannau o 牧养犬 ail-lwytho heb orfod ailgychwyn. Bydd taro ail-lwytho yn dadlwytho eu cyfluniad cyfredol a llwytho'r un newydd.",
                             "core": "Ail-lwytho craidd",
                             "group": "Ail-lwytho grwpiau",
                             "automation": "Ail-lwytho awtomeiddiadau",
@@ -710,7 +710,7 @@
                         },
                         "server_management": {
                             "heading": "Rheoli gweinydd",
-                            "introduction": "Rheoli eich gweinydd Home Assistant.. o Home Assistant.",
+                            "introduction": "Rheoli eich gweinydd 牧养犬.. o 牧养犬.",
                             "restart": "Ailgychwyn",
                             "stop": "Stopio"
                         }
@@ -752,7 +752,7 @@
                     "migrate": {
                         "header": "Ffurfweddiad anghydnaws",
                         "para_no_id": "Tydi'r elfen yma ddim efo ID. Plís ychwanegwch ID i'r elfen yma yn 'ui-lovelace.yaml'.",
-                        "para_migrate": "Gall Home Assistant ychwanegu IDs i bob un o'ch cardiau ac edrychiadau yn awtomatig i chi wrth bwyso'r botwm 'Mudo ffurfweddiad'.",
+                        "para_migrate": "Gall 牧养犬 ychwanegu IDs i bob un o'ch cardiau ac edrychiadau yn awtomatig i chi wrth bwyso'r botwm 'Mudo ffurfweddiad'.",
                         "migrate": "Mudo ffurfweddiad"
                     },
                     "header": "Golygu rhyngwyneb defnyddiwr",
@@ -764,7 +764,7 @@
                     },
                     "save_config": {
                         "header": "Cymerwch reolaeth ar eich rhyngwyneb defnyddiwr Lovelace",
-                        "para": "Gwneith Home Assistant gynnal eich rhyngwyneb defnyddiwr yn ddiofyn, a'i diweddaru pan fydd endidau neu gydrannau Lovelace newydd yn dod ar gael. Os ydych yn cymryd rheolaeth nawn ddim gwneud newidiadau awtomatig pellach i chi.",
+                        "para": "Gwneith 牧养犬 gynnal eich rhyngwyneb defnyddiwr yn ddiofyn, a'i diweddaru pan fydd endidau neu gydrannau Lovelace newydd yn dod ar gael. Os ydych yn cymryd rheolaeth nawn ddim gwneud newidiadau awtomatig pellach i chi.",
                         "para_sure": "A ydych yn siŵr bod chi eisiau rheoli eich rhyngwyneb defnyddiwr?",
                         "cancel": "Dim ots",
                         "save": "Cymerwch reolaeth"
@@ -833,12 +833,12 @@
                     }
                 },
                 "integration": {
-                    "intro": "Cynrychiolir dyfeisiau a gwasanaethau yn Home Assistant fel integreiddiadau. Gallwch eu gosod nawr, neu'n ddiweddarach o'r sgrin ffurfweddu.",
+                    "intro": "Cynrychiolir dyfeisiau a gwasanaethau yn 牧养犬 fel integreiddiadau. Gallwch eu gosod nawr, neu'n ddiweddarach o'r sgrin ffurfweddu.",
                     "more_integrations": "Mwy",
                     "finish": "Gorffen"
                 },
                 "core-config": {
-                    "intro": "Helo {name}, croeso i Home Assistant. Sut hoffech enwi eich tŷ?",
+                    "intro": "Helo {name}, croeso i 牧养犬. Sut hoffech enwi eich tŷ?",
                     "intro_location": "Hoffem wybod ble rydych chi'n byw. Bydd y wybodaeth yn helpu i arddangos gwybodaeth a sefydlu awtomeiddiadau haul. Tydi'r data byth yn cael ei rannu thu allan i'ch rhwydwaith.",
                     "intro_location_detect": "Gallwn eich helpu i lenwi'r wybodaeth hon drwy wneud cais un-tro i wasanaeth allanol.",
                     "location_name_default": "Hafan",
@@ -851,8 +851,8 @@
                     "demo": {
                         "demo_by": "gan {name}",
                         "next_demo": "Demo nesaf",
-                        "introduction": "Croeso adre! Rydych wedi cyrraedd demo Home Assistant lle rydym yn arddangos y UIs gorau a grewyd gan ein cymuned.",
-                        "learn_more": "Dysgwch fwy am Home Assistant"
+                        "introduction": "Croeso adre! Rydych wedi cyrraedd demo 牧养犬 lle rydym yn arddangos y UIs gorau a grewyd gan ein cymuned.",
+                        "learn_more": "Dysgwch fwy am 牧养犬"
                     }
                 },
                 "config": {
@@ -1031,7 +1031,7 @@
         "zwave": "Z-Wave",
         "zha": "ZHA",
         "hassio": "Hass.io",
-        "homeassistant": "Home Assistant",
+        "homeassistant": "牧养犬",
         "lovelace": "Lovelace",
         "system_health": "Iechyd System",
         "person": "Person"

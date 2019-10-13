@@ -92,7 +92,7 @@ export const provideHass = (
   const localLanguage = getLocalLanguage();
 
   const hassObj: MockHomeAssistant = {
-    // Home Assistant properties
+    // 牧养犬 properties
     auth: {
       data: {
         hassUrl: "",
