@@ -147,7 +147,7 @@ class HuiPictureGlanceCard extends LitElement implements LovelaceCard {
         <div class="box">
           ${this._config.title
             ? html`
-                <div class="title">${this._config.title}</div>
+                <div class="title">${this._config.title + "hha"}</div>
               `
             : ""}
           <div>

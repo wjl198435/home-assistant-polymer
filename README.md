@@ -34,3 +34,12 @@ It is possible to compile the project and/or run commands in the development env
 ## License
 
 牧养犬 is open-source and Apache 2 licensed. Feel free to browse the repository, learn and reuse parts in your own projects.
+
+## 页面强制刷新 macos——>chrome 按下 cmd+opt+I 然后右击左上角刷新按钮，选择“清空缓存并硬性重新加载”
+
+## Firefox 火狐浏览器 web 开发调试开启强制刷新缓存模式
+
+- 火狐浏览器地址栏输入：about:config
+- 1.找到 browser.cache.check_doc_frequency 选项，双击将 3 改成 1
+- 2.找到 browser.cache.disk.enable 把 true 改为 false
+- 3.找到 browser.cache.memory.enable 把 true 改为 false
