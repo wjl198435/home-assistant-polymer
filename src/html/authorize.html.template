@@ -3,6 +3,7 @@
   <head>
     <title>牧养犬</title>
     <link rel="preload" href="<%= latestPageJS %>" as="script" crossorigin="use-credentials" />
+    <link rel="stylesheet" type="text/css" href="/static/css/themes.css" />
     <link
       rel="preload"
       href="/static/fonts/roboto/Roboto-Light.woff2"
@@ -36,11 +37,11 @@
       }
     </style>
   </head>
-  <body>
+  <body  >
     <div class="content">
       <div class="header">
         <img src="/static/icons/favicon-192x192.png" height="52" />
-        牧养犬
+        <font><strong>牧养犬<strong></font>
       </div>
       <ha-authorize><p>Initializing</p></ha-authorize>
     </div>
