@@ -87,15 +87,13 @@ class HaPickThemeRow extends LocalizeMixin(EventsMixin(PolymerElement)) {
     ) {
       this.selectedTheme = this.themes.indexOf(this.hass.selectedTheme);
     } else if (!this.hass.selectedTheme) {
-      this.selectedTheme = 0;
+      this.selectedTheme = 1;
     }
   }
 
   _computeThemes(hass) {
     if (!hass) return [];
-    return ["Backend-selected", "default"].concat(
-      Object.keys(hass.themes.themes).sort()
-    );
+    return [].concat(Object.keys(hass.themes.themes).sort());
   }
 
   selectionChanged(hass, selection) {

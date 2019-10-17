@@ -42,7 +42,7 @@
     <div class="content">
       <div class="header">
         <img src="/static/icons/favicon-192x192.png" height="52" />
-        牧养犬
+        <font><strong>牧养犬<strong></font>
       </div>
 
       <ha-onboarding></ha-onboarding>

@@ -12,6 +12,25 @@ body {
 h1 {
   color: blue;
 }
+/*p {*/
+/*  color: red;*/
+/*}*/
+
 p {
-  color: red;
+  position: absolute;
+  color: white;
+  /*top: 0;
+        left: 10;
+       */
+  font-family: 楷体, sans-serif;
+  font-weight: bold;
+  font-size: 0.5em;
+  background: blue; /*设置字体背景颜色**/
+  top: 5%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
 }

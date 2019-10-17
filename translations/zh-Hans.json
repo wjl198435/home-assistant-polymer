@@ -978,7 +978,7 @@
             "page-onboarding": {
                 "intro": "智能物联，即刻开始!",
                 "user": {
-                    "intro": "让我们从创建用户帐户开始吧。",
+                    "intro": "欢迎注册成员！",
                     "required_field": "必填",
                     "data": {
                         "name": "姓名",

@@ -30,14 +30,10 @@ class OnboardingCreateUser extends LitElement {
 
   protected render(): TemplateResult | void {
     return html`
-    <p>
-      ${this.localize("ui.panel.page-onboarding.intro")}
-    </p>
 
-    <p>
+    <p class="mypstyle">
       ${this.localize("ui.panel.page-onboarding.user.intro")}
     </p>
-
     ${
       this._errorMsg
         ? html`
@@ -51,7 +47,7 @@ class OnboardingCreateUser extends LitElement {
     }
 
     <form>
-      <paper-input
+      <paper-input style="color: #c3c3c3"
         name="name"
         label="${this.localize("ui.panel.page-onboarding.user.data.name")}"
         .value=${this._name}
@@ -78,7 +74,7 @@ class OnboardingCreateUser extends LitElement {
         )}"
       ></paper-input>
 
-      <paper-input
+      <paper-input 
         name="password"
         label="${this.localize("ui.panel.page-onboarding.user.data.password")}"
         value=${this._password}
@@ -195,10 +191,21 @@ class OnboardingCreateUser extends LitElement {
       .error {
         color: red;
       }
-
+      .mypstyle {
+        width: 100%;
+        height: 45px;
+        display: block;
+        line-height: 45px;
+        text-align: center;
+        font-size: 18px;
+        color: red;
+      }
       .action {
         margin: 32px 0;
         text-align: center;
+      }
+      paper-input::placeholder {
+        color: #585c89;
       }
     `;
   }
